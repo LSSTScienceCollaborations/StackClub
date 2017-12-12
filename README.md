@@ -30,5 +30,5 @@ you can copy and redistribute the material in any medium or format
 for any purpose, as long as you give appropriate credit, provide a link to the license, and indicate if changes were made. 
 If you remix, transform, or build upon the material, you may not distribute the modified material - this is to prevent incorrect 
 information about the Stack getting out there, or at least, take responsibility ourselves if it does.
-All the code in this repository is available for re-use under the MIT License, which means you can do anything you like with it 
+All the code in this repository is available for re-use under the [MIT License](https://github.com/LSSTScienceCollaborations/DMStackClub/blob/master/LICENSE), which means you can do anything you like with it 
 but you can't blame us if it doesn't do what you want. 
