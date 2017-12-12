@@ -4,7 +4,7 @@ Learning the LSST DM Stack, by writing jupyter notebook tutorials.
 
 ## Project Tutorials
 
-* The LSST Project DM team keeps its tutorial notebooks in the [lsst-dm-tutorial](https://github.com/lsst-dm-tutorial) organization.
+* The LSST Project DM team keeps its tutorial notebooks in the [lsst-dm-tutorial](https://github.com/lsst-dm-tutorial) organization. Watch out: they will only run if you edit them correctly! (You can find the working demo in a separate branch.)
 * The LSST Project SQuaRE team also has some [demo notebooks](https://github.com/lsst-sqre/notebook-demo)
 * Robert Lupton has a nice set of [Demos](https://github.com/RobertLuptonTheGood/notebooks/tree/master/Demos)
 
