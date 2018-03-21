@@ -20,8 +20,9 @@ We welcome your input! Please post questions and suggestions in the
 [issues](https://github.com/LSSTScienceCollaborations/DMStackClub/issues) of this repository. You can contact the organizers 
 directly via the links below:
 
-* Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
+* Greg Madejski (SLAC, [Madejski](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kMadejski))
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
+* Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
 
 
 ## License
