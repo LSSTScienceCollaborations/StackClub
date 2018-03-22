@@ -17,8 +17,7 @@ the LSST Science Collaborations.
 ## Contact
 
 We welcome your input! Please post questions and suggestions in the
-[issues](https://github.com/LSSTScienceCollaborations/DMStackClub/issues) of this repository. You can contact the organizers 
-directly via the links below:
+[issues](https://github.com/LSSTScienceCollaborations/DMStackClub/issues) of this repository. You can also contact the following points of contact directly via the links below:
 
 * Greg Madejski (SLAC, [Madejski](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kMadejski))
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
