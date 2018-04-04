@@ -1,6 +1,4 @@
-# DM Stack Club
-
-Learning the LSST DM Stack, by writing jupyter notebook tutorials. This is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST DM Stack. 
+This is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST DM Stack. 
 
 ## LSST Project Demos and Tutorials
 
