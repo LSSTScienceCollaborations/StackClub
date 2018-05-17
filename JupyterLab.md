@@ -1,14 +1,14 @@
 # Getting Started with JupyterLab
 
-issue/32/jupyterlabdemo-notes
+_[Greg Madejski](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@Madejski) and Phil Marshall_
 
 We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the 
 notebook aspect of the LSST science platform. In these notes we provide:
 * Notes on how to get set up on JupyterLab at NCSA
 * Some tips for using JupyterLab effectively.
 
-> NB. In Phase 0, we made use of the [jupyterlabdemo.lsst.codes](https://jupyterlabdemo.lsst.codes/user/madejski/lab?redirects=1).
-instance, set up by the DM team in the Google cloud. For phase 1, we will be using the LSST JupyterLab instance at the LSST Data Facility, NCSA.
+> NB. In Phase 0, we made use of the [jupyterlabdemo.lsst.codes](https://jupyterlabdemo.lsst.codes/user/madejski/lab?redirects=1)
+instance, set up by the DM team in the Google cloud. For Phase 1, we will be using the LSST JupyterLab instance at the LSST Data Facility, NCSA.
 
 ## Setting up at NCSA
 
