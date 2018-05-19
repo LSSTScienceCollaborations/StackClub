@@ -1,6 +1,6 @@
 # Getting Started with JupyterLab
 
-_[Greg Madejski](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@Madejski) and Phil Marshall_
+_Greg Madejski and [Phil Marshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall)_
 
 We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the 
 notebook aspect of the LSST science platform. In these notes we provide:
