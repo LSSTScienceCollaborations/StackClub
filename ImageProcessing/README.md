@@ -2,4 +2,4 @@
 
 This folder contains:
 
-* Nothing, yet.
+* [ProcessEimage.ipynb](ProcessEimage.ipynb), which shows how to process an "e-image" using the DM Stack.
