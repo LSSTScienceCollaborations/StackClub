@@ -10,10 +10,10 @@ notebook aspect of the LSST science platform. In these notes we provide:
 > NB. In Phase 0, we made use of the [jupyterlabdemo.lsst.codes](https://jupyterlabdemo.lsst.codes/user/madejski/lab?redirects=1)
 instance, set up by the DM team in the Google cloud. For Phase 1, we will be using the LSP JupyterLab instance at the LSST Data Facility, NCSA.
 
-**The go-to resource is the [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/v/DM-14406/index.html)** - below we give a very brief summary, and some DM Stack Club-specific tips.
+**The go-to resource is the [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/)** - below we give a very brief summary, and some DM Stack Club-specific tips.
 
 ## Accessing the LSST Science Platform
-The [LSP docs](https://nb.lsst.io/v/DM-14406/index.html) provides an introduction to the NCSA system, including how to gain access and then how to use JupyterLab once you are in. 
+The [LSP docs](https://nb.lsst.io/) provides an introduction to the NCSA system, including how to gain access and then how to use JupyterLab once you are in. 
 Getting in to NCSA takes involves getting an NCSA account, and then figuring out VPN access.
 
 ### Getting an NCSA Account
