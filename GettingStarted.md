@@ -33,11 +33,13 @@ From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clo
 ```
 git clone https://github.com/LSSTScienceCollaborations/DMStackClub.git
 ```
+You can then `git checkout` a development branch and modify the club notebooks, opening them from the file manager and using the resulting notebook editor. 
 
 ### Workflow
-The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the DMStackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/DMStackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. 
+The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the DMStackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/DMStackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
 
-
+### Test Data
+Broadly useful datasets should be available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
 
 
 
