@@ -4,18 +4,18 @@ We're following a 3-phase plan, which you can read about in more detail [here](h
 
 If you have questions, please [write us an issue](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new)! 
 
-## LSST Project Demos and Tutorials
-
-* The LSST Project DM team keeps its tutorial notebooks in the [lsst-dm-tutorial](https://github.com/lsst-dm-tutorial) organization. Watch out: they will only run if you edit them correctly! (You can find the working demo in a separate branch.)
-* The LSST Project SQuaRE team also has some [demo notebooks](https://github.com/lsst-sqre/notebook-demo)
-* Robert Lupton has a nice set of [Demos](https://github.com/RobertLuptonTheGood/notebooks/tree/master/Demos)
-* The v15 DM Stack release comes with a nice set of [HTML data processing tutorials](https://pipelines.lsst.io/index.html), by Jonathan Sick
-
 ## Community Tutorials
 
-Coming soon! Our goal is to build on the existing LSST DM Stack demo and tutorial notebooks above to create a set of 
+In progress! Our goal is to build on the existing LSST DM Stack demo and tutorial notebooks to create a set of 
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of 
 the LSST Science Collaborations. 
+* [List of Topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn. 
+
+| Topic   | Description  | Notebook Location  |
+|---|---|---|
+| Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | DMStackClub/GettingStarted  |
+| Visualization    | Displaying images and catalogs.  | DMStackClub/Visualization  |
+|   |   |   |
 
 ## Contact
 
