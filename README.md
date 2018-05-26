@@ -17,8 +17,12 @@ the LSST Science Collaborations.
 | Visualization    | Displaying images and catalogs. | [DMStackClub/Visualization](Visualization)  |
 | Image Processing  | From raw images to `calexp`s and `coadd`s.  | [DMStackClub/ImageProcessing](ImageProcessing)  |
 
-## Contact
+## Contributing
+New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and show you how to work on your tutorial notebooks.
 
+Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the DM Stack Club, please drop one of us a line, or come and find us in the [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
+
+## Contact
 We welcome your input! Please post questions and suggestions in the
 [issues](https://github.com/LSSTScienceCollaborations/DMStackClub/issues) of this repository. You can also contact the following points of contact directly via the links below:
 
@@ -26,7 +30,7 @@ We welcome your input! Please post questions and suggestions in the
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
 * Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
 
-The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions on the [DM Stack Club YouTube channel](https://www.youtube.com/playlist?list=PLSZI_WphK4J7EZyAbNTfiDsN2j0UjclRx).
+The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions on the [DM Stack Club YouTube channel](https://www.youtube.com/playlist?list=PLSZI_WphK4J7EZyAbNTfiDsN2j0UjclRx), and see what we talked about on the [Meetings page](Meetings.md).
 
 ## License
 
