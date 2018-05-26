@@ -13,9 +13,9 @@ the LSST Science Collaborations.
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
-| Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | DMStackClub/GettingStarted  |
-| Visualization    | Displaying images and catalogs.  | DMStackClub/Visualization  |
-|   |   |   |
+| Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | [DMStackClub/GettingStarted](GettingStarted)  |
+| Visualization    | Displaying images and catalogs. | [DMStackClub/Visualization](Visualization)  |
+| Image Processing  | From raw images to `calexp`s and `coadd`s.  | [DMStackClub/ImageProcessing](ImageProcessing)  |
 
 ## Contact
 
@@ -26,7 +26,7 @@ We welcome your input! Please post questions and suggestions in the
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
 * Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
 
-The Club meets periodically via Zoom (or at least will do from late May 2018), but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM).
+The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions on the [DM Stack Club YouTube channel](https://www.youtube.com/playlist?list=PLSZI_WphK4J7EZyAbNTfiDsN2j0UjclRx).
 
 ## License
 
