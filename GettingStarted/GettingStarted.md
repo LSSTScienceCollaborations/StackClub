@@ -22,6 +22,8 @@ Contact Phil (DM @drphilmarshall on LSSTC Slack) or Simon (@ksk) to get an NCSA 
 ### Accessing NCSA via its VPN
 As explained on the [PDAC wiki](https://confluence.lsstcorp.org/display/DM/PDAC+networking+and+user+accounts+for+developers), the only way to get onto the LSST science platform at NCSA is via its virtual private network (VPN). The easiest way is by using Cisco's AnyConnect, which if you don't have you can get by pointing your browser at **https://vpn.ncsa.illinois.edu/** and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `vpn.ncsa.illinois.edu` in its connection window. 
 
+If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password).
+
 ### Starting up the LSST Science Platform JupyterLab Notebook Aspect 
 Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select `Release 15.0` and `medium` on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
 
