@@ -30,7 +30,7 @@ We welcome your input! Please post questions and suggestions in the
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
 * Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
 
-The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions on the [DM Stack Club YouTube channel](https://www.youtube.com/playlist?list=PLSZI_WphK4J7EZyAbNTfiDsN2j0UjclRx), and see what we talked about on the [Meetings page](Meetings.md).
+The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md).
 
 ## License
 
