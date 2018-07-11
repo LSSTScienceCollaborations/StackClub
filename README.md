@@ -9,7 +9,9 @@ If you have questions, please [write us an issue](https://github.com/LSSTScience
 In progress! Our goal is to build on the existing LSST DM Stack demo and tutorial notebooks to create a set of 
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of 
 the LSST Science Collaborations. 
+
 * [List of Topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn. 
+* [Stack Club projects](https://github.com/LSSTScienceCollaborations/DMStackClub/labels/project) as defined by Stack Club members - follow [this link](https://github.com/LSSTScienceCollaborations/DMStackClub/labels/project) to see what people are working on. Unassigned projects are available for new members to take on!
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
