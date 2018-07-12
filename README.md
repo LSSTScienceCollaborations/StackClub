@@ -15,6 +15,7 @@ the LSST Science Collaborations.
 |---|---|---|
 | Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | DMStackClub/GettingStarted  |
 | Visualization    | Displaying images and catalogs.  | DMStackClub/Visualization  |
+| SourceDetection  | Detection sources in images.  | DMStackClub/SourceDetection  |
 |   |   |   |
 
 ## Contact
