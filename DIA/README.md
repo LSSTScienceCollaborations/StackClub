@@ -4,4 +4,4 @@ This folder contains a set of tutorial notebooks exploring the Difference Image 
 
 | Notebook   | Description  | Owner  |
 |---|---|---|
-| [DIA_How_To_Generate_a_Template_Image]() | Not yet started. | Phil Marshall (@drphilmarshall) |
+| [DIA_How_To_Generate_a_Template_Image](DIA_How_To_Generate_a_Template_Image.ipynb) | Options for template coadd generation, demonstration on Twinkles images. | Phil Marshall (@drphilmarshall) |
