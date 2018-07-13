@@ -9,17 +9,24 @@ If you have questions, please [write us an issue](https://github.com/LSSTScience
 In progress! Our goal is to build on the existing LSST DM Stack demo and tutorial notebooks to create a set of 
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of 
 the LSST Science Collaborations. 
+
 * [List of Topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn. 
+* [Stack Club projects](https://github.com/LSSTScienceCollaborations/DMStackClub/labels/project) as defined by Stack Club members - follow [this link](https://github.com/LSSTScienceCollaborations/DMStackClub/labels/project) to see what people are working on. Unassigned projects are available for new members to take on!
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
-| Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | DMStackClub/GettingStarted  |
-| Visualization    | Displaying images and catalogs.  | DMStackClub/Visualization  |
-| SourceDetection  | Detection sources in images.  | DMStackClub/SourceDetection  |
-|   |   |   |
+| Getting Started  | Basics of using JupyterLab, and contributing to the DM Stack Club repo.  | [DMStackClub/GettingStarted](GettingStarted)  |
+| Visualization    | Displaying images and catalogs. | [DMStackClub/Visualization](Visualization)  |
+| Image Processing  | From raw images to `calexp`s and `coadd`s.  | [DMStackClub/ImageProcessing](ImageProcessing) | SourceDetection  | Detection sources in images.  | DMStackClub/SourceDetection  |
+ |
+
+
+## Contributing
+New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and show you how to work on your tutorial notebooks.
+
+Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the DM Stack Club, please drop one of us a line, or come and find us in the [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
 
 ## Contact
-
 We welcome your input! Please post questions and suggestions in the
 [issues](https://github.com/LSSTScienceCollaborations/DMStackClub/issues) of this repository. You can also contact the following points of contact directly via the links below:
 
@@ -27,7 +34,7 @@ We welcome your input! Please post questions and suggestions in the
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica))
 * Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall))
 
-The Club meets periodically via Zoom (or at least will do from late May 2018), but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM).
+The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#dm-stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md).
 
 ## License
 
