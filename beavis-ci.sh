@@ -171,7 +171,6 @@ if [ $no_push -gt 0 ]; then
 else
     echo "Attempting to push the rendered outputs to GitHub in an orphan branch..."
 
-    cd ../
     git branch -D $branch >& /dev/null
     git checkout --orphan $branch
     git rm -rf .
