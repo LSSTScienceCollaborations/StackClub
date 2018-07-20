@@ -3,7 +3,7 @@ Getting Started
 
 This folder contains:
 
-* [GettingStarted.md](GettingStarted.md), some brief notes on the LSST Science Platform JupyterLab set-up
+* `GettingStarted.md <GettingStarted.md>`_, some brief notes on the LSST Science Platform JupyterLab set-up
 * A first notebook to give you some practice at contributing to the DM Stack Club repo.
 
 See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
@@ -18,8 +18,8 @@ See the index table below for links to the notebook code, and an auto-rendered v
      - Owner
 
 
-   * - Hello World
-     - Read about the Stack Club workflow, and make your first contribution
+   * - **Hello World**
+     - Read about the Stack Club git/GitHub workflow, and make your first contribution to a notebook.
      - `ipynb <Hello_World.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/DMStackClub/blob/rendered/GettingStarted/Hello_World.nbconvert.ipynb>`_
 
