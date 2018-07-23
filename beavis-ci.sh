@@ -87,7 +87,13 @@ echo "Cloning the DM Stack Club repo into the .beavis workspace:"
 # Check out a fresh clone in a temporary hidden folder, over-writing
 # any previous edition:
 \rm -rf .beavis ; mkdir .beavis ; cd .beavis
-git clone git@github.com:LSSTScienceCollaborations/DMStackClub.git
+git clone https://github.com/LSSTScienceCollaborations/DMStackClub.git
+
+if [ $? -ne 0 ]; then
+  echo "Failed to clone https://github.com/LSSTScienceCollaborations/DMStackClub.git"
+  exit 1
+fi
+
 cd DMStackClub
 
 if [ $html -gt 0 ]; then
