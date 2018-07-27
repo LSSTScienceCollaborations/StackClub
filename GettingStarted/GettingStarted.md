@@ -20,14 +20,18 @@ Getting in to NCSA takes involves getting an NCSA account, and then figuring out
 Contact Phil (DM @drphilmarshall on LSSTC Slack) or Simon (@ksk) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
 
 ### Accessing NCSA via its VPN
-As explained on the [PDAC wiki](https://confluence.lsstcorp.org/display/DM/PDAC+networking+and+user+accounts+for+developers), the only way to get onto the LSST science platform at NCSA is via its virtual private network (VPN). The easiest way is by using Cisco's AnyConnect, which if you don't have you can get by pointing your browser at **https://vpn.ncsa.illinois.edu/** and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `vpn.ncsa.illinois.edu` in its connection window. 
+As explained on the [PDAC wiki](https://confluence.lsstcorp.org/display/DM/PDAC+networking+and+user+accounts+for+developers), the only way to (currently) get onto the LSST science platform at NCSA is via the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service). The easiest way is by using Cisco's AnyConnect with DUO two-factor authentication. 
+
+You can get AnyConnect by pointing your browser at **https://sslvpn.ncsa.illinois.edu/** and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window. 
+
+You will need to setup two-factor authentication with DUO. To setup DUO, follow the instructions here https://duo.security.ncsa.illinois.edu/portal. DUO can be configured for smartphone or table access (currently dumb phones are not supported).
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
 
 ### Starting up the LSST Science Platform JupyterLab Notebook Aspect 
 Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select `Release 15.0` and `medium` on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
 
-> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using "Release 15.0" to try to keep the notebooks from going stale (adopting a common Stack version makes testing easier), and using "medium" size (to enable the image processing notebooks).  
+> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the latest weekly release to try to keep the notebooks from going stale, and using "medium" size (to enable the image processing notebooks). When you think a new notebook is ready for review, be sure to also test it out on the latest official release (v16.0 at the time of this writing).
 
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others. 
 
