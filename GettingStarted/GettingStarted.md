@@ -20,7 +20,7 @@ Getting in to NCSA takes involves getting an NCSA account, and then figuring out
 Contact Phil (DM @drphilmarshall on LSSTC Slack) or Simon (@ksk) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
 
 ### Accessing NCSA via its VPN
-At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)]((https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
+At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
 The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication. Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
 
 You can get AnyConnect by pointing your browser at **https://sslvpn.ncsa.illinois.edu/** and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window. 
