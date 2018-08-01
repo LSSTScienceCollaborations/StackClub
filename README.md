@@ -1,4 +1,4 @@
-This is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST software (DM) Stack. 
+This is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. 
 
 We're following a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 is collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we'll work together to turn a subset of those existing "seed" tutorials into community-maintained jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop. Then, we plan to open up to a larger group from the science collaborations starting at the PCW, extending and spinning off the initial set of notebooks. The idea is that the best way to learn something is to try and teach it: if you can write a useful tutorial on part of the DM Stack, you have to understand that part first.
 
