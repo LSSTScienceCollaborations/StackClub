@@ -17,10 +17,10 @@ This folder contains a set of tutorial notebooks exploring the source detection 
    * - **LowSurfaceBrightness.ipynb**
      - Run source detection, deblending, and measurement tasks; subtract bright sources from an image; convolve image and detect low-surface brightness sources.
      - `ipynb <LowSurfaceBrightness.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/DMStackClub/blob/rendered/SourceDetection/LowSurfaceBrightness.nbconvert.ipynb>`_
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/LowSurfaceBrightness.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/DMStackClub/blob/rendered/SourceDetection/log/LowSurfaceBrightness.svg
-          :target: https://github.com/LSSTScienceCollaborations/DMStackClub/blob/rendered/SourceDetection/log/LowSurfaceBrightness.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/log/LowSurfaceBrightness.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/log/LowSurfaceBrightness.log
 
-     - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@kadrlica>`_
+     - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`_
 
