@@ -10,17 +10,17 @@ In progress! Our goal is to build on the existing LSST DM Stack demo and tutoria
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of
 the LSST Science Collaborations.
 
-* [List of Topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn.
 * [Stack Club projects](https://github.com/LSSTScienceCollaborations/StackClub/labels/project) as defined by Stack Club members - follow [this link](https://github.com/LSSTScienceCollaborations/StackClub/labels/project) to see what people are working on. Unassigned projects are available for new members to take on!
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
-| Getting Started  | Basics of using JupyterLab, and contributing to the Stack Club repo.  | [StackClub/GettingStarted](GettingStarted)  |
+| Getting Started  | How to use JupyterLab, and contribute to the Stack Club repo.  | [StackClub/GettingStarted](GettingStarted)  |
+| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
-| Image Processing  | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
+| Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
 
-
+* [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn.
 
 ## Contributing
 New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and show you how to work on your tutorial notebooks.
