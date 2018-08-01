@@ -1,6 +1,6 @@
 # Getting Started on the LSST Science Platform
 
-_Greg Madejski and [Phil Marshall](https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall)_
+_Greg Madejski and [Phil Marshall](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall)_
 
 We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the 
 notebook aspect of the LSST science platform. In these notes we provide:
@@ -38,14 +38,14 @@ Once the VPN connection is established, you should be able to navigate to the th
 
 
 ## Contributing to the DM Stack Club Repo
-From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clone` the `DMStackClub` repo, using https access:
+From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clone` the `StackClub` repo, using https access:
 ```
-git clone https://github.com/LSSTScienceCollaborations/DMStackClub.git
+git clone https://github.com/LSSTScienceCollaborations/StackClub.git
 ```
 You can then `git checkout` a development branch and modify the club notebooks, opening them from the file manager and using the resulting notebook editor. New to `git` and GitHub? Have a play in [this sandbox](https://github.com/drphilmarshall/GettingStarted) - from there you can watch Phil on YouTube doing a GitHub live demo, too.
 
 ### Workflow
-The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the DMStackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/DMStackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
+The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the StackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
 
 ### Test Data
 Broadly useful datasets should be available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
