@@ -17,7 +17,7 @@ The [LSP docs](https://nb.lsst.io/) provides an introduction to the NCSA system,
 Getting in to NCSA takes involves getting an NCSA account, and then figuring out VPN access.
 
 ### Getting an NCSA Account
-Contact Phil (DM @drphilmarshall on LSSTC Slack) or Simon (@ksk) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
+Contact Phil (DM @drphilmarshall on LSSTC Slack) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
 
 ### Accessing NCSA via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
@@ -25,7 +25,7 @@ The recommended method is to use Cisco's AnyConnect with DUO two-factor authenti
 
 > You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.
 
-> You will need to setup two-factor authentication with DUO. To setup DUO, follow the instructions here https://duo.security.ncsa.illinois.edu/portal. DUO can be configured for smartphone or table access (currently dumb phones are not supported).
+> You will need to setup two-factor authentication with DUO. To setup DUO, follow the instructions here https://duo.security.ncsa.illinois.edu/portal. DUO can be configured for smartphone or table access (currently dumb phones are not supported). When AnyConnect asks for your "second password", it wants the 6-digit number in your Duo app. (This may need refreshing, each one can only be used once.)
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
 
