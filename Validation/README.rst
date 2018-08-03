@@ -1,4 +1,4 @@
-# Validation
+Validation
 ================
 
 This folder contains a set of tutorial notebooks exploring the validation packages accompanying the DM Stack as well as stand-alone notebooks to examine various aspects of data quality.
