@@ -9,3 +9,7 @@ Inidividual session recordings are linked below.
 | Phase 1, Session 3 |   |   |   |
 | Phase 1, Session 4 | Friday July 6, 2018 [(video)](https://stanford.zoom.us/recording/share/1ZHCNdwRZnhwq8sb1TPvznug-AusUCCIV55N0DUF-LawIumekTziMw) | Project Discussion | [Topic List](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#heading=h.txq6h6bpxzkd) |
 | Phase 1, Session 5 | Friday July 13, 2018 [(video)](https://stanford.zoom.us/recording/share/QT8r75yuXR1sjZVkHh4MstfBLJ80wKubuqSvW4s3gfGwIumekTziMw) | Hack Session | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?q=is%3Aopen+label%3Aproject+sort%3Aupdated-desc) |
+| Phase 1, Session 6 | Friday July 20, 2018 [(video)](https://stanford.zoom.us/recording/share/XqFx95GJ7zlSZTOVBPZz4l8WGYUmj7EyNsuF6vofMtewIumekTziMw) | Hack Session | [CalExp Tour](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/calexp-tour/stargaser/Basics/Calexp_guided_tour.ipynb) |
+| Phase 1, Session 7 | Friday July 27, 2018 [(video)](https://stanford.zoom.us/recording/share/AOFd8Q8yH4lHI6aTLylqRBgcusMUERz-ksiULX4rRL2wIumekTziMw) | Hack Session | [VPN set-up change](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-ncsa-via-its-vpn) |
+
+
