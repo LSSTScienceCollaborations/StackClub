@@ -2,9 +2,6 @@
 
 This folder contains a set of tutorial notebooks exploring the validation packages accompanying the DM Stack as well as stand-alone notebooks to examine various aspects of data quality.
 
-| Notebook   | Description  | Owner  |
-|---|---|---|
-| [None so far]() | Not yet started. | TBD (@tbd) |
 
 .. list-table::
    :widths: 10 20 10 10
