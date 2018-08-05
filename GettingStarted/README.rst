@@ -15,7 +15,7 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
 
    * - **GettingStarted.md**
      - Some brief notes on the LSST Science Platform JupyterLab set-up.
-     - `markdown <GettingStarted.md>`_,
+     - `markdown <GettingStarted.md>`_
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
 
@@ -32,6 +32,6 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
 
    * - **templates**
      - A folder containing a template notebook, and a template folder README file, to help you get your project started.
-     - `link <templates>`_,
+     - `link <templates>`_
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
