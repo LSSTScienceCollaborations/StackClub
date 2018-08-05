@@ -1,13 +1,8 @@
 Getting Started
 ===============
 
-This folder contains:
-
-* `GettingStarted.md <GettingStarted.md>`_, some brief notes on the LSST Science Platform JupyterLab set-up
-* A first notebook to give you some practice at contributing to the DM Stack Club repo.
-
-See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
-
+This folder contains notes on how to contribute Stack Club notebooks on the LSST Science Platform JupyterLab. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
+ 
 .. list-table::
    :widths: 10 20 10 10
    :header-rows: 1
@@ -16,6 +11,12 @@ See the index table below for links to the notebook code, and an auto-rendered v
      - Short description
      - Links
      - Owner
+
+
+   * - **GettingStarted.md**
+     - Some brief notes on the LSST Science Platform JupyterLab set-up.
+     - `markdown <GettingStarted.md>`_,
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
 
    * - **Hello World**
@@ -27,4 +28,10 @@ See the index table below for links to the notebook code, and an auto-rendered v
           :target: https://github.com/LSSTScienceCollaborations/DMStackClub/blob/rendered/GettingStarted/log/Hello_World.log
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/DMStackClub/issues/new?body=@drphilmarshall>`_
+
+
+   * - **templates**
+     - A folder containing a template notebook, and a template folder README file, to help you get your project started.
+     - `link <templates>`_,
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
