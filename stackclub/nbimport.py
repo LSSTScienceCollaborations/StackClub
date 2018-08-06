@@ -13,10 +13,25 @@ from io import StringIO
 import contextlib
 
 def find_notebook(fullname, path=None):
-    """find a notebook, given its fully qualified name and an optional path
+    """
+    Find a notebook, given its fully qualified name and an optional path.
     
-    This turns "foo.bar" into "foo/bar.ipynb"
-    and tries turning "Foo_Bar" into "Foo Bar" if Foo_Bar
+    Parameters
+    ==========
+    fullname: string
+        Name of the notebook to be found (without ipynb extension)
+    path: string
+        Path of folder containing notebook (optional).
+    
+    Returns
+    =======
+    nb_path: string
+        File name of notebook, if found (else None)
+    
+    Notes
+    =====
+    The input notebook name "foo.bar" is turned into "foo/bar.ipynb".
+    Tries turning "Foo_Bar" into "Foo Bar" if Foo_Bar
     does not exist.
     """
     name = fullname.rsplit('.', 1)[-1]
@@ -30,14 +45,16 @@ def find_notebook(fullname, path=None):
         nb_path = nb_path.replace("_", " ")
         if os.path.isfile(nb_path):
             return nb_path
-
+    return None
 
 @contextlib.contextmanager
 def stdoutIO(stdout=None):
     """
-    Catching the stdout of the imported notebook cells. 
-    From https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement/3906390#3906390
-    This does not capture any rich output, though.
+    Catch the stdout of the imported notebook cells. 
+    
+    Notes
+    =====
+    From https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement/3906390#3906390  NB. This does not capture any rich output.
     """
     old = sys.stdout
     if stdout is None:
@@ -48,13 +65,32 @@ def stdoutIO(stdout=None):
     return
 
 class NotebookLoader(object):
-    """Module Loader for Jupyter Notebooks"""
+    """
+    Module Loader for Jupyter Notebooks
+    """
     def __init__(self, path=None):
         self.shell = InteractiveShell.instance()
         self.path = path
     
     def load_module(self, fullname):
-        """Import a notebook as a module"""
+        """
+        Import a notebook as a module
+        
+        Parameters
+        ==========
+        fullname: string
+            Name of notebook (without the .ipynb extension)
+            
+        Returns
+        =======
+        mod: module
+            Notebook in module form, after it has been imported (executed).
+            
+        Notes
+        =====
+        All code cells in the notebook are executed, silently 
+        (by redirecting the standard output).
+        """
         path = find_notebook(fullname, self.path)
         
         print ("Importing code from Jupyter notebook %s" % path)
@@ -94,11 +130,33 @@ class NotebookLoader(object):
         return mod
 
 class NotebookFinder(object):
-    """Module finder that locates Jupyter Notebooks"""
+    """
+    Module finder that locates Jupyter Notebooks.
+    
+    Notes
+    =====
+    Once an instance of this class is appended to ``sys.meta_path``, 
+    the ``import`` statement will work on notebook names. 
+    """
     def __init__(self):
         self.loaders = {}
     
     def find_module(self, fullname, path=None):
+        """
+        Find the notebook module and return a suitable loader.
+        
+        Parameters
+        ==========
+        fullname: string
+            Name of the notebook to be found (without ipynb extension)
+        path: string
+            Path of folder containing notebook (optional).
+            
+        Returns
+        =======
+        loaders[path]: NotebookLoader
+            Suitable loader object for dealing with Notebook import statements.
+        """
         nb_path = find_notebook(fullname, path)
         if not nb_path:
             return

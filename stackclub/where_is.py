@@ -4,14 +4,14 @@ def where_is(object, in_the=None):
     
     Parameters
     ==========
-    object | python object
+    object: python object
         The class or function you are looking for.
-    inthe | string, optional
+    inthe: string, optional
         The kind of place you want to look in: ['source','repo','technotes']
     
-    Comments
-    ========
-    No error handling whatsoever. Not extensively tested.
+    Notes
+    =====
+    Minimal error handling. Not extensively tested.
     """
     
     # Locate the module that contains the desired object, and break its name into pieces:
