@@ -36,19 +36,24 @@ def wimport(url, vb=False):
     # download the module into it:
     a = urllib.parse.urlparse(url)
     modulefile = os.path.basename(a.path)
-    folder = ".downloads"
-    if not os.path.exists(folder):
-        os.makedirs(folder)
-    sys.path.append('.downloads')
-    modulepath = folder+'/'+modulefile
+    modulefolder = ".downloads"
+    if not os.path.exists(modulefolder):
+        os.makedirs(modulefolder)
+    sys.path.append(modulefolder)
+    modulepath = modulefolder+'/'+modulefile
     
     # Get the file, over-writing anything that is already there:
     urllib.request.urlretrieve(url, modulepath)
 
     # Now import the module, and add it to the global namespace:
     modulename = os.path.splitext(modulefile)[0]
-    globals()[modulename] = importlib.import_module(modulename)
-        
+    try:
+        globals()[modulename] = importlib.import_module(modulename)
+    except:
+        print("WARNING: module was downloaded to {} but cound not be imported.")
+        print("Returning path to module: {}".format(modulepath))
+        return modulepath
+    
     # Report to the user:
     if vb: 
         print("Imported external module '{}' (downloaded from {} and stored in {})".format(modulename, url, modulepath))
