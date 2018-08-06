@@ -6,7 +6,7 @@ import sphinx_rtd_theme
 sys.path.insert(0, os.path.abspath('../stackclub'))
 # Avoid imports that may be unsatisfied when running sphinx, see:
 # http://stackoverflow.com/questions/15889621/sphinx-how-to-exclude-imports-in-automodule#15912502
-autodoc_mock_imports = ["urllib", "urllib.request", "request", "nbformat", "IPython", "IPython.core.interactiveshell"]
+autodoc_mock_imports = ["nbformat", "IPython", "IPython.core.interactiveshell"]
 
 extensions = [
     'sphinx.ext.autodoc',
