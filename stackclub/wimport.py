@@ -20,15 +20,15 @@ def wimport(url, vb=False):
     
     Notes
     -----
-    `wimport` maintains a secret local cache of downloaded modules, 
+    :mod:`wimport` maintains a secret local cache of downloaded modules, 
     hidden from the user so that they are not tempted to edit the 
     module locally. (If they need to do that, they should clone
     the relevant repo.)
     
     Examples
     --------
-    Suppose the `stackclub` library did _not_ include the mod:`where_is` module: 
-    we could still download it and import it, using mod:`wimport`.
+    Suppose the ``stackclub`` library did _not_ include the :mod:`where_is` module: 
+    we could still download it and import it, using :mod:`wimport`.
     
     >>> where_is_url = "https://github.com/LSSTScienceCollaborations/StackClub/raw/issue/79/library/stackclub/where_is.py"
     >>> from stackclub import wimport

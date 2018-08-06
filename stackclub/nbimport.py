@@ -1,9 +1,5 @@
 """
-Adapted from the Jupyter notebook documentation at https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Importing%20Notebooks.ipynb for use in the stackclub package Phil Marshall (August 2018).
-
-Copyright (c) Jupyter Development Team, Phil Marshall. 
-Distributed under the terms of the Modified BSD License, 
-https://github.com/jupyter/notebook/blob/master/COPYING.md
+This module was adapted from the `Jupyter notebook documentation <https://github.com/jupyter/notebook/blob/master/docs/source/examples/Notebook/Importing%20Notebooks.ipynb>`_ (copyright (c) Jupyter Development Team, and distributed under the terms of the `Modified BSD License <https://github.com/jupyter/notebook/blob/master/COPYING.md>`_) for use in the ``stackclub`` package.
 """
 import io, os, sys, types
 from IPython import get_ipython
@@ -54,7 +50,7 @@ def stdoutIO(stdout=None):
     
     Notes
     -----
-    From https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement/3906390#3906390  NB. This does not capture any rich output.
+    Adapted from `stackoverflow.com/questions/3906232 <https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement/3906390#3906390>`_  Note that this approach does not capture any rich notebook output, e.g. from ``IPython.display``.
     """
     old = sys.stdout
     if stdout is None:
@@ -140,14 +136,14 @@ class NotebookFinder(object):
     
     Examples
     --------
-    To gain the ability to import notebooks, we just import the mod:`nbimport` module.
+    To gain the ability to import notebooks, we just import the :mod:`nbimport` module.
     The DataInventory notebook might contain a useful function - here's how we'd 
     import it:
     
     >>> import stackclub
     >>> import DataInventory
     
-    We can also import remote notebooks, using mod:`wimport`:
+    We can also import remote notebooks, using :mod:`wimport`:
     
     >>> import stackclub
     >>> dm_butler_skymap_notebook = "https://github.com/LSSTDESC/DC2-analysis/raw/master/tutorials/dm_butler_skymap.ipynb"
