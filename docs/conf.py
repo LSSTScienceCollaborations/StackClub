@@ -6,13 +6,18 @@ import sphinx_rtd_theme
 sys.path.insert(0, os.path.abspath('../stackclub'))
 # Avoid imports that may be unsatisfied when running sphinx, see:
 # http://stackoverflow.com/questions/15889621/sphinx-how-to-exclude-imports-in-automodule#15912502
-autodoc_mock_imports = ["pycs", "pycs.gen.lc"]
+autodoc_mock_imports = ["urllib.request", "IPython"]
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.mathjax',
-    'sphinx.ext.napoleon' ]
+    'sphinx.ext.napoleon',
+    'sphinx.ext.viewcode' ]
+
+napoleon_google_docstring = False
+napoleon_use_param = False
+napoleon_use_ivar = True
 
 html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]

@@ -7,29 +7,33 @@ def wimport(url, vb=False):
     Download a module and import it.
     
     Parameters
-    ==========
+    ----------
     url: string
         Web address of the target module
-    vb: boolean
+    vb: boolean, optional
         Verbose in operation [def=False]
     
     Returns
-    =======
+    -------
     globals()[modulename]: module
         The module, as imported.
     
     Notes
-    =====
+    -----
     `wimport` maintains a secret local cache of downloaded modules, 
     hidden from the user so that they are not tempted to edit the 
     module locally. (If they need to do that, they should clone
     the relevant repo.)
     
-    Example use:
+    Examples
+    --------
+    Suppose the `stackclub` library did _not_ include the mod:`where_is` module: 
+    we could still download it and import it, using mod:`wimport`.
     
-        where_is_url = "https://github.com/LSSTScienceCollaborations/StackClub/raw/issue/79/library/stackclub/where_is.py"
-        so = wimport(where_is_url, vb=True)
-        so.where_is(Butler.get, in_the='source')
+    >>> where_is_url = "https://github.com/LSSTScienceCollaborations/StackClub/raw/issue/79/library/stackclub/where_is.py"
+    >>> from stackclub import wimport
+    >>> so = wimport(where_is_url, vb=True)
+    >>> so.where_is(Butler.get, in_the='source')
     """
 
     # First set up wimport's .downloads directory and prepare to 

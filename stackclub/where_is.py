@@ -3,15 +3,25 @@ def where_is(object, in_the=None):
     Print a markdown hyperlink to the source code of `object`.
     
     Parameters
-    ==========
+    ----------
     object: python object
         The class or function you are looking for.
-    inthe: string, optional
-        The kind of place you want to look in: ['source','repo','technotes']
+    in_the: string, optional
+        The kind of place you want to look in: `['source', 'repo', 'technotes']`
+        
+    Examples
+    --------
+
+    >>> from stackclub import where_is
+    >>> from lsst.daf.persistence import Butler
+    >>> where_is(Butler.get, in_the='source')
+    >>> where_is(Butler, in_the='repo')
+    >>> where_is(Butler, in_the='technotes')
     
     Notes
-    =====
-    Minimal error handling. Not extensively tested.
+    -----
+    See also the `FindingDocs tutorial notebook <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/FindingDocs.ipynb>`_ for a working demo.
+    
     """
     
     # Locate the module that contains the desired object, and break its name into pieces:

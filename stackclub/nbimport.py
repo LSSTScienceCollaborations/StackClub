@@ -17,19 +17,19 @@ def find_notebook(fullname, path=None):
     Find a notebook, given its fully qualified name and an optional path.
     
     Parameters
-    ==========
+    ----------
     fullname: string
         Name of the notebook to be found (without ipynb extension)
-    path: string
-        Path of folder containing notebook (optional).
+    path: string, optional
+        Path of folder containing notebook.
     
     Returns
-    =======
+    -------
     nb_path: string
         File name of notebook, if found (else None)
     
     Notes
-    =====
+    -----
     The input notebook name "foo.bar" is turned into "foo/bar.ipynb".
     Tries turning "Foo_Bar" into "Foo Bar" if Foo_Bar
     does not exist.
@@ -53,7 +53,7 @@ def stdoutIO(stdout=None):
     Catch the stdout of the imported notebook cells. 
     
     Notes
-    =====
+    -----
     From https://stackoverflow.com/questions/3906232/python-get-the-print-output-in-an-exec-statement/3906390#3906390  NB. This does not capture any rich output.
     """
     old = sys.stdout
@@ -77,17 +77,17 @@ class NotebookLoader(object):
         Import a notebook as a module
         
         Parameters
-        ==========
+        ----------
         fullname: string
             Name of notebook (without the .ipynb extension)
             
         Returns
-        =======
+        -------
         mod: module
             Notebook in module form, after it has been imported (executed).
             
         Notes
-        =====
+        -----
         All code cells in the notebook are executed, silently 
         (by redirecting the standard output).
         """
@@ -134,9 +134,26 @@ class NotebookFinder(object):
     Module finder that locates Jupyter Notebooks.
     
     Notes
-    =====
+    -----
     Once an instance of this class is appended to ``sys.meta_path``, 
     the ``import`` statement will work on notebook names. 
+    
+    Examples
+    --------
+    To gain the ability to import notebooks, we just import the mod:`nbimport` module.
+    The DataInventory notebook might contain a useful function - here's how we'd 
+    import it:
+    
+    >>> import stackclub
+    >>> import DataInventory
+    
+    We can also import remote notebooks, using mod:`wimport`:
+    
+    >>> import stackclub
+    >>> dm_butler_skymap_notebook = "https://github.com/LSSTDESC/DC2-analysis/raw/master/tutorials/dm_butler_skymap.ipynb"
+    >>> skymapper = stackclub.wimport(dm_butler_skymap_notebook, vb=True)
+    
+    The `DataInventory notebook <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`_ provides a live demo of this example.
     """
     def __init__(self):
         self.loaders = {}
@@ -146,14 +163,14 @@ class NotebookFinder(object):
         Find the notebook module and return a suitable loader.
         
         Parameters
-        ==========
+        ----------
         fullname: string
             Name of the notebook to be found (without ipynb extension)
         path: string
             Path of folder containing notebook (optional).
             
         Returns
-        =======
+        -------
         loaders[path]: NotebookLoader
             Suitable loader object for dealing with Notebook import statements.
         """
