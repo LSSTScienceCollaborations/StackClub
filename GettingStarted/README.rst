@@ -21,11 +21,11 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
 
    * - **Hello World**
      - Read about the Stack Club git/GitHub workflow, and make your first contribution to a notebook.
-     - `ipynb <Hello_World.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/Hello_World.nbconvert.ipynb>`_
+     - `ipynb <HelloWorld.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/HelloWorld.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/Hello_World.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/Hello_World.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/HelloWorld.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/HelloWorld.log
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
