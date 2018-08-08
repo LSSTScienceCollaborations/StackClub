@@ -36,6 +36,18 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
 
+   * - **Finding Docs**
+     - Locate the documentation for Stack code objects, including using the ``stackclub`` library ``where_is`` utility function.
+     - `ipynb <FindingDocs.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/FindingDocs.nbconvert.ipynb>`_
+
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/FindingDocs.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/FindingDocs.log
+
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+
+
+
    * - **Import Tricks**
      - Learn how to use some ``stackclub`` library utilities for importing notebooks and remote modules.
      - `ipynb <ImportTricks.ipynb>`_,
