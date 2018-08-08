@@ -47,5 +47,24 @@ You can then `git checkout` a development branch and modify the club notebooks, 
 ### Workflow
 The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the StackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
 
-### Test Data
-Broadly useful datasets should be available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+### Available Datasets
+Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+
+Larger datasets are available in `/datasets`. This is a read-only folder.
+
+### The Stack Club Library
+The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  If you are not developing this package, you can install it using pip, like this:
+```
+pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
+```
+However, if you are contributing notebooks it is likely that you'll need to develop the  `stackclub` package as well 
+(eg by adding modules to it), and so you'll need to make a local, editable installation. In the top level folder of your local clone of the StackClub repo, do:
+```
+python setup.py -q develop --user
+```
+This will put the `stackclub` folder on your path. You may find the following lines useful to add to your notebook as you develop the library:
+```python
+%load_ext autoreload
+%autoreload 2
+```
+This enables you to repeatedly `import stackclub` as you update the library code.

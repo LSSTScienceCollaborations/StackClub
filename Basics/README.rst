@@ -23,3 +23,14 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.log
 
      - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
+
+
+   * - **Data Inventory**
+     - Explore the available datasets in the LSST Science Platform shared folders.
+     - `ipynb <DataInventory.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/DataInventory.nbconvert.ipynb>`_
+
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log
+
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
