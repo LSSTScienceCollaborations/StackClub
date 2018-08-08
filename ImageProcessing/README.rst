@@ -15,7 +15,7 @@ This folder contains a set of tutorial notebooks exploring the image processing 
 
 
    * - **ProcessEimage.ipynb**
-     - How to process a simulated "e-image" using the DM Stack.
+     - How to process a simulated "e-image" using the DM Stack. 
      - `ipynb <ProcessEimage.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/ProcessEimage.nbconvert.ipynb>`_
 

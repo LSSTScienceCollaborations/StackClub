@@ -14,12 +14,23 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
      - Owner
 
 
-   * - **None so far**
-     - Not yet started.
-     - `ipynb <XXXX.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/XXXX.nbconvert.ipynb>`_
+   * - **Calexp_guided_tour.ipynb**
+     - Shows how to read an exposure object from a data repository, and how to access and display various parts.
+     - `ipynb <Calexp_guided_tour.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Calexp_guided_tour.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/XXXX.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/XXXX.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.log
 
-     - `TBD <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TBD>`_
+     - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
+
+
+   * - **Data Inventory**
+     - Explore the available datasets in the LSST Science Platform shared folders.
+     - `ipynb <DataInventory.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/DataInventory.nbconvert.ipynb>`_
+
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log
+
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
