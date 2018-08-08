@@ -44,8 +44,18 @@ git clone https://github.com/LSSTScienceCollaborations/StackClub.git
 ```
 You can then `git checkout` a development branch and modify the club notebooks, opening them from the file manager and using the resulting notebook editor. New to `git` and GitHub? Have a play in [this sandbox](https://github.com/drphilmarshall/GettingStarted) - from there you can watch Phil on YouTube doing a GitHub live demo, too.
 
+### Standards
+We aspire to producing high quality tutorials that can be followed by any member of the LSST science collaborations who wants to learn about the DM stack, and in particular its science pipelines. 
+* We regularly test all the notebooks in the `master` branch of this repo, and flag those that do not run all the way through: we only push working notebooks, such that Stack Club notebooks only fail to run if the Stack changes.
+* Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date on which the notebook was last verified to run, and using which release: the owners keep these fields up to date as well.
+* The introduction cell of each notebook contains a list of "learning objectives," so that the user can judge whether or not this tutorial is right for them.
+* We include markdown cells to explain each step in the tutorial, and provide links to the source code and reference documents as needed.
+
+> A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
+
 ### Workflow
 The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the StackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
+ 
 
 ### Available Datasets
 Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.

@@ -6,7 +6,7 @@ If you have questions, please [write us an issue](https://github.com/LSSTScience
 
 ## Community Tutorials
 
-In progress! Our goal is to build on the existing LSST DM Stack demo and tutorial notebooks to create a set of
+This is work in progress! Our goal is to build on the existing LSST DM Stack demo notebooks and html tutorial pages to create a set of
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of
 the LSST Science Collaborations.
 
@@ -23,9 +23,11 @@ the LSST Science Collaborations.
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn.
 
 ## Contributing
-New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks.
+New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks. Also, please note the [Stack Club Rules](Rules.md) that we all agree to abide by.
 
-Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
+Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel. 
+
+> When preparing a pull request, please note the [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards) that we are trying to uphold.
 
 ## Contact
 We welcome your input! Please post questions and suggestions in the
