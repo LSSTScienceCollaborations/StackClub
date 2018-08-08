@@ -14,6 +14,17 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
      - Owner
 
 
+   * - **Calexp_guided_tour.ipynb**
+     - Shows how to read an exposure object from a data repository, and how to access and display various parts.
+     - `ipynb <Calexp_guided_tour.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Calexp_guided_tour.nbconvert.ipynb>`_
+
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.log
+
+     - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
+
+
    * - **Data Inventory**
      - Explore the available datasets in the LSST Science Platform shared folders.
      - `ipynb <DataInventory.ipynb>`_,
