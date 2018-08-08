@@ -1,8 +1,8 @@
 Validation
-================
 
-This folder contains a set of tutorial notebooks exploring the validation packages accompanying the DM Stack as well as stand-alone notebooks to examine various aspects of data quality.
-
+This folder contains a set of tutorial notebooks exploring the validation packages accompanying the DM Stack
+as well as stand-alone notebooks to examine various aspects of data quality.
+See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 
 .. list-table::
    :widths: 10 20 10 10
