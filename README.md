@@ -19,6 +19,7 @@ the LSST Science Collaborations.
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
 | Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
+| Validation       | Tools for validating Stack outputs, example validation analyses | [StackClub/Validation](Validation) |
 
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#). Includes comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds are drawn.
 
