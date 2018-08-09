@@ -24,7 +24,7 @@ Continuous integration systems check for new commits or pushes; `beavis-ci` is n
 ```
 crontab -l
 
-45  11  *  *  * ( cd ~/notebooks && ./beavis-ci.sh  -u drphilmarshall -k <GITHUB_API_TOKEN> --kernel lsst )
+45  11  *  *  * ( cd ~/notebooks && ./beavis-ci.sh LSSTScienceCollaborations/StackClub -u drphilmarshall -k <GITHUB_API_TOKEN> --kernel lsst )
 ```
 Note that the GitHub arguments are passed in explicitly, in case cron does not set up your environment variables. 
 
