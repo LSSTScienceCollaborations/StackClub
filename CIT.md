@@ -14,7 +14,7 @@ chmod a+x beavis-ci.sh
 
 ## Testing `beavis-ci`
 `beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push the deployed notebooks to the "rendered" orphan (history-less) branch. These are most conveniently exported as environment variables. We also need to specify the kernel
-to run the notebooks with: "lsst" gets us the most recent release, as required.
+to run the notebooks with: "lsst" gets us the most recent supported release, as required.
 ```
 ./beavis-ci.sh LSSTScienceCollaborations/StackClub -u $GITHUB_USERNAME -k $GITHUB_API_KEY --kernel lsst
 ```

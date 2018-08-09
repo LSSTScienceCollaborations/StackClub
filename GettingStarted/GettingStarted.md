@@ -30,9 +30,9 @@ The recommended method is to use Cisco's AnyConnect with DUO two-factor authenti
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
 
 ### Starting up the LSST Science Platform JupyterLab Notebook Aspect
-Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` (unless you need a particular weekly or daily) and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
+Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
 
-> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the latest weekly release to try to keep the notebooks from going stale, and using "medium" size (to enable the image processing notebooks). When you think a new notebook is ready for review, be sure to also test it out on the latest official release (v16.0 at the time of this writing).
+> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent supported release so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
 
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others.
 
@@ -46,7 +46,7 @@ You can then `git checkout` a development branch and modify the club notebooks, 
 
 ### Standards
 We aspire to producing high quality tutorials that can be followed by any member of the LSST science collaborations who wants to learn about the DM stack, and in particular its science pipelines. 
-* We regularly test all the notebooks in the `master` branch of this repo, and flag those that do not run all the way through: we only push working notebooks, such that Stack Club notebooks only fail to run if the Stack changes.
+* We [regularly test](../CIT.md) all the notebooks in the `master` branch of this repo using the most recent supported release of the Stack, and flag those that do not run all the way through. We only push working notebooks, so that (ideally) Stack Club notebooks only fail to run if the Stack changes.
 * Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date on which the notebook was last verified to run, and using which release: the owners keep these fields up to date as well.
 * The introduction cell of each notebook contains a list of "learning objectives," so that the user can judge whether or not this tutorial is right for them.
 * We include markdown cells to explain each step in the tutorial, and provide links to the source code and reference documents as needed.
