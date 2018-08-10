@@ -26,12 +26,12 @@ This folder contains a set of tutorial notebooks exploring the image processing 
 
 
    * - **BrighterFatterCorrection.ipynb**
-     - How to process a simulated "e-image" using the DM Stack. 
-     - `ipynb <ProcessEimage.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/ProcessEimage.nbconvert.ipynb>`_
+     - Analysis of Beam Simulator Images and Brighter-fatter Correction. 
+     - `ipynb <BrighterFatterCorrection.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/ProcessEimage.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/ProcessEimage.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.log
 
-     - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`_
+     - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
 
