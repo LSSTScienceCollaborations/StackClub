@@ -17,6 +17,7 @@ the LSST Science Collaborations.
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
 | Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
+| Deblending       | Deblending the objects | [StackClub/Deblending](Deblending) |
 | Validation       | Tools for validating Stack outputs, example validation analyses | [StackClub/Validation](Validation) |
 
 * [Stack Club projects](https://github.com/LSSTScienceCollaborations/StackClub/labels/project), as defined by Stack Club members - follow [this link](https://github.com/LSSTScienceCollaborations/StackClub/labels/project) to see what people are working on. [Unassigned projects](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Aproject+no%3Aassignee) are available for new members to take on!
@@ -26,7 +27,7 @@ the LSST Science Collaborations.
 ## Contributing
 New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks. Also, please note the [Stack Club Rules](Rules.md) that we all agree to abide by.
 
-Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel. 
+Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
 
 > When preparing a pull request, please note the [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards) that we are trying to uphold.
 
@@ -52,4 +53,4 @@ but you can't blame us if it doesn't do what you want.
 
 ## More About This Project
 
-Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. 
+Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks.
