@@ -4,18 +4,18 @@ _Greg Madejski and [Phil Marshall](https://github.com/LSSTScienceCollaborations/
 
 We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the
 notebook aspect of the LSST science platform. In these notes we provide:
-* [Notes on how to get set up on the LSST Science Platform (LSP) JupyterLab Notebook Aspect at NCSA](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-the-lsst-science-platform)
+* [Notes on how to get set up on the LSST Science Platform (LSP) JupyterLab Notebook Aspect at the LSST Data Facility at NCSA](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-the-lsst-science-platform)
 * [Help with getting set up to run and edit the Stack Club tutorial notebooks](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#running-and-contributing-to-the-stack-club-notebooks)
 
 
 ## Accessing the LSST Science Platform
-The [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the NCSA system, including how to gain access and then how to use JupyterLab once you are in.
-Getting in to NCSA takes involves getting an NCSA account, and then figuring out VPN access.
+The [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the system, including how to gain access and then how to use JupyterLab once you are in.
+Getting on to the LSP involves getting an NCSA account, and then figuring out VPN access.
 
-#### Getting an NCSA Account
-Contact Phil (DM @drphilmarshall on LSSTC Slack) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
+#### Getting an LSST Science Platform Account
+The Stack Club has a limited number of active LSST Science Platform accounts it can support. To join the Stack Club and request one of these accounts, please fill out the [Stack Club Membership Application Form](https://goo.gl/forms/588KlPTFfkEEFFUu2). You'll need to agree to abide by the [Rules](../Rules.md), and then provide your full name (first and last) and your email address. If your application is successful, you'll get an email with instructions on how to set up your LSP account. 
 
-#### Accessing NCSA via its VPN
+#### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
 The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication. Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
 
