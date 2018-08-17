@@ -23,10 +23,13 @@ the LSST Science Collaborations.
 
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
-## Contributing
-New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks. Also, please note the [Stack Club Rules](Rules.md) that we all agree to abide by.
+## Joining the Stack Club
+If you would like to join the Stack Club, please fill out this short **[application form](https://goo.gl/forms/588KlPTFfkEEFFUu2)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the LSST Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club LSSTC Slack channel](https://lsstc.slack.com/messages/C9YRAS4HM/).  
 
-Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel. 
+## Contributing
+New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks.
+
+Everyone else: we welcome pull requests! Feel free to fork this repo, write us an issue, and send us a PR.  
 
 > When preparing a pull request, please note the [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards) that we are trying to uphold.
 
@@ -38,7 +41,7 @@ We welcome your input! Please post questions and suggestions in the
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica))
 * Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall))
 
-The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md).
+The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md). If you are just looking for the application form, it's [here](https://goo.gl/forms/588KlPTFfkEEFFUu2).
 
 ## License
 
