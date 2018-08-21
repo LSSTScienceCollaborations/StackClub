@@ -25,10 +25,10 @@ This folder contains a set of tutorial notebooks exploring the deblending of LSS
      - `Fred Moolekamp <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@fred3m>`_
 
 
-   * - **Deblending in DRP **
+   * - **Deblending in DRP**
      - Where and how the deblending happens, in the DRP pipeline.
      - `ipynb <lsst_stack_deblender.ipynb>`_,
-     `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/lsst_stack_deblender.nbconvert.ipynb>`_
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/lsst_stack_deblender.nbconvert.ipynb>`_
 
        .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.svg
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.log
