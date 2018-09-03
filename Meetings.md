@@ -4,7 +4,8 @@ Individual session links and recordings are given below, most recent meeting at 
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
-| Phase 2, Session 2 | Friday August 24, 2018 [(video)](https://stanford.zoom.us/recording/share/Xii8Utw9RX5rqGUn8a_barg6NDBcRuzkmDIjDrUds82wIumekTziMw) | Interactive visualization, new member start-ups, hacking | [Bokeh/HoloViews Demo](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/bokeh_holoviews_datashader/bechtol/Visualization/bokeh_holoviews_datashader.ipynb) | 
+| Phase 2, Session 3 | Friday August 31, 2018 [(video)](https://stanford.zoom.us/recording/share/U7_XJvwjNlUh4N7g3ytBbKtTQHl-fLS0tqiBhAxZrEmwIumekTziMw) | Live code review, hacking | [Brighter-Fatter Correction with Beamsim Data](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/beamsim/andrewkbradshaw/ImageProcessing/BrighterFatterCorrection.ipynb) |
+| Phase 2, Session 2 | Friday August 24, 2018 [(video)](https://stanford.zoom.us/recording/share/share/Xii8Utw9RX5rqGUn8a_barg6NDBcRuzkmDIjDrUds82wIumekTziMw) | Interactive visualization, new member start-ups, hacking | [Bokeh/HoloViews Demo](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/bokeh_holoviews_datashader/bechtol/Visualization/bokeh_holoviews_datashader.ipynb) | 
 | LSST2018 Launch | Monday August 13, 2018 [(video)](https://stanford.zoom.us/recording/share/qyunKljpUWaFQBneuiL4PnbxTB-tf1BvttELFVPJHnuwIumekTziMw) | PCW welcome, discussion, hacking | [Introduction to the LSST Stack Club](https://docs.google.com/presentation/d/1LWShGi-YLqWoxPvewkg-JOpb67WKZyI0YQcSFrmAl14/edit#slide=id.p1) | 
 
 
