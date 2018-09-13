@@ -54,6 +54,8 @@ date
 echo "Re-RunHSC INFO: process raw exposures with processCcd.py"
 
 # Use calibration files to do CCD processing
+# Does calibration happen here? What is the end result of the calibration process?
+# What specifically does this task do?
 processCcd.py $DATADIR --rerun processCcdOutputs --id
 
 
@@ -144,6 +146,19 @@ echo "Re-RunHSC INFO: perform forced photometry on coadds with forcedPhotCoadd.p
 forcedPhotCoadd.py $DATADIR --rerun coaddPhot:coaddForcedPhot --id filter=HSC-R
 forcedPhotCoadd.py $DATADIR --rerun coaddForcedPhot --id filter=HSC-I
 
+# V. F. Run forced photometry on individual exposures
+# Given a full source catalog, we can do forced photometry on the individual exposures.
+# Note that as of 2018_08_23, the forcedPhotCcd.py task doesn't do deblending,
+# which could lead to bad photometry for blended sources.
+# This tasks requires a coadd tract stored in the Butler to grab the appropriate 
+# coadd catalogs to use as references for forced photometry.
+
+date
+echo "Re-RunHSC INFO: perform forced photometry on individual exposures with forcedPhotCcd.py"
+
+forcedPhotCcd.py $DATADIR --rerun coaddPhot:ccdForcedPhot --id filter=HSC-R --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py &> ccd_r.txt
+forcedPhotCcd.py $DATADIR --rerun ccdForcedPhot --id filter=HSC-I --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py&> ccd_i.txt
 
 # VI. Multi-band catalog analysis
 # For analysis of the catalog, see part VI of StackClub/ImageProcessing/Re-RunHSC.ipynb
+
