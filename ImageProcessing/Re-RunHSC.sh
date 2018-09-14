@@ -157,8 +157,16 @@ date
 echo "Re-RunHSC INFO: perform forced photometry on individual exposures with forcedPhotCcd.py"
 
 forcedPhotCcd.py $DATADIR --rerun coaddPhot:ccdForcedPhot --id filter=HSC-R --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py &> ccd_r.txt
-forcedPhotCcd.py $DATADIR --rerun ccdForcedPhot --id filter=HSC-I --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py&> ccd_i.txt
+forcedPhotCcd.py $DATADIR --rerun ccdForcedPhot --id filter=HSC-I --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py &> ccd_i.txt
+
 
 # VI. Multi-band catalog analysis
 # For analysis of the catalog, see part VI of StackClub/ImageProcessing/Re-RunHSC.ipynb
-
+date
+echo "Re-RunHSC INFO: parse output of forcedPhotCcd.py"
+grep 'forcedPhotCcd INFO: Performing forced measurement on DataId' ccd_r.txt ccd_i.txt > data_ids.txt
+# The following sed commands clean up the output log file used to determine which DataIds have measured forced photometry.
+sed -i 's/ccd_[i,r].txt:forcedPhotCcd INFO: Performing forced measurement on DataId(initialdata={//g' data_ids.txt
+sed -i 's/}, tag=set())//g' data_ids.txt
+sed -i 's/'"'"'//g' data_ids.txt
+sed -i 's/ //g' data_ids.txt
