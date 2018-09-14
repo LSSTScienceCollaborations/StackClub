@@ -14,13 +14,13 @@ This folder contains a set of tutorial notebooks exploring the image processing 
      - Owner
 
 
-   * - **ProcessEimage.ipynb**
-     - How to process a simulated "e-image" using the DM Stack. 
-     - `ipynb <ProcessEimage.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/ProcessEimage.nbconvert.ipynb>`_
+   * - **PipelineTasks.ipynb**
+     - Take a deep dive into the configuration, interface, and structure of pipeline tasks.
+     - `ipynb <PipelineTasks.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/PipelineTasks.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/ProcessEimage.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/ProcessEimage.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/PipelineTasks.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/PipelineTasks.log
 
      - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`_
 
