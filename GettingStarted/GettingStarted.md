@@ -61,18 +61,20 @@ Broadly useful, small datasets are available in `/project/shared/data`  - this i
 Larger datasets are available in `/datasets`. This is a read-only folder.
 
 #### The Stack Club Library
-The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  If you are not developing this package, you can install it using pip, like this:
-```
-pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
-```
-However, if you are contributing notebooks it is likely that you'll need to develop the  `stackclub` package as well 
-(eg by adding modules to it), and so you'll need to make a local, editable installation. In the top level folder of your local clone of the StackClub repo, do:
+The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  
+If you are contributing notebooks, you may want or need to develop the  `stackclub` package as well 
+(eg by adding modules to it), and so its best to setup the package installation to be local and editable. In the top level folder of your local clone of the StackClub repo, do:
 ```
 python setup.py -q develop --user
 ```
-This will put the `stackclub` folder on your path. You may find the following lines useful to add to your notebook as you develop the library:
+This will put the repo's `stackclub` folder on your path. When developing the package, may find it useful to add the following lines to your notebook:
 ```python
 %load_ext autoreload
 %autoreload 2
 ```
-This enables you to repeatedly `import stackclub` as you update the library code.
+This enables you to repeatedly `import stackclub` as you update the library code. The above lines are in the [template notebook](templates/template_Notebook.ipynb), for your convenience.
+
+If you are not developing this package, you can install it using pip, like this:
+```
+pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
+```
