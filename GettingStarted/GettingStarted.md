@@ -67,7 +67,7 @@ If you are contributing notebooks, you may want or need to develop the  `stackcl
 ```
 python setup.py -q develop --user
 ```
-This will put the repo's `stackclub` folder on your path. When developing the package, may find it useful to add the following lines to your notebook:
+This will put the repo's `stackclub` folder on your path. When developing the package, you may find it useful to add the following lines to your notebook:
 ```python
 %load_ext autoreload
 %autoreload 2
