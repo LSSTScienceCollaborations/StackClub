@@ -1,14 +1,16 @@
 : 'HSC Re-Run: Making Forced Photometry Light Curves from Scratch
 Owner: **Justin Myles** (@jtmyles)
-Last Verified to Run: **2018-09-05**
+Last Verified to Run: **2018-09-13**
 Verified Stack Release: **16.0**
 
 This project addresses issue #63: HSC Re-run
 
 This shell script runs the command-line tasks from the tutorial at pipelines.lsst.io for analysis
-from raw images through source detection and forced photometry measurements. It is intended as an 
-intermediate step toward the end-goal of making a forced photometry lightcurve in the notebook at
+from raw images through source detection and forced photometry measurements. It is an intermediate
+step toward the end-goal of making a forced photometry lightcurve in the notebook at
 StackClub/ImageProcessing/Re-RunHSC.ipynb
+
+Running this script may take several hours on lsst-lspdev.
 
 Recommended to run with 
 $ bash Re-RunHSC.sh > output.txt
@@ -152,6 +154,7 @@ forcedPhotCoadd.py $DATADIR --rerun coaddForcedPhot --id filter=HSC-I
 # which could lead to bad photometry for blended sources.
 # This tasks requires a coadd tract stored in the Butler to grab the appropriate 
 # coadd catalogs to use as references for forced photometry.
+# It has access to this tract because we chain the output from the coaddPhot subdirectory
 
 date
 echo "Re-RunHSC INFO: perform forced photometry on individual exposures with forcedPhotCcd.py"
@@ -164,8 +167,11 @@ forcedPhotCcd.py $DATADIR --rerun ccdForcedPhot --id filter=HSC-I --clobber-conf
 # For analysis of the catalog, see part VI of StackClub/ImageProcessing/Re-RunHSC.ipynb
 date
 echo "Re-RunHSC INFO: parse output of forcedPhotCcd.py"
+
+# The following grep & sed commands clean up the output log file used to determine 
+# which DataIds have measured forced photometry. The cleaner output is stored
+# in a new file, data_ids.txt, that is used in Re-RunHSC.ipynb
 grep 'forcedPhotCcd INFO: Performing forced measurement on DataId' ccd_r.txt ccd_i.txt > data_ids.txt
-# The following sed commands clean up the output log file used to determine which DataIds have measured forced photometry.
 sed -i 's/ccd_[i,r].txt:forcedPhotCcd INFO: Performing forced measurement on DataId(initialdata={//g' data_ids.txt
 sed -i 's/}, tag=set())//g' data_ids.txt
 sed -i 's/'"'"'//g' data_ids.txt
