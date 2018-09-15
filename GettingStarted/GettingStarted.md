@@ -74,7 +74,7 @@ This will put the repo's `stackclub` folder on your path. When developing the pa
 ```
 This enables you to repeatedly `import stackclub` as you update the library code. The above lines are in the [template notebook](templates/template_Notebook.ipynb), for your convenience.
 
-If you are not developing this package, you can install it using pip, like this:
+If you are not developing this package, and you have permission to write to your base python site-packages, you can install it using pip, like this:
 ```
 pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
 ```
