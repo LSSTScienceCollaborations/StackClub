@@ -35,7 +35,7 @@ Stack Club Course Syllabus
 
 - Other References:
 
-  + Getting started with the LSST Science Pipelines
+  + [Getting started with the LSST Science Pipelines](https://pipelines.lsst.io/getting-started/index.html)
 
 (2) Visualization 
 -----------------
@@ -46,22 +46,22 @@ Stack Club Course Syllabus
 
      + Image visualization tools
      + Image + Mask visualization
-     + Survey visualization tools
-     + Catalog visualization tools
+     + **Survey visualization tools**
+     + **Catalog visualization tools**
      + Cutouts?
 
    - Notes:
 
      + There should probably be a set of tutorials specifically devoted to visualization, even if we don’t teach a lesson on it - these may exist outside the Stack Club repo though.
    - Stack Club Resources:
-     + AFW_Display_Demo.ipynb
-     + Bokeh_holoviews_datashader.ipynb (To be merged)
-     + Guided Calexp 
-     + Dataset Inventory (Phil)
+     + [AFW_Display_Demo.ipynb](Visualization/AFW_Display_Demo.ipynb)
+     + [Bokeh_holoviews_datashader.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/103) **(To be merged)**
+     + **Dataset Inventory (Phil)**
+
    - Other Resources:
 
-     + Firefly.ipynb
-     + WMWV Cutout notebook
+     + [Firefly.ipynb](https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb)
+     + [dm_butler_postage_stamps.ipynb](https://github.com/LSSTDESC/DC2-analysis/blob/master/tutorials/dm_butler_postage_stamps.ipynb)
 
 (3) Processing Single Visits
 ----------------------------
@@ -75,14 +75,14 @@ Stack Club Course Syllabus
 
    - Stack Club Resources:
 
-     + Re-RunHSC.ipynb (To be merged)
-     + PipelineProcessingAPI.ipynb (To be merged)
-     + BrighterFatterCorrection.ipynb
+     + [Re-RunHSC.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/86) **(To be merged)**
+     + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/93) **(To be merged)**
+     + [BrighterFatterCorrection.ipynb](ImageProcessing/BrighterFatterCorrection.ipynb)
 
    - Other Resources:
 
-     + processccd.html
-     + data repositories
+     + [processccd.html](https://pipelines.lsst.io/getting-started/processccd.html)
+     + [data repositories](https://pipelines.lsst.io/getting-started/data-setup.html)
 
 (4) Source Detection
 --------------------
@@ -105,13 +105,13 @@ Stack Club Course Syllabus
 
    - Stack Club Resources:
 
-     + LowSurfaceBrightness.ipynb
-     + lsst_stack_deblender.ipynb
-     + scarlet_tutorial.ipynb
+     + [LowSurfaceBrightness.ipynb](SourceDetection/LowSurfaceBrightness.ipynb)
+     + [lsst_stack_deblender.ipynb](Deblending/lsst_stack_deblender.ipynb)
+     + [scarlet_tutorial.ipynb](Deblending/scarlet_tutorial.ipynb)
 
    - Other Resources:
 
-     + Deblender.ipynb
+     + [Deblender.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Deblender.ipynb)
 
 (5) Image Coaddition
 --------------------
