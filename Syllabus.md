@@ -125,7 +125,7 @@ Stack Club Course Syllabus
 
    - Stack Club Resources:
 
-     + None
+     + **None**
 
    - Other Resources
 
@@ -142,7 +142,7 @@ Stack Club Course Syllabus
 
    - Stack Club Resources: 
 
-     + None
+     + **None**
 
    - Other Resources:
 
@@ -160,12 +160,12 @@ Stack Club Course Syllabus
 
    - Stack Club Resources:
 
-     + Image_quality_demo.ipynb
+     + [Image_quality_demo.ipynb](Validation/image_quality_demo.ipynb)
      + PSF and shears?
 
    - Other Resources:
 
-     + PSF.ipynb 
+     + [PSF.ipynb](Demos/PSF.ipynb)
 
 (8) Source/Object measurement
 -----------------------------
@@ -181,12 +181,12 @@ Stack Club Course Syllabus
 
    - Stack Club Resources:
 
-     + None
+     + **None**
 
    - Other Resources:
 
-     + Source measurement
-     + Kron.ipynb
+     + [Source measurement tutorial](https://pipelines.lsst.io/getting-started/photometry.html)
+     + [Kron.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Kron.ipynb)
 
 (9) Astrometric calibration
 ---------------------------
@@ -202,11 +202,11 @@ Stack Club Course Syllabus
 
    - Stack Club Resources
 
-     + None
+     + **None**
 
    - Other Resources:
 
-     + None
+     + **None**
 
 (10) Photometric calibration
 ----------------------------
@@ -221,11 +221,11 @@ Stack Club Course Syllabus
 
    - Stack Club Resources
 
-     + None
+     + **None**
 
    - Other Resources:
 
-     + https://pipelines.lsst.io/getting-started/multiband-analysis.html 
+     + [Multiband analysis tutorial](https://pipelines.lsst.io/getting-started/multiband-analysis.html)
 
 (11) Difference Image Analysis
 ------------------------------
