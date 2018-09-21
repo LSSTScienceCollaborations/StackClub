@@ -1,3 +1,6 @@
+Stack Club Course Syllabus
+==========================
+
 0. Basics
 
    - Overview: In this Session we will go through how to access the LSST Science Pipelines, ….
