@@ -2,6 +2,7 @@ Stack Club Course Syllabus
 ==========================
 
 0. Basics
+---------
 
    - Overview: In this Session we will go through how to access the LSST Science Pipelines, ….
    - Topics:
@@ -36,7 +37,8 @@ Stack Club Course Syllabus
 
      + Getting started with the LSST Science Pipelines
 
-1. Visualization (1st) 
+1. Visualization 
+----------------
 
    We will explore LSST data visualization in a bit more detail. This session will start out from where we left off in the data access tutorials, but will take a deeper dive into some more powerful resources built into the LSST Stack.
 
@@ -61,7 +63,8 @@ Stack Club Course Syllabus
      + Firefly.ipynb
      + WMWV Cutout notebook
 
-2. Processing of Single Visit Images
+2. Processing Single Visits
+---------------------------
 
    - Topics:
 
@@ -82,6 +85,7 @@ Stack Club Course Syllabus
      + data repositories
 
 3. Source Detection
+-------------------
 
    - Topics:
 
@@ -110,6 +114,7 @@ Stack Club Course Syllabus
      + Deblender.ipynb
 
 4. Image Coaddition
+-------------------
 
    - Topics:
 
@@ -127,6 +132,7 @@ Stack Club Course Syllabus
      + Small bit in the HSC re-run script
 
 5. Sky background estimation
+----------------------------
 
    - Topics:
 
@@ -143,6 +149,7 @@ Stack Club Course Syllabus
      + https://github.com/lsst-dm-tutorial/lsst2017/blob/master/tutorial.ipynb
 
 6. PSF estimation 
+-----------------
 
    - Topics:
 
@@ -161,6 +168,7 @@ Stack Club Course Syllabus
      + PSF.ipynb 
 
 7. Source/Object measurement
+----------------------------
 
    - Topics:
 
@@ -181,6 +189,7 @@ Stack Club Course Syllabus
      + Kron.ipynb
 
 8. Astrometric calibration
+--------------------------
 
    - Topics:
 
@@ -200,6 +209,7 @@ Stack Club Course Syllabus
      + None
 
 9. Photometric calibration
+--------------------------
 
    - Topics:
 
@@ -217,7 +227,8 @@ Stack Club Course Syllabus
 
      + https://pipelines.lsst.io/getting-started/multiband-analysis.html 
 
-10. Difference Image Analysis (DIA)
+10. Difference Image Analysis
+-----------------------------
 
     - Topics:
      
@@ -241,6 +252,7 @@ Stack Club Course Syllabus
       + Ask Eric Bellm for leads?
 
 11. Data Validation
+-------------------
     
     - Topics:
      
