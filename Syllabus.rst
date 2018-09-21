@@ -219,41 +219,41 @@ Stack Club Course Syllabus
 
 10. Difference Image Analysis (DIA)
 
-   - Topics:
-
-     + Template generation (noting any differences from coadd generation)
-     + Image differencing
-     + DIASource detection
-     + DIAObject generation
-     + Real/bogus classification
-
-   - Projects: 
-
-     + Phil - DIA DRP pipeline walk-through notebook, accompanied by supporting notebooks on (possibly): template generation; image differencing and DIAsource detection; DIAobject association; forced photometry on DIAobjects. Dataset: Twinkles?
-
+    - Topics:
+     
+      + Template generation (noting any differences from coadd generation)
+      + Image differencing
+      + DIASource detection
+      + DIAObject generation
+      + Real/bogus classification
+     
+    - Projects: 
+     
+      + Phil - DIA DRP pipeline walk-through notebook, accompanied by supporting notebooks on (possibly): template generation; image differencing and DIAsource detection; DIAobject association; forced photometry on DIAobjects. Dataset: Twinkles?
+     
     - Stack Club Resources:
-
+     
       + DIA Notebooks (to be developed)
-
+     
     - Other Resources
-
+     
       + Twinkles and DC2 cookbooks?
       + Ask Eric Bellm for leads?
 
 11. Data Validation
     
-   - Topics:
-
-     + Available packages: validate_drp, pipeline_analysis
-
-   - Projects:
-
-     + Johann: Exercise package, explain what it produces?
-
-   - Stack Club Resources:
-
-     + Image_quality_demo.ipynb
-
-   - Other Resources:
-
-     + None
+    - Topics:
+     
+      + Available packages: validate_drp, pipeline_analysis
+     
+    - Projects:
+     
+      + Johann: Exercise package, explain what it produces?
+     
+    - Stack Club Resources:
+     
+      + Image_quality_demo.ipynb
+     
+    - Other Resources:
+     
+      + None
