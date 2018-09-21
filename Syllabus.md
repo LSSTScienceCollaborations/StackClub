@@ -245,7 +245,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
  
 - Stack Club Resources:
  
-  + DIA Notebooks (to be developed)
+  + [DIA Notebooks](https://github.com/LSSTScienceCollaborations/StackClub/tree/project/DIA/drphilmarshall/DIA) **(to be developed)**
  
 - Other Resources
  
@@ -265,7 +265,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
  
 - Stack Club Resources:
  
-  + Image_quality_demo.ipynb
+  + [Image_quality_demo.ipynb](Validation/image_quality_demo.ipynb)
  
 - Other Resources:
  
