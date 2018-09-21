@@ -16,8 +16,11 @@
      + Available catalogs: DPDD-ification will put them into queriable database, but until then tasks produce catalogs that the butler can get. 
      
    - Suggested Projects:
+
      + Greg: data structures and the tasks that make them
+
    - Stack Club Resources:
+
      + GettingStarted.md
      + HelloWorld.ipynb
      + FindingDocs.ipynb
@@ -25,5 +28,7 @@
      + Calexp_guided_tour.ipynb
      + afw_table_guided_tour.ipynb
      + Dataset Inventory (Phil)
+
    - Other References:
+
      + Getting started with the LSST Science Pipelines
