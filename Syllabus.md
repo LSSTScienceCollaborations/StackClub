@@ -25,12 +25,12 @@ Stack Club Course Syllabus
 
 - Stack Club Resources:
 
-  + GettingStarted.md
-  + HelloWorld.ipynb
-  + FindingDocs.ipynb
-  + template_Notebook.ipynb 
-  + Calexp_guided_tour.ipynb
-  + afw_table_guided_tour.ipynb
+  + [GettingStarted.md](GettingStarted/GettingStarted.md)
+  + [HelloWorld.ipynb](GettingStarted/HelloWorld.ipynb)
+  + [FindingDocs.ipynb](GettingStarted/FindingDocs.ipynb)
+  + [template_Notebook.ipynb](GettingStarted/templates/template_Notebook.ipynb)
+  + [Calexp_guided_tour.ipynb](Basics/Calexp_guided_tour.ipynb)
+  + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/116)
   + Dataset Inventory (Phil)
 
 - Other References:
