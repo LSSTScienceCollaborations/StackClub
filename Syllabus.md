@@ -1,8 +1,8 @@
 Stack Club Course Syllabus
 ==========================
 
-0. Basics
----------
+(1) Basics
+----------
 
 - Overview: In this Session we will go through how to access the LSST Science Pipelines, ….
 - Topics:
@@ -37,8 +37,8 @@ Stack Club Course Syllabus
 
   + Getting started with the LSST Science Pipelines
 
-1. Visualization 
-----------------
+(2) Visualization 
+-----------------
 
    We will explore LSST data visualization in a bit more detail. This session will start out from where we left off in the data access tutorials, but will take a deeper dive into some more powerful resources built into the LSST Stack.
 
@@ -63,8 +63,8 @@ Stack Club Course Syllabus
      + Firefly.ipynb
      + WMWV Cutout notebook
 
-2. Processing Single Visits
----------------------------
+(3) Processing Single Visits
+----------------------------
 
    - Topics:
 
@@ -84,8 +84,8 @@ Stack Club Course Syllabus
      + processccd.html
      + data repositories
 
-3. Source Detection
--------------------
+(4) Source Detection
+--------------------
 
    - Topics:
 
@@ -113,8 +113,8 @@ Stack Club Course Syllabus
 
      + Deblender.ipynb
 
-4. Image Coaddition
--------------------
+(5) Image Coaddition
+--------------------
 
    - Topics:
 
@@ -131,8 +131,8 @@ Stack Club Course Syllabus
 
      + Small bit in the HSC re-run script
 
-5. Sky background estimation
-----------------------------
+(6) Sky background estimation
+-----------------------------
 
    - Topics:
 
@@ -148,8 +148,8 @@ Stack Club Course Syllabus
 
      + https://github.com/lsst-dm-tutorial/lsst2017/blob/master/tutorial.ipynb
 
-6. PSF estimation 
------------------
+(7) PSF estimation 
+------------------
 
    - Topics:
 
@@ -167,8 +167,8 @@ Stack Club Course Syllabus
 
      + PSF.ipynb 
 
-7. Source/Object measurement
-----------------------------
+(8) Source/Object measurement
+-----------------------------
 
    - Topics:
 
@@ -188,8 +188,8 @@ Stack Club Course Syllabus
      + Source measurement
      + Kron.ipynb
 
-8. Astrometric calibration
---------------------------
+(9) Astrometric calibration
+---------------------------
 
    - Topics:
 
@@ -208,8 +208,8 @@ Stack Club Course Syllabus
 
      + None
 
-9. Photometric calibration
---------------------------
+(10) Photometric calibration
+----------------------------
 
    - Topics:
 
@@ -227,8 +227,8 @@ Stack Club Course Syllabus
 
      + https://pipelines.lsst.io/getting-started/multiband-analysis.html 
 
-10. Difference Image Analysis
------------------------------
+(11) Difference Image Analysis
+------------------------------
 
     - Topics:
      
@@ -251,8 +251,8 @@ Stack Club Course Syllabus
       + Twinkles and DC2 cookbooks?
       + Ask Eric Bellm for leads?
 
-11. Data Validation
--------------------
+(12) Data Validation
+--------------------
     
     - Topics:
      
