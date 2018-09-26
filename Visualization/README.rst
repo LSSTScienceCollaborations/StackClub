@@ -21,7 +21,7 @@ See the index table below for links to the notebook code, and an auto-rendered v
 
 
    * - **Interactive Visualization with Bokeh, HoloViews, and Datashader**
-     - Examples of interactive visualization with the Boken, HoloViews, and Datashader plotting packages available in PyViz suite of data analysis python modules; brushing and linking with large datasets 
+     - Examples of interactive visualization with the Boken, HoloViews, and Datashader plotting packages available in PyViz suite of data analysis python modules; brushing and linking with large datasets
      - `ipynb <bokeh_holoviews_datashader.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/bokeh_holoviews_datashader.nbconvert.ipynb>`_
 
@@ -29,3 +29,8 @@ See the index table below for links to the notebook code, and an auto-rendered v
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/log/bokeh_holoviews_datashader.log
 
      - `Keith Bechtol <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@bechtol>`_
+
+   * - **"With Globular" LSST 2018 Tutorial**
+     - General purpose tutorial including interactive Firefly visualization.
+     - `ipynb <https://github.com/lsst-dm/dm-demo-notebooks/blob/master/workshops/lsst2018/intro-with-globular.ipynb>`_
+     - `Jim Bosch <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TallJimbo>`_
