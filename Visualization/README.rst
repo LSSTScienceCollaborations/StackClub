@@ -1,8 +1,8 @@
 Visualization
 =============
 
-This folder contains a set of tutorial notebooks exploring various data visualizations. See the index table below for links to the notebook code, and auto-rendered views of the notebooks with outputs.
-    
+This folder contains a set of tutorial notebooks demonstrating visualization technologies available in the LSST Science Platform notebook aspect.
+See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 
 .. list-table::
    :widths: 10 20 10 10
@@ -21,7 +21,7 @@ This folder contains a set of tutorial notebooks exploring various data visualiz
 
 
    * - **Interactive Visualization with Bokeh, HoloViews, and Datashader**
-     - Simple demonstrations of interactive, linked plotting.
+     - Examples of interactive visualization with the Boken, HoloViews, and Datashader plotting packages available in PyViz suite of data analysis python modules; brushing and linking with large datasets 
      - `ipynb <bokeh_holoviews_datashader.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/bokeh_holoviews_datashader.nbconvert.ipynb>`_
 
