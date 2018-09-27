@@ -10,11 +10,12 @@ Stack Club Course Syllabus
 6. [Image Coaddition](#coaddition)
 7. [Sky background estimation](#background)
 8. [PSF estimation](#psf)
-9. [Source/Object measurement](#measurement)
-10. [Astrometric calibration](#astrometry)
-11. [Photometric calibration](#photometry)
-12. [Difference Image Analysis](#dia)
-13. [Data Validation](#validation)
+9. [Object deblending](#deblending)
+10. [Source/Object measurement](#measurement)
+11. [Astrometric calibration](#astrometry)
+12. [Photometric calibration](#photometry)
+13. [Difference Image Analysis](#dia)
+14. [Data Validation](#validation)
 
 
 <a name="basics"></a>1. Basics
@@ -168,7 +169,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + [PSF.ipynb](Demos/PSF.ipynb)
 
 
-<a name="detection"></a>9. Object deblending
+<a name="deblending"></a>9. Object deblending
 --------------------------------------------
 
 - Topics:
