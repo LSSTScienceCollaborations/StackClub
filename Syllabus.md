@@ -68,7 +68,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
 - Topics:
   + Image visualization tools: AFW display, Firefly 
-  + RGB cutouts
+  + RGB cutouts _(Tutorial needed: [#129](https://github.com/LSSTScienceCollaborations/StackClub/issues/129))_
   + Image, mask, catalog visualization: Firefly
   + Interactive catalog visualizatio: Bokeh, HoloViews, DataShader
   + Survey visualization (tracts and patches, on the sky)
