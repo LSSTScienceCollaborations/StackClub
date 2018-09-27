@@ -1,54 +1,67 @@
 Stack Club Course Syllabus
 ==========================
 
+**Contents:**
 1. [Basics](#basics)
-2. [Visualization](#visualization)
-3. [Processing Single Visits](#processing)
-4. [Source Detection](#detection)
-5. [Image Coaddition](#coaddition)
-6. [Sky background estimation](#background)
-7. [PSF estimation](#psf)
-8. [Source/Object measurement](#measurement)
-9. [Astrometric calibration](#astrometry)
-10. [Photometric calibration](#photometry)
-11. [Difference Image Analysis](#dia)
-12. [Data Validation](#validation)
+2. [Getting Started](#gettingstarted)
+3. [Visualization](#visualization)
+4. [Processing Single Visits](#processing)
+5. [Source Detection](#detection)
+6. [Image Coaddition](#coaddition)
+7. [Sky background estimation](#background)
+8. [PSF estimation](#psf)
+9. [Source/Object measurement](#measurement)
+10. [Astrometric calibration](#astrometry)
+11. [Photometric calibration](#photometry)
+12. [Difference Image Analysis](#dia)
+13. [Data Validation](#validation)
 
 
-<a name="basics"></a>(1) Basics
+<a name="basics"></a>1. Basics
 ----------
 
-In this Session we will introduce the LSST Science Platform (LSP), give some introduction to the Stack Club workflow, and provide a first glimpse at accessing LSST data.
+In this Session we will provide a first glimpse at how to access LSST data on the LSST Science Platform (LSP), introducing the Butler and touring the basic image and catalog data structures.
 
 - Topics:
-
-  + Getting started with the Stack Club
-  + Accessing the LSP
-  + Github Basics
-  + Finding documentation
-  + Creating your First Notebook
-
-- Getting data and common data structures
-  + Butler actions and data access
-  + Guided tour of a calexp 
-  + Guided tour of an afwtable
-  + Available catalogs: DPDD-ification will put them into queriable database, but until then tasks produce catalogs that the butler can get. 
+  + Getting started on the LSP
+  + Accessing LSST data with the Butler
+  + A Guided tour of a calexp object 
+  + A Guided tour of an afwtable object
+  + The datasets available on the LSP
   
 - Stack Club Resources:
-
   + [GettingStarted.md](GettingStarted/GettingStarted.md)
-  + [HelloWorld.ipynb](GettingStarted/HelloWorld.ipynb)
-  + [FindingDocs.ipynb](GettingStarted/FindingDocs.ipynb)
-  + [template_Notebook.ipynb](GettingStarted/templates/template_Notebook.ipynb)
   + [Calexp_guided_tour.ipynb](Basics/Calexp_guided_tour.ipynb)
   + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/116)
-  + Dataset Inventory (Phil)
+  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb)
+  + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb)
 
 - Other References:
-
   + [Getting started with the LSST Science Pipelines](https://pipelines.lsst.io/getting-started/index.html)
 
-<a name="visualization"></a>(2) Visualization 
+
+<a name="gettingstarted"></a>2. Getting Started
+----------
+
+In this Session we will give some introduction to the Stack Club tutorials and GitHub workflow, provide a template for your first tutorial notebook, and show you how to find documentation about the LSST science pipelines.
+
+- Topics:
+  + Getting started with the Stack Club
+  + Github Basics
+  + Creating your First Notebook
+  + Finding documentation
+   
+- Stack Club Resources:
+  + [GettingStarted.md](GettingStarted/GettingStarted.md)
+  + [HelloWorld.ipynb](GettingStarted/HelloWorld.ipynb)
+  + [template_Notebook.ipynb](GettingStarted/templates/template_Notebook.ipynb)
+  + [FindingDocs.ipynb](GettingStarted/FindingDocs.ipynb)
+
+- Other References:
+  + [Getting started with the LSST Science Pipelines](https://pipelines.lsst.io/getting-started/index.html)
+
+
+<a name="visualization"></a>3. Visualization 
 -----------------
 
 We will explore LSST data visualization in a bit more detail. This session will start out from where we left off in the data access tutorials, but will take a deeper dive into some more powerful resources built into the LSST Stack.
@@ -74,7 +87,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + [Firefly.ipynb](https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb)
   + [dm_butler_postage_stamps.ipynb](https://github.com/LSSTDESC/DC2-analysis/blob/master/tutorials/dm_butler_postage_stamps.ipynb)
 
-<a name="processing"></a>(3) Processing Single Visits
+<a name="processing"></a>4. Processing Single Visits
 ----------------------------
 
 - Topics:
@@ -95,7 +108,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + [processccd.html](https://pipelines.lsst.io/getting-started/processccd.html)
   + [data repositories](https://pipelines.lsst.io/getting-started/data-setup.html)
 
-<a name="detection"></a>(4) Source Detection
+<a name="detection"></a>5. Source Detection
 --------------------
 
 - Topics:
@@ -117,7 +130,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + [Deblender.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Deblender.ipynb)
 
-<a name="coaddition"></a>(5) Image Coaddition
+<a name="coaddition"></a>6. Image Coaddition
 --------------------
 
 - Topics:
@@ -135,7 +148,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + [coaddition.html](https://pipelines.lsst.io/getting-started/coaddition.html)
 
-<a name="background"></a>(6) Sky background estimation
+<a name="background"></a>7. Sky background estimation
 -----------------------------
 
 - Topics:
@@ -152,7 +165,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + https://github.com/lsst-dm-tutorial/lsst2017/blob/master/tutorial.ipynb
 
-<a name="psf"></a>(7) PSF estimation 
+<a name="psf"></a>8. PSF estimation 
 ------------------
 
 - Topics:
@@ -171,7 +184,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + [PSF.ipynb](Demos/PSF.ipynb)
 
-<a name="measurement"></a>(8) Source/Object measurement
+<a name="measurement"></a>9. Source/Object measurement
 -----------------------------
 
 - Topics:
@@ -192,7 +205,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + [Source measurement tutorial](https://pipelines.lsst.io/getting-started/photometry.html)
   + [Kron.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Kron.ipynb)
 
-<a name="astrometry"></a>(9) Astrometric calibration
+<a name="astrometry"></a>10. Astrometric calibration
 ---------------------------
 
 - Topics:
@@ -212,7 +225,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + **None**
 
-<a name="photometry"></a>(10) Photometric calibration
+<a name="photometry"></a>11. Photometric calibration
 ----------------------------
 
 - Topics:
@@ -231,7 +244,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + [Multiband analysis tutorial](https://pipelines.lsst.io/getting-started/multiband-analysis.html)
 
-<a name="dia"></a>(11) Difference Image Analysis
+<a name="dia"></a>12. Difference Image Analysis
 ------------------------------
 
 - Topics:
@@ -255,7 +268,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + Twinkles and DC2 cookbooks?
   + Ask Eric Bellm for leads?
 
-<a name="validation"></a>(12) Data Validation
+<a name="validation"></a>13. Data Validation
 --------------------
     
 - Topics:
