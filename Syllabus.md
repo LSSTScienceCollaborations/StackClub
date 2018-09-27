@@ -33,8 +33,8 @@ In this Session we will provide a first glimpse at how to access LSST data on th
   + [GettingStarted.md](GettingStarted/GettingStarted.md)
   + [Calexp_guided_tour.ipynb](Basics/Calexp_guided_tour.ipynb)
   + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/116)
-  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb)
-  + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb)
+  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
+  + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
 
 - Other References:
   + DM team: [html tutorial "Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
@@ -76,7 +76,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 - Stack Club Resources:
   + [AFW_Display_Demo.ipynb](Visualization/AFW_Display_Demo.ipynb)
   + [bokeh_holoviews_datashader.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/bokeh_holoviews_datashader/bechtol/Visualization/bokeh_holoviews_datashader.ipynb) _(Under construction: PR[#103](https://github.com/LSSTScienceCollaborations/StackClub/pull/103))_
-  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb) _(Under construction: PR[#](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
+  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
 
 - Other Resources:
   + SQRE team: [Firefly.ipynb](https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb)
