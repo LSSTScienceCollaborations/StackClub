@@ -37,7 +37,7 @@ In this Session we will provide a first glimpse at how to access LSST data on th
   + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
 
 - Other References:
-  + DM team: [html tutorial "Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
+  + DM team: ["Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
 
 
 <a name="gettingstarted"></a>2. Getting Started
@@ -58,7 +58,7 @@ In this Session we will give some introduction to the Stack Club tutorials and G
   + [FindingDocs.ipynb](GettingStarted/FindingDocs.ipynb)
 
 - Other References:
-  + DM team: [html tutorial "Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
+  + DM team: ["Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
 
 
 <a name="visualization"></a>3. Visualization 
@@ -95,14 +95,14 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
 - Stack Club Resources:
 
-  + [Re-RunHSC.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/86) **(To be merged)**
-  + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/93) **(To be merged)**
+  + [Re-RunHSC.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/hsc-re-run/ImageProcessing/Re-RunHSC.ipynb) _(Under construction: PR[#86](https://github.com/LSSTScienceCollaborations/StackClub/pull/86))_
+  + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/processccd/kadrlica/ImageProcessing/PipelineProcessingAPI.ipynb) _(Under construction: PR[#93](https://github.com/LSSTScienceCollaborations/StackClub/pull/93)_
   + [BrighterFatterCorrection.ipynb](ImageProcessing/BrighterFatterCorrection.ipynb)
 
 - Other Resources:
 
-  + [processccd.html](https://pipelines.lsst.io/getting-started/processccd.html)
-  + [data repositories](https://pipelines.lsst.io/getting-started/data-setup.html)
+  + DM team: ["Getting started tutorial part 2: calibrating single frames with processCcd.py"](https://pipelines.lsst.io/getting-started/processccd.html)
+  + DM team: ["Getting started tutorial part 1: setting up the Butler data repository"](https://pipelines.lsst.io/getting-started/data-setup.html)
 
 <a name="detection"></a>5. Source Detection
 --------------------
