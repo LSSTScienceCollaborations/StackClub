@@ -18,7 +18,7 @@ Stack Club Course Syllabus
 
 
 <a name="basics"></a>1. Basics
-----------
+------------------------------
 
 In this Session we will provide a first glimpse at how to access LSST data on the LSST Science Platform (LSP), introducing the Butler and touring the basic image and catalog data structures.
 
@@ -37,11 +37,11 @@ In this Session we will provide a first glimpse at how to access LSST data on th
   + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb)
 
 - Other References:
-  + [Getting started with the LSST Science Pipelines](https://pipelines.lsst.io/getting-started/index.html)
+  + DM team: [html tutorial "Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
 
 
 <a name="gettingstarted"></a>2. Getting Started
-----------
+-----------------------------------------------
 
 In this Session we will give some introduction to the Stack Club tutorials and GitHub workflow, provide a template for your first tutorial notebook, and show you how to find documentation about the LSST science pipelines.
 
@@ -58,37 +58,33 @@ In this Session we will give some introduction to the Stack Club tutorials and G
   + [FindingDocs.ipynb](GettingStarted/FindingDocs.ipynb)
 
 - Other References:
-  + [Getting started with the LSST Science Pipelines](https://pipelines.lsst.io/getting-started/index.html)
+  + DM team: [html tutorial "Getting started with the LSST Science Pipelines"](https://pipelines.lsst.io/getting-started/index.html)
 
 
 <a name="visualization"></a>3. Visualization 
------------------
+--------------------------------------------
 
 We will explore LSST data visualization in a bit more detail. This session will start out from where we left off in the data access tutorials, but will take a deeper dive into some more powerful resources built into the LSST Stack.
 
 - Topics:
+  + Image visualization tools: AFW display, Firefly 
+  + RGB cutouts
+  + Image, mask, catalog visualization: Firefly
+  + Interactive catalog visualizatio: Bokeh, HoloViews, DataShader
+  + Survey visualization (tracts and patches, on the sky)
 
-  + Image visualization tools
-  + Image + Mask visualization
-  + **Survey visualization tools**
-  + **Catalog visualization tools**
-  + Cutouts?
-
-- Notes:
-
-  + There should probably be a set of tutorials specifically devoted to visualization, even if we don’t teach a lesson on it - these may exist outside the Stack Club repo though.
 - Stack Club Resources:
   + [AFW_Display_Demo.ipynb](Visualization/AFW_Display_Demo.ipynb)
-  + [Bokeh_holoviews_datashader.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/103) **(To be merged)**
-  + **Dataset Inventory (Phil)**
+  + [bokeh_holoviews_datashader.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/bokeh_holoviews_datashader/bechtol/Visualization/bokeh_holoviews_datashader.ipynb) _(Under construction: PR[#103](https://github.com/LSSTScienceCollaborations/StackClub/pull/103))_
+  + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb) _(Under construction: PR[#](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
 
 - Other Resources:
+  + SQRE team: [Firefly.ipynb](https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb)
+  + DESC: [dm_butler_postage_stamps.ipynb](https://github.com/LSSTDESC/DC2-analysis/blob/master/tutorials/dm_butler_postage_stamps.ipynb)
 
-  + [Firefly.ipynb](https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb)
-  + [dm_butler_postage_stamps.ipynb](https://github.com/LSSTDESC/DC2-analysis/blob/master/tutorials/dm_butler_postage_stamps.ipynb)
 
 <a name="processing"></a>4. Processing Single Visits
-----------------------------
+----------------------------------------------------
 
 - Topics:
 
