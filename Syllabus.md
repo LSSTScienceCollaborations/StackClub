@@ -34,10 +34,6 @@ In this Session we will introduce the LSST Science Platform (LSP), give some int
   + Guided tour of an afwtable
   + Available catalogs: DPDD-ification will put them into queriable database, but until then tasks produce catalogs that the butler can get. 
   
-- Suggested Projects:
-
-  + Greg: data structures and the tasks that make them
-
 - Stack Club Resources:
 
   + [GettingStarted.md](GettingStarted/GettingStarted.md)
