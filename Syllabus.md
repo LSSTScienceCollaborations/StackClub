@@ -103,16 +103,9 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + Source detection
   + Footprint Sets (and Heavy Footprints)
   + Deblending?
-  + Alerts
-  + Moving objects
-  + Topics
-  + The butler
-  + DAF framework
+  + Alerts?
+  + Moving objects?
   + Ways to store and access catalogs from disk
-
-- Notes
-
-  + Seeds for Phase 1 development:  Probably need to go through the step of image co-addition - it is in Image coaddition v15 HTML tutorial, but deblender is in Also v15 HTML tutorial could be a nice match, includes sample extraction of the HST data
 
 - Stack Club Resources:
 
@@ -136,11 +129,11 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
 - Stack Club Resources:
 
-  + **None**
+  + [DIA_How_To_Generate_a_Template_Image.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/DIA/drphilmarshall/DIA/DIA_How_To_Generate_a_Template_Image.ipynb) (**in progress**)
 
 - Other Resources
 
-  + Small bit in the HSC re-run script
+  + [coaddition.html](https://pipelines.lsst.io/getting-started/coaddition.html)
 
 <a name="background"></a>(6) Sky background estimation
 -----------------------------
