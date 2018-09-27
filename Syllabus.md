@@ -32,7 +32,7 @@ In this Session we will provide a first glimpse at how to access LSST data on th
 - Stack Club Resources:
   + [GettingStarted.md](GettingStarted/GettingStarted.md)
   + [Calexp_guided_tour.ipynb](Basics/Calexp_guided_tour.ipynb)
-  + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/pull/116)
+  + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/afw_table/ishasan/Basics/afw_table_guided_tour.ipynb) _(Under construction: PR[#116](https://github.com/LSSTScienceCollaborations/StackClub/pull/116))_
   + [Exploring_A_Data_Repo.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/Exploring_A_Data_Repo.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
   + [DataInventory.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/data_inventory/drphilmarshall/Basics/DataInventory.ipynb) _(Under construction: PR[#128](https://github.com/LSSTScienceCollaborations/StackClub/pull/128))_
 
@@ -87,92 +87,79 @@ We will explore LSST data visualization in a bit more detail. This session will 
 ----------------------------------------------------
 
 - Topics:
-
   + Detrending, calibration, instrument signature removal
   + lsst_apps package
   + Overscan, flat-fielding, bias
   + ISR (including mask bits)
 
 - Stack Club Resources:
-
   + [Re-RunHSC.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/hsc-re-run/ImageProcessing/Re-RunHSC.ipynb) _(Under construction: PR[#86](https://github.com/LSSTScienceCollaborations/StackClub/pull/86))_
   + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/processccd/kadrlica/ImageProcessing/PipelineProcessingAPI.ipynb) _(Under construction: PR[#93](https://github.com/LSSTScienceCollaborations/StackClub/pull/93)_
   + [BrighterFatterCorrection.ipynb](ImageProcessing/BrighterFatterCorrection.ipynb)
 
 - Other Resources:
-
   + DM team: ["Getting started tutorial part 2: calibrating single frames with processCcd.py"](https://pipelines.lsst.io/getting-started/processccd.html)
   + DM team: ["Getting started tutorial part 1: setting up the Butler data repository"](https://pipelines.lsst.io/getting-started/data-setup.html)
 
+
 <a name="detection"></a>5. Source Detection
---------------------
+-------------------------------------------
 
 - Topics:
-
-  + Source detection
-  + Footprint Sets (and Heavy Footprints)
-  + Deblending?
-  + Alerts?
-  + Moving objects?
-  + Ways to store and access catalogs from disk
+  + Source detection (visit images, coadd images), Footprints (and Heavy Footprints) _(Tutorial needed: [#131](https://github.com/LSSTScienceCollaborations/StackClub/issues/131))_
+  + Using Stack tools to go beyond the standard pipeline, eg to find low surface brightness galaxies
 
 - Stack Club Resources:
-
+  + [afw_table_guided_tour.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/afw_table/ishasan/Basics/afw_table_guided_tour.ipynb) _(Under construction: PR[#116](https://github.com/LSSTScienceCollaborations/StackClub/pull/116))_
   + [LowSurfaceBrightness.ipynb](SourceDetection/LowSurfaceBrightness.ipynb)
-  + [lsst_stack_deblender.ipynb](Deblending/lsst_stack_deblender.ipynb)
-  + [scarlet_tutorial.ipynb](Deblending/scarlet_tutorial.ipynb)
 
 - Other Resources:
+  + DM team: ["Getting started tutorial part 2: calibrating single frames with processCcd.py"](https://pipelines.lsst.io/getting-started/processccd.html)
+  + DM team: ["Getting started tutorial part 5: measuring sources"](https://pipelines.lsst.io/getting-started/photometry.html)
+  + Robert Lupton's demos: [Greco LSB.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/master/Demos/Greco%20LSB.ipynb)
 
-  + [Deblender.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Deblender.ipynb)
 
 <a name="coaddition"></a>6. Image Coaddition
---------------------
+--------------------------------------------
 
 - Topics:
-
   + Remapping
   + PSF homogenization
   + Masking
   + Template generation for DIA
 
 - Stack Club Resources:
-
   + [DIA_How_To_Generate_a_Template_Image.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/DIA/drphilmarshall/DIA/DIA_How_To_Generate_a_Template_Image.ipynb) (**in progress**)
 
 - Other Resources
-
   + [coaddition.html](https://pipelines.lsst.io/getting-started/coaddition.html)
 
+
 <a name="background"></a>7. Sky background estimation
------------------------------
+-----------------------------------------------------
 
 - Topics:
-
   + The sky background problem
   + How is sky background derived?
   +  Validating the sky background
 
 - Stack Club Resources: 
-
   + **None**
 
 - Other Resources:
-
   + https://github.com/lsst-dm-tutorial/lsst2017/blob/master/tutorial.ipynb
 
+
 <a name="psf"></a>8. PSF estimation 
-------------------
+-----------------------------------
 
 - Topics:
-
   + Where does the PSF come from?
   + How is the PSF estimated?
   + Diffraction spikes
   + How do we visualize the psf
 
 - Stack Club Resources:
-
   + [Image_quality_demo.ipynb](Validation/image_quality_demo.ipynb)
   + PSF and shears?
 
@@ -180,8 +167,24 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
   + [PSF.ipynb](Demos/PSF.ipynb)
 
-<a name="measurement"></a>9. Source/Object measurement
------------------------------
+
+<a name="detection"></a>9. Object deblending
+--------------------------------------------
+
+- Topics:
+  + Deblending with the SDSS deblender
+  + Deblending with Scarlet
+
+- Stack Club Resources:
+  + [scarlet_tutorial.ipynb](Deblending/scarlet_tutorial.ipynb)
+  + [lsst_stack_deblender.ipynb](Deblending/lsst_stack_deblender.ipynb)
+
+- Other Resources:
+  + Robert Lupton's demos: [Deblender.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Deblender.ipynb)
+
+
+<a name="measurement"></a>10. Source/Object measurement
+-------------------------------------------------------
 
 - Topics:
 
@@ -250,7 +253,9 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + DIASource detection
   + DIAObject generation
   + Real/bogus classification
- 
+  + Alerts _(Tutorial needed: [#](https://github.com/LSSTScienceCollaborations/StackClub/issues/))_
+  + Moving objects _(Tutorial needed: [#](https://github.com/LSSTScienceCollaborations/StackClub/issues/))_
+
 - Projects: 
  
   + Phil - DIA DRP pipeline walk-through notebook, accompanied by supporting notebooks on (possibly): template generation; image differencing and DIAsource detection; DIAobject association; forced photometry on DIAobjects. Dataset: Twinkles?
