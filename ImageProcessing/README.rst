@@ -23,3 +23,15 @@ This folder contains a set of tutorial notebooks exploring the image processing 
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/Re-runHSC.log
 
      - `Justin Myles <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jtmyles>`_
+
+
+   * - **BrighterFatterCorrection.ipynb**
+     - Analysis of Beam Simulator Images and Brighter-fatter Correction. 
+     - `ipynb <BrighterFatterCorrection.ipynb>`_,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`_
+
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.log
+
+     - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
+
