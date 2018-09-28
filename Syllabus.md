@@ -95,7 +95,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 
 - Stack Club Resources:
   + [Re-RunHSC.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/hsc-re-run/ImageProcessing/Re-RunHSC.ipynb) _(Under construction: PR[#86](https://github.com/LSSTScienceCollaborations/StackClub/pull/86))_
-  + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/processccd/kadrlica/ImageProcessing/PipelineProcessingAPI.ipynb) _(Under construction: PR[#93](https://github.com/LSSTScienceCollaborations/StackClub/pull/93)_
+  + [PipelineProcessingAPI.ipynb](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/processccd/kadrlica/ImageProcessing/PipelineProcessingAPI.ipynb) _(Under construction: PR[#93](https://github.com/LSSTScienceCollaborations/StackClub/pull/93))_
   + [BrighterFatterCorrection.ipynb](ImageProcessing/BrighterFatterCorrection.ipynb)
 
 - Other Resources:
