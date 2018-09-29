@@ -142,7 +142,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 - Topics:
   + The sky background problem
   + How is sky background derived?
-  +  Validating the sky background
+  + Validating the sky background
 
 - Stack Club Resources: 
   + **None**
@@ -165,7 +165,6 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + PSF and shears?
 
 - Other Resources:
-
   + [PSF.ipynb](Demos/PSF.ipynb)
 
 
@@ -188,7 +187,6 @@ We will explore LSST data visualization in a bit more detail. This session will 
 -------------------------------------------------------
 
 - Topics:
-
   + Photometry
   + Aperture magnitudes
   + PSF magnitudes
@@ -197,39 +195,29 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + Light curves
 
 - Stack Club Resources:
-
   + **None**
 
 - Other Resources:
-
   + [Source measurement tutorial](https://pipelines.lsst.io/getting-started/photometry.html)
   + [Kron.ipynb](https://github.com/RobertLuptonTheGood/notebooks/blob/2eeee8b9fe35077387485e488c965f1ea3d39418/Demos/Kron.ipynb)
 
-<a name="astrometry"></a>10. Astrometric calibration
+<a name="astrometry"></a>11. Astrometric calibration
 ---------------------------
 
 - Topics:
-
   + Internal astrometry
   + External astrometry
 
-- Projects:
-
-  + David Shupe? Jointcal?
-
 - Stack Club Resources
-
   + **None**
 
 - Other Resources:
-
   + **None**
 
-<a name="photometry"></a>11. Photometric calibration
+<a name="photometry"></a>12. Photometric calibration
 ----------------------------
 
 - Topics:
-
   + Photometric standards
   + Relative photometry
   + Absolute photometry
@@ -237,18 +225,15 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + Galactic Extinction and other bugaboos
 
 - Stack Club Resources
-
   + **None**
 
 - Other Resources:
-
   + [Multiband analysis tutorial](https://pipelines.lsst.io/getting-started/multiband-analysis.html)
 
-<a name="dia"></a>12. Difference Image Analysis
+<a name="dia"></a>13. Difference Image Analysis
 ------------------------------
 
 - Topics:
- 
   + Template generation (noting any differences from coadd generation)
   + Image differencing
   + DIASource detection
@@ -256,35 +241,23 @@ We will explore LSST data visualization in a bit more detail. This session will 
   + Real/bogus classification
   + Alerts _(Tutorial needed: [#](https://github.com/LSSTScienceCollaborations/StackClub/issues/))_
   + Moving objects _(Tutorial needed: [#](https://github.com/LSSTScienceCollaborations/StackClub/issues/))_
-
-- Projects: 
- 
-  + Phil - DIA DRP pipeline walk-through notebook, accompanied by supporting notebooks on (possibly): template generation; image differencing and DIAsource detection; DIAobject association; forced photometry on DIAobjects. Dataset: Twinkles?
  
 - Stack Club Resources:
- 
   + [DIA Notebooks](https://github.com/LSSTScienceCollaborations/StackClub/tree/project/DIA/drphilmarshall/DIA) **(to be developed)**
  
 - Other Resources
- 
   + Twinkles and DC2 cookbooks?
   + Ask Eric Bellm for leads?
 
-<a name="validation"></a>13. Data Validation
+<a name="validation"></a>14. Data Validation
 --------------------
     
 - Topics:
- 
   + Available packages: validate_drp, pipeline_analysis
- 
-- Projects:
- 
-  + Johann: Exercise package, explain what it produces?
- 
+  + Example analysis of various measurements, comparing to external surveys or simulation truth.
+  
 - Stack Club Resources:
- 
   + [Image_quality_demo.ipynb](Validation/image_quality_demo.ipynb)
  
 - Other Resources:
- 
   + None
