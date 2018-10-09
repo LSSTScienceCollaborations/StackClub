@@ -1,14 +1,16 @@
 : 'HSC Re-Run: Making Forced Photometry Light Curves from Scratch
 Owner: **Justin Myles** (@jtmyles)
-Last Verified to Run: **2018-09-05**
+Last Verified to Run: **2018-09-13**
 Verified Stack Release: **16.0**
 
 This project addresses issue #63: HSC Re-run
 
 This shell script runs the command-line tasks from the tutorial at pipelines.lsst.io for analysis
-from raw images through source detection and forced photometry measurements. It is intended as an 
-intermediate step toward the end-goal of making a forced photometry lightcurve in the notebook at
+from raw images through source detection and forced photometry measurements. It is an intermediate
+step toward the end-goal of making a forced photometry lightcurve in the notebook at
 StackClub/ImageProcessing/Re-RunHSC.ipynb
+
+Running this script may take several hours on lsst-lspdev.
 
 Recommended to run with 
 $ bash Re-RunHSC.sh > output.txt
@@ -54,6 +56,8 @@ date
 echo "Re-RunHSC INFO: process raw exposures with processCcd.py"
 
 # Use calibration files to do CCD processing
+# Does calibration happen here? What is the end result of the calibration process?
+# What specifically does this task do?
 processCcd.py $DATADIR --rerun processCcdOutputs --id
 
 
@@ -144,6 +148,31 @@ echo "Re-RunHSC INFO: perform forced photometry on coadds with forcedPhotCoadd.p
 forcedPhotCoadd.py $DATADIR --rerun coaddPhot:coaddForcedPhot --id filter=HSC-R
 forcedPhotCoadd.py $DATADIR --rerun coaddForcedPhot --id filter=HSC-I
 
+# V. F. Run forced photometry on individual exposures
+# Given a full source catalog, we can do forced photometry on the individual exposures.
+# Note that as of 2018_08_23, the forcedPhotCcd.py task doesn't do deblending,
+# which could lead to bad photometry for blended sources.
+# This tasks requires a coadd tract stored in the Butler to grab the appropriate 
+# coadd catalogs to use as references for forced photometry.
+# It has access to this tract because we chain the output from the coaddPhot subdirectory
+
+date
+echo "Re-RunHSC INFO: perform forced photometry on individual exposures with forcedPhotCcd.py"
+
+forcedPhotCcd.py $DATADIR --rerun coaddPhot:ccdForcedPhot --id filter=HSC-R --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py &> ccd_r.txt
+forcedPhotCcd.py $DATADIR --rerun ccdForcedPhot --id filter=HSC-I --clobber-config --configfile=/project/shared/data/ci_hsc/forcedPhotCcdConfig.py &> ccd_i.txt
+
 
 # VI. Multi-band catalog analysis
 # For analysis of the catalog, see part VI of StackClub/ImageProcessing/Re-RunHSC.ipynb
+date
+echo "Re-RunHSC INFO: parse output of forcedPhotCcd.py"
+
+# The following grep & sed commands clean up the output log file used to determine 
+# which DataIds have measured forced photometry. The cleaner output is stored
+# in a new file, data_ids.txt, that is used in Re-RunHSC.ipynb
+grep 'forcedPhotCcd INFO: Performing forced measurement on DataId' ccd_r.txt ccd_i.txt > data_ids.txt
+sed -i 's/ccd_[i,r].txt:forcedPhotCcd INFO: Performing forced measurement on DataId(initialdata={//g' data_ids.txt
+sed -i 's/}, tag=set())//g' data_ids.txt
+sed -i 's/'"'"'//g' data_ids.txt
+sed -i 's/ //g' data_ids.txt
