@@ -58,7 +58,7 @@ We aspire to producing high quality tutorials that can be followed by any member
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
 
 #### Available Datasets
-Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+Broadly useful, small datasets are available in `/project/shared/data`  - this director is world readable, but is only writeable by members of the `lsst-users` group (i.e., LSST Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
 
 Larger datasets are available in `/datasets`. This is a read-only folder.
 
