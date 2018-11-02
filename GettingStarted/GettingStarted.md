@@ -4,26 +4,28 @@ _Greg Madejski and [Phil Marshall](https://github.com/LSSTScienceCollaborations/
 
 We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the
 notebook aspect of the LSST science platform. In these notes we provide:
-* [Notes on how to get set up on the LSST Science Platform (LSP) JupyterLab Notebook Aspect at NCSA](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-the-lsst-science-platform)
+* [Notes on how to get set up on the LSST Science Platform (LSP) JupyterLab Notebook Aspect at the LSST Data Facility at NCSA](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-the-lsst-science-platform)
 * [Help with getting set up to run and edit the Stack Club tutorial notebooks](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#running-and-contributing-to-the-stack-club-notebooks)
 
 
 ## Accessing the LSST Science Platform
-The [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the NCSA system, including how to gain access and then how to use JupyterLab once you are in.
-Getting in to NCSA takes involves getting an NCSA account, and then figuring out VPN access.
+The [LSST Science Platform (LSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the system, including how to gain access and then how to use JupyterLab once you are in.
+Getting on to the LSP involves getting an NCSA account, and then figuring out VPN access.
 
-#### Getting an NCSA Account
-Contact Phil (DM @drphilmarshall on LSSTC Slack) to get an NCSA Stack Club account. You'll need to provide your full name (first and last) and your email address. You'll (eventually) get an email invitation to [create an account at NCSA](https://identity.ncsa.illinois.edu/) (including choosing a username of 8 characters or fewer). After you have submitted your form, it typically takes 24 hours for your account to be set up: set an alarm to come back the next day!
+#### Getting an LSST Science Platform Account
+The Stack Club has a limited number of active LSST Science Platform accounts it can support. To join the Stack Club and request one of these accounts, please fill out the [Stack Club Membership Application Form](https://goo.gl/forms/588KlPTFfkEEFFUu2). You'll need to agree to abide by the [Rules](../Rules.md), and then provide your full name (first and last) and your email address. If your application is successful, you'll get an email with instructions on how to set up your LSP account. 
 
-#### Accessing NCSA via its VPN
+#### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
-The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication. Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
+The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication (verified on Mac and Linux). Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
 
 > You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.
 
 > You will need to setup two-factor authentication with DUO. To setup DUO, follow the instructions here https://duo.security.ncsa.illinois.edu/portal. DUO can be configured for smartphone or table access (currently dumb phones are not supported). When AnyConnect asks for your "second password", it wants the 6-digit number in your Duo app. (This may need refreshing, each one can only be used once.)
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
+
+For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager.
 
 #### Starting up the LSST Science Platform JupyterLab Notebook Aspect
 Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
@@ -56,23 +58,25 @@ We aspire to producing high quality tutorials that can be followed by any member
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
 
 #### Available Datasets
-Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+Broadly useful, small datasets are available in `/project/shared/data`  - this director is world readable, but is only writeable by members of the `lsst-users` group (i.e., LSST Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
 
 Larger datasets are available in `/datasets`. This is a read-only folder.
 
 #### The Stack Club Library
-The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  If you are not developing this package, you can install it using pip, like this:
-```
-pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
-```
-However, if you are contributing notebooks it is likely that you'll need to develop the  `stackclub` package as well 
-(eg by adding modules to it), and so you'll need to make a local, editable installation. In the top level folder of your local clone of the StackClub repo, do:
+The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  
+If you are contributing notebooks, you may want or need to develop the  `stackclub` package as well 
+(eg by adding modules to it), and so its best to setup the package installation to be local and editable. In the top level folder of your local clone of the StackClub repo, do:
 ```
 python setup.py -q develop --user
 ```
-This will put the `stackclub` folder on your path. You may find the following lines useful to add to your notebook as you develop the library:
+This will put the repo's `stackclub` folder on your path. When developing the package, you may find it useful to add the following lines to your notebook:
 ```python
 %load_ext autoreload
 %autoreload 2
 ```
-This enables you to repeatedly `import stackclub` as you update the library code.
+This enables you to repeatedly `import stackclub` as you update the library code. The above lines are in the [template notebook](templates/template_Notebook.ipynb), for your convenience.
+
+If you are not developing this package, and you have permission to write to your base python site-packages, you can install it using pip, like this:
+```
+pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
+```
