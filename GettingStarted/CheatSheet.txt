@@ -1,0 +1,155 @@
+Author:   Douglas Tucker
+Created:  2018-11-02
+
+
+Getting Started:
+https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md
+
+First-time access to NCSA VPN via Cisco anyconnect if you already have Cisco anyconnect for another VP (e.g., FermilabVPN):
+  You can copy additional VPN profiles into the xml file in /opt/cisco/anyconnect/profile/ (Mac OS).
+  See also:
+    https://superuser.com/questions/932650/cisco-anyconnect-secure-mobility-client-multiple-profiles
+
+
+-----------------------------------------------------------
+
+Connecting in to the LSST site at NCSA...
+
+Start CiscoAnyconnect Client for NCSA VPN.  Use NCSA kerberos principal and password for the
+NCSA VPN username and password, and the 6-digit number provided by DUO for the second password. 
+
+JupyterLab:
+
+  Point broswer to https://lsst-lspdev.ncsa.illinois.edu/nb
+
+  Release version, Medium --> Spawn
+  +Launcher --> terminal
+
+  cd notebooks
+  (first time:)  git clone https://github.com/LSSTScienceCollaborations/StackClub.git
+  cd StackClub
+  git remote -v
+  git branch -a    # list all branches
+  git status       # very useful; e.g., after every "git" command!
+  
+
+We want to keep the "Master branch" clean and up-to-date with the StackClub repo, and
+develop in one's own "Development branch"; e.g., within the StackClub directory:
+  git checkout -b project/helloworld/douglasleetucker
+  git branch       # Confirm you are now working on that branch
+
+
+When ready, push updates back to github:
+  git push origin project/helloworld/douglasleetucker
+  Submit a pull request via webpage:
+     https://github.com/LSSTScienceCollaborations/StackClub/pulls
+
+
+* * * FOR DETAILS, SEE 'Example workflow, from "git clone" to merge with remote repo...' SECTION BELOW. * * *
+
+
+
+-----------------------------------------------------------
+Example workflow, from "git clone" to merge with remote repo...
+
+See also:
+  https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/HelloWorld.ipynb
+
+
+# Clone StackClub repo (first time) and create a new branch:
+cd notebooks
+git clone https://github.com/LSSTScienceCollaborations/StackClub.git   # first time
+cd StackClub
+git remote -v    # check remote repo
+git branch -a    # list all branches
+git status       # very useful; e.g., after every "git" command!
+git checkout -b project/helloworld/douglasleetucker   # Create a new branch and move to it...
+git branch       # Confirm you are now working on that branch
+
+#
+# * * * Make changes to the branch here. * * *
+#
+If editing a notebook:
+  1. make your changes.
+  2. check your changes work.
+  3. from menu bar:    Kernel --> Restart and Run All Cells
+         a. fix any errors
+	 b. re-do until errors are all corrected
+  4. from menu bar:    Kernel --> Restart and Clear All Cells
+  5. hit "save" in the notebook editor to make sure edits are captured.
+
+
+
+# Commit changes to local branch:
+git status
+git add <filename>      # if there is a file ("<filename>") to add...
+git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes
+git status
+
+
+# Push updates to origin on github:
+git push origin project/helloworld/douglasleetucker
+
+
+# Make "pull" request:
+Go to https://github.com/LSSTScienceCollaborations/StackClub/pulls and click on green "New pull request" button.
+
+
+# After getting e-mail saying "pull" request has been approved, perform a "merge":
+# (Note:  there may be some redundancy here.  I was following the workflow described in
+#         the youtube video listed under "General git tutorial stuff" in the "Other useful
+#         git commands" section below.)
+git checkout master     # Switch from project/helloworld/douglasleetucker back to master branch (locally)
+git pull origin master  # Make sure local master branch is up-to-date with remote origin master branch on github
+git branch --merged     # Check to see if project/helloworld/douglasleetucker has been merged locally
+git merge project/helloworld/douglasleetucker      # Merge project/helloworld/douglasleetucker with local master branch
+git branch --merged     # Verify the merge worked
+git push origin master  # Push local master back to remote origin master on github
+git branch -d project/helloworld/douglasleetucker  # Delete local version of project/helloworld/douglasleetucker
+git push origin --delete project/helloworld/douglasleetucker  # Delete remote version of project/helloworld/douglasleetucker on github
+git branch -a           # Verify that the local and remote versions of project/helloworld/douglasleetucker have been deleted
+
+
+# Start with a new branch to address other issues:
+git status              # Always good to check...
+git checkout -b issue#11-hello-world-douglasleetucker   # Create a new branch and move to it...
+git branch              # Confirm you are now working on that branch
+# ... and so on...
+
+
+-----------------------------------------------------------
+Other useful git commands:
+
+git --version
+git config --global user.email "dtucker@fnal.gov"  # create/update your e-mail address in the local git configuration
+git config --global user.name "DouglasLeeTucker"   # create/update your username in the local git configuration
+git config --list
+git config --help
+git help config
+git log
+git diff
+
+
+General git tutorial stuff:
+  https://www.youtube.com/watch?v=HVsySz-h9r4
+  https://medium.com/@christo8989/what-college-students-should-learn-about-git-6bbf6eaac39c
+  https://github.com/drphilmarshall/GettingStarted
+  
+
+-----------------------------------------------------------
+Useful Slack Channels:
+  dm-lsp-users
+  dm-newbies
+  dm-stack? (I can't find this one. -- DLT)
+
+
+Other useful sources of info:
+  https://community.lsst.org/
+  https://community.lsst.org/c/support/lsp
+  
+
+Miscellaneous info:
+  Notebooks folder:  recommended to keep all our notebooks
+
+
+-----------------------------------------------------------
