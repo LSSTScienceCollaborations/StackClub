@@ -77,6 +77,10 @@ class Taster(object):
         """
         if self.skyMap is None: return None
         
+        area_label = 'Total Sky Area (deg$^2$)'
+        if area_label in self.counts.keys():
+            return self.counts[area_label]
+        
         # Collect tracts from files
         import os, glob
         tracts = sorted([int(os.path.basename(x)) for x in
@@ -105,11 +109,11 @@ class Taster(object):
             # Combine areas
             total_area += area
 
-        if self.vb: print("Total area imaged (sq deg): ",total_area)
+        if self.vb: print(area_label, ": ", total_area)
 
         # Round of the total area for table purposes
-        self.counts['Total Sky Area (deg$^2$)'] = round(total_area, 2)
-        return self.counts['Total Sky Area (deg$^2$)']
+        self.counts[area_label] = round(total_area, 2)
+        return self.counts[area_label]
 
     def count_things(self):
         """
@@ -140,10 +144,11 @@ class Taster(object):
         # First check what's there:
         if not self.existence: self.what_exists()
         
-        # Then, count the things:
+        # Then, get the numbers:
         self.count_things()
+        self.estimate_sky_area()
         
-        # A more automated version of the table title:
+        # A nice bold section heading:
         display(Markdown('### %s' % self.repo))
 
         # Make a table of the collected metadata
@@ -151,6 +156,7 @@ class Taster(object):
         for key in self.counts.keys():
             output_table += "| %s |  %s | \n" %(key, self.counts[key])
         
+        # Display it:
         display(Markdown(output_table))
 
         return
