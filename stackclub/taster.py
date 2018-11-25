@@ -14,6 +14,7 @@ class Taster(object):
         self.exists = {}
         self.existence = False
         self.counts = {}
+        self.tracts = []
         return
     
     def what_exists(self):
@@ -66,6 +67,8 @@ class Taster(object):
             if self.vb: print("deepCoadd_skyMap doesn't exist.")
         return
     
+       
+    
     def estimate_sky_area(self):
         """
         Use available skymap to estimate sky area covered by tracts and patches.
@@ -85,7 +88,10 @@ class Taster(object):
         import os, glob
         tracts = sorted([int(os.path.basename(x)) for x in
                  glob.glob(os.path.join(self.repo, 'deepCoadd-results', 'merged', '*'))])
+        
+        self.tracts = tracts
         self.counts['Number of Tracts'] = len(tracts)
+        
         # Note: We'd like to do this with the butler, but it appears 'tracts' have to be
         #       specified in the dataId to be queried, so the queryMetadata method fails
 
@@ -137,6 +143,27 @@ class Taster(object):
                 len(self.butler.queryMetadata('src', ['id']))
         return
     
+    def plot_sky_coverage(self):
+        import matplotlib.pyplot as plt
+        plt.figure()
+
+        for tract in self.tracts:
+            tractInfo = self.skyMap[tract]
+
+            corners = [(x[0].asDegrees(), x[1].asDegrees()) for x in tractInfo.getVertexList()]
+            x = [k[0] for k in corners] + [corners[0][0]]
+            y = [k[1] for k in corners] + [corners[0][1]]
+
+            plt.plot(x,y, color='b')
+
+        plt.xlabel('RA (deg)')
+        plt.ylabel('Dec (deg)')
+        plt.title('2D Projection of Sky Coverage')
+
+        plt.show()
+        return
+
+    
     def report(self):
         """
         Print a nice report of the data available in this repo.
@@ -158,5 +185,8 @@ class Taster(object):
         
         # Display it:
         display(Markdown(output_table))
+        
+        # Plot sky coverage
+        self.plot_sky_coverage()
 
         return
