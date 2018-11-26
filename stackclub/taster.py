@@ -145,7 +145,7 @@ class Taster(object):
     
     def plot_sky_coverage(self):
         import matplotlib.pyplot as plt
-        plt.figure()
+        fig = plt.figure()
 
         for tract in self.tracts:
             tractInfo = self.skyMap[tract]
@@ -161,7 +161,7 @@ class Taster(object):
         plt.title('2D Projection of Sky Coverage')
 
         plt.show()
-        return
+        return 
 
     
     def report(self):
