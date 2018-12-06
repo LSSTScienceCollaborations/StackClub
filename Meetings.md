@@ -4,6 +4,7 @@ Individual session links and recordings are given below, most recent meeting at 
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
+| Phase 2, Session 15 | Friday November 30, 2018 [(video)](https://stanford.zoom.us/recording/share/o-02QJJoM7nADKed3Ehvqy0Tp4yS04phj7e2OKPwh-6wIumekTziMw) | New Commissioning Notebooks, Hacking | [Camera/Commissioning Bootcamp Notebooks](https://github.com/lsst/bootcamp-work) |
 | Phase 2, Session 14 | Friday November 16, 2018 [(video)](https://stanford.zoom.us/recording/share/6p9WWv9C4Z1zCKsSRaIMRW4fkrACWI2ufpR5AYGVO1WwIumekTziMw) | Hacking, News from the Commissioning-Camera Bootcamp | [Bootcamp Confluence page](https://confluence.lsstcorp.org/display/DM/DM-Commissioning-Camera+Bootcamp) |
 | Phase 2, Session 13 | Friday November 9, 2018 [(video)](https://stanford.zoom.us/recording/share/0Eg9OR1rwvzDQiqTOGzIYXppV88fx-JjdSBkRH6aUHKwIumekTziMw) | Hacking | [Project  List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
 | Phase 2, Session 12 | Friday November 2, 2018 [(video)](https://stanford.zoom.us/recording/share/Ri8pH7z40zLXGty5sNPmDi-iQPbYjpFeeFpqaDBIG7ywIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
