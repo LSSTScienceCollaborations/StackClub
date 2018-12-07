@@ -1,13 +1,6 @@
-The Stack Club Library
-======================
+The ``stackclub`` Package
+=========================
 The Stack Club tutorial Jupyter notebooks make use of a number of homegrown functions and classes, which are kept in the ``stackclub`` package for easy import. You can browse these modules below.
-
-Contents:
-
-.. toctree::
-    :maxdepth: 2
-
-    stackclub
 
 
 Finding Documentation
