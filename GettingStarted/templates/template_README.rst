@@ -26,5 +26,4 @@ This folder contains a set of tutorial notebooks exploring <FOLDER_TOPICS>. See 
                </img>
              </a>
 
-
      - `TBD <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TBD>`_

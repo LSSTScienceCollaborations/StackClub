@@ -13,36 +13,44 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
      - Owner
 
 
-   * - **GettingStarted.md**
+   * - **Notes on Getting Started**
      - Some brief notes on the LSST Science Platform JupyterLab set-up.
-     - `markdown <GettingStarted.md>`_
+     - `markdown <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md>`_
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
 
    * - **Hello World**
      - Read about the Stack Club git/GitHub workflow, and make your first contribution to a notebook.
-     - `ipynb <HelloWorld.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/HelloWorld.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/HelloWorld.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/HelloWorld.nbconvert.ipynb>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/HelloWorld.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/HelloWorld.log
+       .. raw:: html
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/HelloWorld.log">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/GettingStarted/log/HelloWorld.png">
+             </img>
+          </a>
+
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`__
 
 
-   * - **templates**
+   * - **Templates**
      - A folder containing a template notebook, and a template folder README file, to help you get your project started.
-     - `link <templates>`_
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+     - `link <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/templates>`__
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_-
 
 
    * - **Finding Docs**
      - Locate the documentation for Stack code objects, including using the ``stackclub`` library ``where_is`` utility function.
-     - `ipynb <FindingDocs.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/FindingDocs.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/FindingDocs.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/FindingDocs.nbconvert.ipynb>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/FindingDocs.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/FindingDocs.log
+       .. raw:: html
+
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/FindingDocs.log">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/GettingStarted/log/FindingDocs.png">
+             </img>
+          </a>
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
 
@@ -50,10 +58,15 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
 
    * - **Import Tricks**
      - Learn how to use some ``stackclub`` library utilities for importing notebooks and remote modules.
-     - `ipynb <ImportTricks.ipynb>`_,
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/ImportTricks.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/ImportTricks.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/ImportTricks.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/ImportTricks.log
+       .. raw:: html
+
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/ImportTricks.log">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/GettingStarted/log/ImportTricks.png">
+             </img>
+          </a>
+
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_

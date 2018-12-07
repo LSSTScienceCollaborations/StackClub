@@ -14,7 +14,7 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
      - Owner
 
 
-   * - **Calexp_guided_tour.ipynb**
+   * - **Calexp Guided Tour**
      - Shows how to read an exposure object from a data repository, and how to access and display various parts.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Calexp_guided_tour.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Calexp_guided_tour.nbconvert.ipynb>`__
