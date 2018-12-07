@@ -1,7 +1,7 @@
 Getting Started
 ---------------
 
-This folder contains notes on how to contribute Stack Club notebooks on the LSST Science Platform JupyterLab. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
+Wondering how you can get started learning about the LSST software stack, by writing tutorial notebooks and contributing them to the Stack Club's growing library? Need help getting going on the LSST Science Platform (LSP) JupyterLab? See the index table below for links to various resources, including: notes on the LSP, notebooks to walk you through the Stack Club workflow, and some help on how to explore the Stack code. Click on the "rendered" links to see the notebooks with their outputs.
 
 .. list-table::
    :widths: 10 20 10 10

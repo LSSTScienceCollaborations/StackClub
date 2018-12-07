@@ -1,7 +1,7 @@
 Basics
 ------
 
-This folder contains a set of tutorial notebooks exploring the basic properties of the DM Stack data structures, classes and functions. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
+This set of tutorial notebooks will help you explore the basic properties of the LSST software Stack data structures, classes and functions. The table contains links to the notebook code, and also to auto-rendered views of the notebooks with their outputs.
 
 
 .. list-table::
