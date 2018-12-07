@@ -22,8 +22,8 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
        .. raw:: html
 
           <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.log">
-            <img src="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.svg" type="image/svg+xml">
-            </img>
+            <object data="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/Calexp_guided_tour.png">
+            </object>
           </a>
 
      - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
@@ -37,7 +37,7 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
        .. raw:: html
 
           <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log">
-             <img src="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.svg" type="image/svg+xml">
+             <img src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/DataInventory.png">
              </img>
           </a>
 
