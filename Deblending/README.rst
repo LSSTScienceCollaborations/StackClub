@@ -1,5 +1,5 @@
 Deblending
-==========
+----------
 
 This folder contains a set of tutorial notebooks exploring the deblending of LSST objects. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 

@@ -1,5 +1,5 @@
 Visualization
-=============
+-------------
 
 This folder contains a set of tutorial notebooks demonstrating visualization technologies available in the LSST Science Platform notebook aspect.
 See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.

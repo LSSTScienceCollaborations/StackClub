@@ -1,5 +1,5 @@
 Image Processing
-================
+----------------
 
 This folder contains a set of tutorial notebooks exploring the image processing routines in the LSST science pipelines. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 
@@ -26,7 +26,7 @@ This folder contains a set of tutorial notebooks exploring the image processing 
 
 
    * - **BrighterFatterCorrection.ipynb**
-     - Analysis of Beam Simulator Images and Brighter-fatter Correction. 
+     - Analysis of Beam Simulator Images and Brighter-fatter Correction.
      - `ipynb <BrighterFatterCorrection.ipynb>`_,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`_
 
@@ -34,4 +34,3 @@ This folder contains a set of tutorial notebooks exploring the image processing 
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.log
 
      - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
-

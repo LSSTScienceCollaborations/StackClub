@@ -1,8 +1,8 @@
 Getting Started
-===============
+---------------
 
 This folder contains notes on how to contribute Stack Club notebooks on the LSST Science Platform JupyterLab. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
- 
+
 .. list-table::
    :widths: 10 20 10 10
    :header-rows: 1
@@ -57,5 +57,3 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
           :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/log/ImportTricks.log
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
-
-
