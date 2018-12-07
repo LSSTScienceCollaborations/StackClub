@@ -16,14 +16,14 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
 
    * - **Calexp_guided_tour.ipynb**
      - Shows how to read an exposure object from a data repository, and how to access and display various parts.
-     - `ipynb <Calexp_guided_tour.ipynb>`__,
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Calexp_guided_tour.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Calexp_guided_tour.nbconvert.ipynb>`__
 
        .. raw:: html
 
           <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Calexp_guided_tour.log">
-            <object data="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/Calexp_guided_tour.png">
-            </object>
+            <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/Calexp_guided_tour.png">
+            </img>
           </a>
 
      - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
@@ -31,13 +31,13 @@ This folder contains a set of tutorial notebooks exploring the basic properties 
 
    * - **Data Inventory**
      - Explore the available datasets in the LSST Science Platform shared folders.
-     - `ipynb <DataInventory.ipynb>`__,
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/DataInventory.nbconvert.ipynb>`__
 
        .. raw:: html
 
           <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log">
-             <img src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/DataInventory.png">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/DataInventory.png">
              </img>
           </a>
 
