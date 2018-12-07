@@ -1,5 +1,5 @@
 FOLDER_NAME
-===========
+-----------
 
 This folder contains a set of tutorial notebooks exploring <FOLDER_TOPICS>. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 
@@ -16,8 +16,8 @@ This folder contains a set of tutorial notebooks exploring <FOLDER_TOPICS>. See 
 
    * - **None so far**
      - Not yet started.
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/FOLDER_NAME/XXXX.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/FOLDER_NAME/XXXX.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/FOLDER_NAME/XXXX.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/FOLDER_NAME/XXXX.nbconvert.ipynb>`__
 
        .. raw:: html
 
@@ -26,4 +26,4 @@ This folder contains a set of tutorial notebooks exploring <FOLDER_TOPICS>. See 
                </img>
              </a>
 
-     - `TBD <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TBD>`_
+     - `TBD <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TBD>`__

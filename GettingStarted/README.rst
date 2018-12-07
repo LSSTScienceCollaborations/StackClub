@@ -16,7 +16,7 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
    * - **Notes on Getting Started**
      - Some brief notes on the LSST Science Platform JupyterLab set-up.
      - `markdown <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md>`_
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`__
 
 
    * - **Hello World**
@@ -37,7 +37,7 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
    * - **Templates**
      - A folder containing a template notebook, and a template folder README file, to help you get your project started.
      - `link <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/templates>`__
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_-
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`__
 
 
    * - **Finding Docs**
@@ -52,14 +52,14 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
              </img>
           </a>
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`__
 
 
 
    * - **Import Tricks**
      - Learn how to use some ``stackclub`` library utilities for importing notebooks and remote modules.
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/ImportTricks.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/ImportTricks.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/ImportTricks.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/GettingStarted/ImportTricks.nbconvert.ipynb>`__
 
        .. raw:: html
 
@@ -69,4 +69,4 @@ This folder contains notes on how to contribute Stack Club notebooks on the LSST
           </a>
 
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`__
