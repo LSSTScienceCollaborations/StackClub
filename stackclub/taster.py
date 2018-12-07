@@ -8,8 +8,15 @@ class Taster(object):
     """
     def __init__(self, repo, vb=False):
         self.repo = repo
+        # Instantiate a butler, or report failure:
         from lsst.daf.persistence import Butler
-        self.butler = Butler(repo)
+        try:
+            self.butler = Butler(repo)
+        except:
+            self.butler = None
+            print("Warning: failed to instantiate a butler to get data from repo '"+repo+"'")
+            return None
+        # Set up some internal variables:
         self.vb = vb
         self.exists = {}
         self.existence = False
@@ -30,7 +37,7 @@ class Taster(object):
         self.look_for_datasets_of_type(interesting)
         self.look_for_skymap()
         self.existence = True
-        return self.exists
+        return
     
     def look_for_datasets_of_type(self, datasettypes):
         """
