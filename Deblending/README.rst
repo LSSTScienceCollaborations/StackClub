@@ -16,21 +16,30 @@ This folder contains a set of tutorial notebooks exploring the deblending of LSS
 
    * - **SCARLET Tutorial**
      - Introduction to the SCARLET deblender, how to configure and run it.
-     - `ipynb <scarlet_tutorial.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/scarlet_tutorial.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Deblending/scarlet_tutorial.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/scarlet_tutorial.nbconvert.ipynb>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/scarlet_tutorial.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/scarlet_tutorial.log
+       .. raw:: html
 
-     - `Fred Moolekamp <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@fred3m>`_
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/scarlet_tutorial.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Deblending/log/scarlet_tutorial.png">
+               </img>
+             </a>
+
+     - `Fred Moolekamp <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@fred3m>`__
 
 
    * - **Deblending in DRP**
      - Where and how the deblending happens, in the DRP pipeline.
-     - `ipynb <lsst_stack_deblender.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/lsst_stack_deblender.nbconvert.ipynb>`_
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Deblending/lsst_stack_deblender.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/lsst_stack_deblender.nbconvert.ipynb>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.log
+       .. raw:: html
 
-     - `Fred Moolekamp <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@fred3m>`_
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Deblending/log/lsst_stack_deblender.png">
+               </img>
+             </a>
+
+
+     - `Fred Moolekamp <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@fred3m>`__
