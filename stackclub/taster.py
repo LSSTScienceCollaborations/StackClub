@@ -24,16 +24,41 @@ class Taster(object):
         self.tracts = []
         return
     
-    def what_exists(self):
+    def what_exists(self, all=False):
         """
         Check for the existence of various useful things. 
+        
+        Parameters
+        ==========
+        all: boolean
+            If true, the method will check all possible dataset types
         
         Returns
         =======
         exists: dict
             Checklist of what exists (True) and what does not (False)
         """
-        interesting = ['raw', 'calexp', 'src', 'deepCoadd_calexp', 'deepCoadd_mergeDet']
+        from lsst.obs.hsc import HscMapper
+        
+        if all:
+            #collect a list of all possible dataset types
+            mapper = HscMapper(root=self.repo)
+            all_dataset_types = mapper.getDatasetTypes()
+
+            remove = ['_config', '_filename', '_md', '_sub', '_len', '_schema', '_metadata']
+
+            interesting = []
+            for dataset_type in all_dataset_types:
+                keep = True
+                for word in remove:
+                    if word in dataset_type:
+                        keep = False
+                if keep:
+                    interesting.append(dataset_type)
+        
+        else: 
+            interesting = ['raw', 'calexp', 'src', 'deepCoadd_calexp', 'deepCoadd_meas']
+        
         self.look_for_datasets_of_type(interesting)
         self.look_for_skymap()
         self.existence = True
@@ -48,16 +73,29 @@ class Taster(object):
         datasettype: list of strings
             Types of dataset to check for, eg 'calexp', 'raw', 'wcs' etc. 
         """
+        datasets_that_exist = []
+        datasets_that_do_not_exist = []
+        
         for datasettype in datasettypes:        
             try:
                 datasetkeys = self.butler.getKeys(datasettype)
                 onekey = list(datasetkeys.keys())[0]
                 metadata = self.butler.queryMetadata(datasettype, [onekey])
-                if self.vb: print("{} dataset exists.".format(datasettype))
+                #if self.vb: print("{} dataset exists.".format(datasettype))
+                datasets_that_exist.append(datasettype)
                 self.exists[datasettype] = True
             except:
-                if self.vb: print("{} dataset doesn't exist.".format(datasettype))
+                #if self.vb: print("{} dataset doesn't exist.".format(datasettype))
+                datasets_that_do_not_exist.append(datasettype)
                 self.exists[datasettype] = False
+        
+        #Organize output
+        if self.vb:
+            print("Datasets that exist\n-------------------")
+            print(datasets_that_exist)
+            print("\nDatasets that do not exist\n--------------------------")
+            print(datasets_that_do_not_exist)
+            
         return
     
     def look_for_skymap(self):
