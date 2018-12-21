@@ -1,8 +1,14 @@
 Author:   Douglas Tucker
+Reviewer: Greg Madejski
 Created:  2018-11-02
+Updated:  2018-12-21
 
+
+-----------------------------------------------------------
 
 Getting Started:
+
+This link will get you set up with the NCSA access:
 https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md
 
 First-time access to NCSA VPN via Cisco anyconnect if you already have Cisco anyconnect for another VP (e.g., FermilabVPN):
@@ -25,28 +31,10 @@ JupyterLab:
   Release version, Medium --> Spawn
   +Launcher --> terminal
 
-  cd notebooks
-  (first time:)  git clone https://github.com/LSSTScienceCollaborations/StackClub.git
-  cd StackClub
-  git remote -v
-  git branch -a    # list all branches
-  git status       # very useful; e.g., after every "git" command!
-  
 
-We want to keep the "Master branch" clean and up-to-date with the StackClub repo, and
-develop in one's own "Development branch"; e.g., within the StackClub directory:
-  git checkout -b project/helloworld/douglasleetucker
-  git branch       # Confirm you are now working on that branch
+This will open a terminal window within a spawned JupyterLab notebook in your browser.
 
-
-When ready, push updates back to github:
-  git push origin project/helloworld/douglasleetucker
-  Submit a pull request via webpage:
-     https://github.com/LSSTScienceCollaborations/StackClub/pulls
-
-
-* * * FOR DETAILS, SEE 'Example workflow, from "git clone" to merge with remote repo...' SECTION BELOW. * * *
-
+Now that you are connected in, what to do?  That is the topic of the next section...
 
 
 -----------------------------------------------------------
@@ -55,16 +43,47 @@ Example workflow, from "git clone" to merge with remote repo...
 See also:
   https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/HelloWorld.ipynb
 
+Within the terminal that you opened up in the JupyterLab notebook from the previous section,
+run the following command-line commands...
 
-# Clone StackClub repo (first time) and create a new branch:
+# Move to the "notebooks" directory:
 cd notebooks
-git clone https://github.com/LSSTScienceCollaborations/StackClub.git   # first time
+
+# The first time you do this, clone the StackClub repo:
+git clone https://github.com/LSSTScienceCollaborations/StackClub.git   # first time only!
+
+# This will create a clone of the StackClub repo in the directory "StackClub".
+# If, for some reason in the future, you want to "blow away" this clone of the repo
+# and start afresh, you can either rename or delete the "StackClub" directory
+# and then re-run the above "git clone" command.
+# This XKCD panel is of relevance:  https://imgs.xkcd.com/comics/git.png
+
+# Move to the "StackClub" directory:
 cd StackClub
+
+# Test out some useful "git" commands:
 git remote -v    # check remote repo
 git branch -a    # list all branches
 git status       # very useful; e.g., after every "git" command!
+
+# We want to keep the "Master branch" of StackClub clean and up-to-date with the StackClub repo, 
+# and develop in one's own "Development branch".
+# Therefore, within the main "StackClub" directory, create a new branch and move to it:
 git checkout -b project/helloworld/douglasleetucker   # Create a new branch and move to it...
 git branch       # Confirm you are now working on that branch
+
+# Alternatively, one can create a new branch with one command and move to it with a second command.
+# Here is the same procedure as the previous step, but splitting the "git checkout -b" step into two
+# parts:
+git branch project/helloworld/douglasleetucker    # Create a new branch
+git checkout project/helloworld/douglasleetucker  # Move to branch project/helloworld/douglasleetucker
+git branch       # Confirm you are now working on that branch
+
+# Note: if you want to move to a branch you had created previously, just issue the
+# git checkout command omitting the "-b" option; e.g., to move to a previously created branch
+# "project/helloworld/douglasleetucker", just issue the following command:
+git checkout project/helloworld/douglasleetucker
+
 
 #
 # * * * Make changes to the branch here. * * *
@@ -79,11 +98,12 @@ If editing a notebook:
   5. hit "save" in the notebook editor to make sure edits are captured.
 
 
-
 # Commit changes to local branch:
 git status
 git add <filename>      # if there is a file ("<filename>") to add...
-git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes
+git commit <filename> -m "Add a fairly detailed comment on the changes you made here"  # check in changes for a given file
+# or
+git commit -am "Add a fairly detailed comment on the changes you made here"  # check in changes "en masse"
 git status
 
 
@@ -91,14 +111,36 @@ git status
 git push origin project/helloworld/douglasleetucker
 
 
-# Make "pull" request:
-Go to https://github.com/LSSTScienceCollaborations/StackClub/pulls and click on green "New pull request" button.
+# Submit a "pull" request via the webpage
+  https://github.com/LSSTScienceCollaborations/StackClub/pulls
+# and click on green "New pull request" button.
+# This will alert others in the StackClub that your changes
+# are ready for a Code Review.  It is good to assign at 
+# least one possible reviewer explicitly and mention her/him
+# explicitly by her/his GitHub name in the description of
+# the "pull" request.
+# There may be some iteration with the Code Reviewers.
+# You will be able to follow the discussion via e-mail
+# and also via the aforementioned "pull" request webpage:
+  https://github.com/LSSTScienceCollaborations/StackClub/pulls
+# Once the Code Reviewers are satisfied, they will 
+# will approve the changes and you will get an e-mail
+# indicating the "pull" request has been approved.
 
 
-# After getting e-mail saying "pull" request has been approved, perform a "merge":
-# (Note:  there may be some redundancy here.  I was following the workflow described in
-#         the youtube video listed under "General git tutorial stuff" in the "Other useful
-#         git commands" section below.)
+# After getting e-mail saying the "pull" request has been approved, perform a "merge".
+#
+#  If the branch has no conflicts with the master branch on GitHub, you might be able to
+#  just click on the Big Green "Merge pull request" Button at the bottom of this particular
+#  "pull" request's webpage (e.g., for "pull" request #153, at the bottom of the webpage
+#  https://github.com/LSSTScienceCollaborations/StackClub/pull/153
+#
+#  Otherwise, here is the step-by-step command-line version.
+#  (In either case, you might still want/need to do the
+#   "git branch -d project/helloworld/douglasleetucker"
+#   and
+#   "git push origin --delete project/helloworld/douglasleetucker"
+#   commands shown below.)
 git checkout master     # Switch from project/helloworld/douglasleetucker back to master branch (locally)
 git pull origin master  # Make sure local master branch is up-to-date with remote origin master branch on github
 git branch --merged     # Check to see if project/helloworld/douglasleetucker has been merged locally
@@ -108,13 +150,18 @@ git push origin master  # Push local master back to remote origin master on gith
 git branch -d project/helloworld/douglasleetucker  # Delete local version of project/helloworld/douglasleetucker
 git push origin --delete project/helloworld/douglasleetucker  # Delete remote version of project/helloworld/douglasleetucker on github
 git branch -a           # Verify that the local and remote versions of project/helloworld/douglasleetucker have been deleted
+# (Note:  there may be some redundancy here.  I was following the workflow described in
+#         the youtube video listed under "General git tutorial stuff" in the "Other useful
+#         git commands" section below.)
 
 
 # Start with a new branch to address other issues:
 git status              # Always good to check...
+# Note:  ideally, the issue number should be part of the name of a new branch:
 git checkout -b issue#11-hello-world-douglasleetucker   # Create a new branch and move to it...
 git branch              # Confirm you are now working on that branch
 # ... and so on...
+
 
 
 -----------------------------------------------------------
