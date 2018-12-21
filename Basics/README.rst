@@ -44,8 +44,23 @@ This set of tutorial notebooks will help you explore the basic properties of the
      - `Imran Hasan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@ih64>`_
 
 
+   * - **Exploring a Data Repo**
+     - Demo of Butler methods that can return the characteristics of a repository.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Exploring_A_Data_Repo.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Exploring_A_Data_Repo.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Exploring_A_Data_Repo.log">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/Exploring_A_Data_Repo.png">
+             </img>
+          </a>
+
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall> and Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
+     
+     
    * - **Data Inventory**
-     - Explore the available datasets in the LSST Science Platform shared folders.
+     - Explore the available datasets in the LSST Science Platform shared folders using the StackClub Taster.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/DataInventory.nbconvert.ipynb>`__
 
@@ -56,4 +71,4 @@ This set of tutorial notebooks will help you explore the basic properties of the
              </img>
           </a>
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall> and Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
