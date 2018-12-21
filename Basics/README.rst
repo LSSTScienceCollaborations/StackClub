@@ -29,6 +29,21 @@ This set of tutorial notebooks will help you explore the basic properties of the
      - `David Shupe <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@stargaser>`_
 
 
+   * - **AFW Table Guided Tour**
+     - Shows how to read and write catalogs using the AFW Table class, and how to access and display various parts.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/afw_table_guided_tour.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/afw_table_guided_tour.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/afw_table_guided_tour.log">
+            <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/afw_table_guided_tour.png">
+            </img>
+          </a>
+
+     - `Imran Hasan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@ih64>`_
+
+
    * - **Data Inventory**
      - Explore the available datasets in the LSST Science Platform shared folders.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`__,
