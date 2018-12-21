@@ -56,7 +56,7 @@ This set of tutorial notebooks will help you explore the basic properties of the
              </img>
           </a>
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall> and Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>` and `Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
      
      
    * - **Data Inventory**
@@ -71,4 +71,4 @@ This set of tutorial notebooks will help you explore the basic properties of the
              </img>
           </a>
 
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall> and Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
+     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>` and `Rob Morgan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@rmorgan10>`_
