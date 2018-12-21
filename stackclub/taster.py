@@ -6,7 +6,7 @@ class Taster(object):
     Worker for tasting all the datasets in a Butler's repo.
     Instantiate with a repo.
     """
-    def __init__(self, repo, vb=False):
+    def __init__(self, repo, vb=False, path_to_tracts=''):
         self.repo = repo
         # Instantiate a butler, or report failure:
         from lsst.daf.persistence import Butler
@@ -22,6 +22,13 @@ class Taster(object):
         self.existence = False
         self.counts = {}
         self.tracts = []
+        self.path_to_tracts = path_to_tracts
+        if path_to_tracts != '':
+            try:
+                self.skymap_butler = Butler(repo + path_to_tracts)
+            except:
+                self.skymap_butler = None
+                print("Warning: failed to find a skyMap for the path " + repo + path_to_tracts)
         return
     
     def what_exists(self, all=False):
@@ -38,7 +45,19 @@ class Taster(object):
         exists: dict
             Checklist of what exists (True) and what does not (False)
         """
+        # Get mappers for all tested repos
         from lsst.obs.hsc import HscMapper
+        from lsst.obs.comCam import ComCamMapper
+        from lsst.obs.lsst import LsstCamMapper
+        from lsst.obs.ctio0m9 import Ctio0m9Mapper
+        
+        #select proper mapper
+        if self.repo.find('hsc') != -1: mapper = HscMapper(root=self.repo)
+        elif self.repo.find('comCam') != -1: mapper = ComCamMapper(root=self.repo)
+        elif self.repo.find('DC2') != -1: mapper = LsstCamMapper(root=self.repo)
+        elif self.repo.find('ctio0m9') != -1: mapper = Ctio0m9Mapper(root=self.repo)
+        else: print("Unable to locate Mapper file in specified repo. Check that you selected a valid repo.")
+            
         
         if all:
             #collect a list of all possible dataset types
@@ -103,13 +122,13 @@ class Taster(object):
         Check for the existence of a skymap. 
         """
         try:
-            self.skyMap = self.butler.get('deepCoadd_skyMap')
+            self.skyMap = self.skymap_butler.get('deepCoadd_skyMap')
             self.exists['deepCoadd_skyMap'] = True
-            if self.vb: print("deepCoadd_skyMap exists.")
+            if self.vb: print("\nSkymap\n-------------------\ndeepCoadd_skyMap exists.")
         except:
             self.skyMap = None
             self.exists['deepCoadd_skyMap'] = False
-            if self.vb: print("deepCoadd_skyMap doesn't exist.")
+            if self.vb: print("\nSkymap\n-------------------\ndeepCoadd_skyMap doesn't exist.")
         return
     
        
@@ -132,7 +151,7 @@ class Taster(object):
         # Collect tracts from files
         import os, glob
         tracts = sorted([int(os.path.basename(x)) for x in
-                 glob.glob(os.path.join(self.repo, 'deepCoadd-results', 'merged', '*'))])
+                 glob.glob(os.path.join(self.repo + self.path_to_tracts, 'deepCoadd-results', 'merged', '*'))])
         
         self.tracts = tracts
         self.counts['Number of Tracts'] = len(tracts)
@@ -221,7 +240,9 @@ class Taster(object):
         self.estimate_sky_area()
         
         # A nice bold section heading:
-        display(Markdown('### %s' % self.repo))
+        display(Markdown('### Main Repo: %s' % self.repo))
+        if self.path_to_tracts != '':
+            display(Markdown('### Specified Tract Directory: %s' %self.path_to_tracts))
 
         # Make a table of the collected metadata
         output_table = "|   Metadata Characteristics  |  | \n  | :---: | --- | \n "
