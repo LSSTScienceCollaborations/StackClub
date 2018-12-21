@@ -13,6 +13,21 @@ See the table below for a set of tutorial notebooks (some provided by the Projec
      - Owner
 
 
+   * - **Visualizing Images with AFW Display**
+     - How to access the lsst.afw.display routines, and use the LSST data Butler to access processed image data and inspect it visually.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Visualization/AFW_Display_Demo.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/AFW_Display_Demo.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/log/AFW_Display_Demo.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Visualization/log/AFW_Display_Demo.png">
+               </img>
+             </a>
+
+     - `Brant Robertson <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@brantr>`__
+
+
    * - **Firefly Visualization Demo**
      - Introduction to the Firefly interactive plotter and image viewer.
      - `ipynb <https://github.com/lsst-sqre/notebook-demo/blob/master/Firefly.ipynb>`__, `video <https://www.youtube.com/watch?v=UjB0aaNd0MA>`__
@@ -32,6 +47,7 @@ See the table below for a set of tutorial notebooks (some provided by the Projec
              </a>
 
      - `Keith Bechtol <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@bechtol>`__
+
 
    * - **"With Globular" LSST 2018 Tutorial**
      - General purpose tutorial including interactive Firefly visualization.
