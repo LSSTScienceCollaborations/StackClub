@@ -1,5 +1,5 @@
 Measurement
-===========
+-----------
 
 This folder contains a set of tutorial notebooks exploring the Object measurement routines in the LSST science pipelines. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 

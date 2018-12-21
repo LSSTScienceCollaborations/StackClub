@@ -101,6 +101,7 @@ We will explore LSST data visualization in a bit more detail. This session will 
 - Other Resources:
   + DM team: ["Getting started tutorial part 2: calibrating single frames with processCcd.py"](https://pipelines.lsst.io/getting-started/processccd.html)
   + DM team: ["Getting started tutorial part 1: setting up the Butler data repository"](https://pipelines.lsst.io/getting-started/data-setup.html)
+  + DM team: ["Using the LSST DM Stack in Python"](https://github.com/lsst-dm/dm-demo-notebooks/blob/master/workshops/lyon2018/intro-process-ccd.ipynb)
 
 
 <a name="detection"></a>5. Source Detection

@@ -1,8 +1,8 @@
 Calibration
-===========
+-----------
 
 This folder contains a set of tutorial notebooks exploring the calibration routines in the LSST science pipelines. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
-    
+
 
 .. list-table::
    :widths: 10 20 10 10
