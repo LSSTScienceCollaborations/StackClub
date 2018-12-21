@@ -12,8 +12,8 @@ the LSST Science Collaborations.
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
-| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Getting Started  | How to use JupyterLab, and contribute to the Stack Club repo.  | [StackClub/GettingStarted](GettingStarted)  |
+| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
 | Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
@@ -57,4 +57,4 @@ but you can't blame us if it doesn't do what you want.
 
 ## More About This Project
 
-Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks.
+Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. We met once a week through Fall 2018, defining about 20 projects, and producing 11 tutorial notebooks for community use. In fall 2018 the Stack Club had about 20 active participants.
