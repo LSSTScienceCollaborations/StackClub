@@ -1,0 +1,9 @@
+ZeropointRMS:
+  unit: mmag
+  description: >
+    Photometric calibration RMS.
+  reference:
+    url: https://example.com/PhotRMS
+  tags:
+    - photometry
+    - demo
