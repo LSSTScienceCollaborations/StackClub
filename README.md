@@ -1,6 +1,8 @@
 # Stack Club
 
-The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first.
+The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first. 
+
+We develop our tutorial notebooks on the LSST Science Platform at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. 
 
 See below for how to get involved: we hope you find our notebooks useful!
 
@@ -8,7 +10,7 @@ See below for how to get involved: we hope you find our notebooks useful!
 
 Our goal is to build on the existing LSST DM Stack demo notebooks and html tutorial pages to create a set of
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of
-the LSST Science Collaborations.
+the LSST Science Collaborations. The notebooks in the repo were developed on the LSST Science Platform at NCSA, and use the standard datasets provided there.
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
