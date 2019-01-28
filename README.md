@@ -2,7 +2,7 @@
 
 The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first. 
 
-We develop our tutorial notebooks on the LSST Science Platform at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. 
+We develop our tutorial notebooks on the LSST Science Platform at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. New members with zero Stack experience are most welcome: we are aiming to produce tutorials for beginners as well as more advanced Stack users, and the organizers are happy to spend time walking new members through the available resources, and explaining how to get started. 
 
 See below for how to get involved: we hope you find our notebooks useful!
 
@@ -28,6 +28,8 @@ the LSST Science Collaborations. The notebooks in the repo were developed on the
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
 ## Joining the Stack Club
+We welcome new members with any level of Stack experience; you'll need to be familiar with python, and if you have used Jupyter notebooks and git/Github before, that will help you get started faster, but you don't need to have even looked at the Stack code before. That's what Stack Club is for. All you need is the willingness to spend time learning the Stack.
+
 If you would like to join the Stack Club, please fill out this short **[application form](https://goo.gl/forms/588KlPTFfkEEFFUu2)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the LSST Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club LSSTC Slack channel](https://lsstc.slack.com/messages/C9YRAS4HM/).  
 
 ## Contributing
