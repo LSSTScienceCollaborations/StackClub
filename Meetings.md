@@ -1,6 +1,6 @@
 # Stack Club Meetings
 
-Individual session links and recordings are given below, most recent meeting at the top.  Note that for now, we will have a "regular" sessions every two weeks (where we will show / discuss notebooks), and "hack-only" sessions on off-weeks, where we hope to have a DM Project person present to answer questions and address concerns.  Only the "regular" sessions are announbced below.  
+Individual session links and recordings are given below, most recent meeting at the top.  Note that for now (starting Jan. 2019), we will have a "regular" sessions every two weeks (where we will show / discuss notebooks), and "hack-only" sessions on off-weeks, where we hope to have a DM Project person present to answer questions and address concerns.  Only the "regular" sessions are announbced below.  
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
