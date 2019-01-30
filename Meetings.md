@@ -4,7 +4,14 @@ Individual session links and recordings are given below, most recent meeting at 
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
-| Phase 3, Session 1 | Friday February 8, 2019 [(video)]() | Hacking | [Project List]() |
+| Phase 3, Session 1 | Friday February 8, 2019 [(video)]() | Overview of 2 notebooks, hacking | [Project List](Andrew Bradshaw's notebook on Fe55 and overview of Keith Bechtol's "LSST Verification" notebook) |
+
+### Phase 2 Sessions
+
+After the initial brainstorming, we met up roughly once a week, when we hacked on Jupyter notebooks, but also shared our results and concerns.  
+
+| Session  | Date  | Topic  | Links  |
+|---|---|---|---|
 | Phase 2, Session 18 | Friday December 21, 2018 [(video)](https://stanford.zoom.us/recording/share/7OnxWJl4LGTK6OV62fr2GGG3dDEjeJRgMPUdjkH0GFywIumekTziMw) | 2018 Holiday Party | [Festive slide deck](https://docs.google.com/presentation/d/1h6Db1evZUJ6OFrfPlHwS3vTTZAhfyxyESukWkqfKPTY/edit#slide=id.p1) |
 | Phase 2, Session 17 | Friday December 14, 2018 [(video)](https://stanford.zoom.us/recording/share/5bB15bZkNc8XdffWCks21z1BD7f_CLQVzf5VqzfH_buwIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
 | Phase 2, Session 16 | Friday December 7, 2018 [(video)](https://stanford.zoom.us/recording/share/yyl_lo1bptVlAyq3H8eIqS9hqxZyx5BG8Nfifq7og3iwIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
