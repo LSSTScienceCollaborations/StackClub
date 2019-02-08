@@ -1,0 +1,9 @@
+AstrometricRMS:
+  unit: mas
+  description:
+    Astrometric residual RMS.
+  reference:
+    url: https://example.com/AstroRMS
+  tags:
+    - astrometry
+    - demo
