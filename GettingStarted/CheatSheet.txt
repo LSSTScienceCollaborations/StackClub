@@ -2,6 +2,7 @@ Author:   Douglas Tucker
 Reviewer: Greg Madejski
 Created:  2018-11-02
 Updated:  2018-12-21
+Updated:  2019-02-08
 
 
 -----------------------------------------------------------
@@ -26,7 +27,7 @@ NCSA VPN username and password, and the 6-digit number provided by DUO for the s
 
 JupyterLab:
 
-  Point broswer to https://lsst-lspdev.ncsa.illinois.edu/nb
+  Point broswer to http://lsst-lsp-stable.ncsa.illinois.edu/nb
 
   Release version, Medium --> Spawn
   +Launcher --> terminal
@@ -186,8 +187,9 @@ General git tutorial stuff:
 -----------------------------------------------------------
 Useful Slack Channels:
   dm-lsp-users
+  dm-jupyter
   dm-newbies
-  dm-stack? (I can't find this one. -- DLT)
+  stack-club
 
 
 Other useful sources of info:
