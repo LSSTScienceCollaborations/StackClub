@@ -1,8 +1,0 @@
-name: "minimum"
-metric: "ZeropointRMS"
-threshold:
-  operator: "<="
-  unit: "mmag"
-  value: 20.0
-tags:
-  - "minimum"
