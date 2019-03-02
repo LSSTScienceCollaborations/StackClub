@@ -4,8 +4,8 @@ Individual session links and recordings are given below, most recent meeting at 
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
+| Phase 3, Session 2 | Friday February 22, 2019  | we cancelled it due to a holiday in AZ | [Project List] |
 | Phase 3, Session 1 | Friday February 8, 2019 [(video)]() | Overview of 2 notebooks, hacking | [Project List](Andrew Bradshaw's notebook on Fe55 and overview of Keith Bechtol's "LSST Verification" notebook;  links to be inserted) |
- Phase 3, Session 2 | Friday February 22, 2019  | we cancelled it due to a holiday in AZ | [Project List] |
 
 ### Phase 2 Sessions
 
