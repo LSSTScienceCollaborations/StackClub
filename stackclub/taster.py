@@ -48,13 +48,13 @@ class Taster(object):
         # Get mappers for all tested repos
         from lsst.obs.hsc import HscMapper
         from lsst.obs.comCam import ComCamMapper
-        from lsst.obs.lsst import LsstCamMapper
+        #from lsst.obs.lsst import LsstCamMapper
         from lsst.obs.ctio0m9 import Ctio0m9Mapper
         
         #select proper mapper
         if self.repo.find('hsc') != -1: mapper = HscMapper(root=self.repo)
         elif self.repo.find('comCam') != -1: mapper = ComCamMapper(root=self.repo)
-        elif self.repo.find('DC2') != -1: mapper = LsstCamMapper(root=self.repo)
+        #elif self.repo.find('DC2') != -1: mapper = LsstCamMapper(root=self.repo)
         elif self.repo.find('ctio0m9') != -1: mapper = Ctio0m9Mapper(root=self.repo)
         else: print("Unable to locate Mapper file in specified repo. Check that you selected a valid repo.")
             
@@ -187,7 +187,7 @@ class Taster(object):
 
     def count_things(self):
         """
-        Count the available number of visits, sensors, fields etc.
+        Count the available number of calexp visits, sensors, fields etc.
         """
         # Collect numbers of images of various kinds:
         if self.exists['calexp']:
