@@ -1,0 +1,17 @@
+name: "minimum"
+metric: "ZeropointRMS"
+threshold:
+  operator: "<="
+  unit: "mmag"
+  value: 20.0
+tags:
+  - "minimum"
+---
+name: "design"
+metric: "ZeropointRMS"
+threshold:
+  operator: "<="
+  unit: "mmag"
+  value: 10.0
+tags:
+  - "design"
