@@ -1,6 +1,17 @@
 # Stack Club Meetings
 
-Individual session links and recordings are given below, most recent meeting at the top.
+Individual session links and recordings are given below, with the most recent meeting at the top.  Note that in Phase 3 (starting January 2019), we have "regular" sessions  (where we will show and discuss our notebooks) every two weeks, and "hack-only" sessions on off-weeks. We hope to have a DM Project person present every week, to answer questions and address concerns.  Only the "regular" sessions are announced below.  
+
+| Session  | Date  | Topic  | Links  |
+|---|---|---|---|
+| Phase 3, Session 4 | Friday March 22, 2019  | Quick discussion of any possible problems with the Release 17;  comments by M. Wood-Vasey | [Project List] |
+| Phase 3, Session 3 | Friday March 8, 2019  | Good discussion of the implications of Release 17 of the Science Pipeline;  considerations of implication on the existing notebooks | [Project List] |
+| Phase 3, Session 2 | Friday February 22, 2019  | we cancelled it due to a holiday in AZ | [Project List] |
+| Phase 3, Session 1 | Friday February 8, 2019 [(video)]() | Overview of 2 notebooks, hacking | [Project List](Andrew Bradshaw's notebook on Fe55 and overview of Keith Bechtol's "LSST Verification" notebook;  links to be inserted) |
+
+### Phase 2 Sessions
+
+After the initial brainstorming, we met up roughly once a week, when we hacked on Jupyter notebooks, but also shared our results and concerns.  
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
