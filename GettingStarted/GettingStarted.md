@@ -27,8 +27,8 @@ If you forget your password it can be reset following the instructions [here](ht
 
 For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager.
 
-#### Starting up the LSST Science Platform JupyterLab Notebook Aspect
-Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
+#### Starting the LSST Science Platform JupyterLab Notebook Aspect
+Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lsp-stable.ncsa.illinois.edu**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
 
 > It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent supported release so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
 
@@ -58,7 +58,7 @@ We aspire to producing high quality tutorials that can be followed by any member
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
 
 #### Available Datasets
-Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+Broadly useful, small datasets are available in `/project/shared/data`  - this director is world readable, but is only writeable by members of the `lsst-users` group (i.e., LSST Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
 
 Larger datasets are available in `/datasets`. This is a read-only folder.
 

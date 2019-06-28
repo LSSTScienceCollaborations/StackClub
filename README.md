@@ -1,6 +1,8 @@
 # Stack Club
 
-The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first.
+The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first. 
+
+We develop our tutorial notebooks on the LSST Science Platform at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. New members with zero Stack experience are most welcome: we are aiming to produce tutorials for beginners as well as more advanced Stack users, and the organizers are happy to spend time walking new members through the available resources, and explaining how to get started. 
 
 See below for how to get involved: we hope you find our notebooks useful!
 
@@ -8,12 +10,12 @@ See below for how to get involved: we hope you find our notebooks useful!
 
 Our goal is to build on the existing LSST DM Stack demo notebooks and html tutorial pages to create a set of
 _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of
-the LSST Science Collaborations.
+the LSST Science Collaborations. The notebooks in the repo were developed on the LSST Science Platform at NCSA, and use the standard datasets provided there.
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
-| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Getting Started  | How to use JupyterLab, and contribute to the Stack Club repo.  | [StackClub/GettingStarted](GettingStarted)  |
+| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
 | Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
@@ -26,6 +28,8 @@ the LSST Science Collaborations.
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
 ## Joining the Stack Club
+We welcome new members with any level of Stack experience; you'll need to be familiar with python, and if you have used Jupyter notebooks and git/Github before, that will help you get started faster, but you don't need to have even looked at the Stack code before. That's what Stack Club is for. All you need is the willingness to spend time learning the Stack.
+
 If you would like to join the Stack Club, please fill out this short **[application form](https://goo.gl/forms/588KlPTFfkEEFFUu2)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the LSST Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club LSSTC Slack channel](https://lsstc.slack.com/messages/C9YRAS4HM/).  
 
 ## Contributing
@@ -57,4 +61,4 @@ but you can't blame us if it doesn't do what you want.
 
 ## More About This Project
 
-Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks.
+Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. We met once a week through Fall 2018, defining about 20 projects, and producing 11 tutorial notebooks for community use. In fall 2018 the Stack Club had about 20 active participants.

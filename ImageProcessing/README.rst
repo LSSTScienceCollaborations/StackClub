@@ -1,7 +1,7 @@
 Image Processing
-================
+----------------
 
-This folder contains a set of tutorial notebooks exploring the image processing routines in the LSST science pipelines. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
+Here, we explore the image processing routines in the LSST science pipelines. See the index table below for links to the notebook code, and an auto-rendered view of the notebook with outputs.
 
 
 .. list-table::
@@ -16,22 +16,29 @@ This folder contains a set of tutorial notebooks exploring the image processing 
 
    * - **Re-run HSC**
      - End-to-end processing of the ``ci_hsc`` test dataset using the DM Stack.
-     - `ipynb <Re-runHSC.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/Re-runHSC.nbconvert.ipynb>`_, `bash script <Re-runHSC.sh>`_,
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/ImageProcessing/Re-RunHSC.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/Re-RunHSC.nbconvert.ipynb>`_, `bash script <Re-RunHSC.sh>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/Re-runHSC.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/Re-runHSC.log
+       .. raw:: html
 
-     - `Justin Myles <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jtmyles>`_
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/Re-RunHSC.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/ImageProcessing/log/Re-RunHSC.png">
+               </img>
+             </a>
+
+     - `Justin Myles <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jtmyles>`__
 
 
    * - **BrighterFatterCorrection.ipynb**
-     - Analysis of Beam Simulator Images and Brighter-fatter Correction. 
-     - `ipynb <BrighterFatterCorrection.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`_
+     - Analysis of Beam Simulator Images and Brighter-fatter Correction.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/ImageProcessing/BrighterFatterCorrection.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`__
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.log
+       .. raw:: html
 
-     - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/log/BrighterFatterCorrection.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/ImageProcessing/log/BrighterFatterCorrection.png">
+               </img>
+             </a>
 
+     - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`__

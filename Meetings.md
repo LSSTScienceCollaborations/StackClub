@@ -1,9 +1,31 @@
 # Stack Club Meetings
 
-Individual session links and recordings are given below, most recent meeting at the top.
+Individual session links and recordings are given below, with the most recent meeting at the top.  Note that in Phase 3 (starting January 2019), we have "regular" sessions  (where we will show and discuss our notebooks) every two weeks, and "hack-only" sessions on off-weeks. We hope to have a DM Project person present every week, to answer questions and address concerns.  Only the "regular" sessions are announced below.  
 
 | Session  | Date  | Topic  | Links  |
 |---|---|---|---|
+| Phase 3, Session 4 | Friday March 22, 2019  | Quick discussion of any possible problems with the Release 17;  comments by M. Wood-Vasey | [Project List] |
+| Phase 3, Session 3 | Friday March 8, 2019  | Good discussion of the implications of Release 17 of the Science Pipeline;  considerations of implication on the existing notebooks | [Project List] |
+| Phase 3, Session 2 | Friday February 22, 2019  | we cancelled it due to a holiday in AZ | [Project List] |
+| Phase 3, Session 1 | Friday February 8, 2019 [(video)]() | Overview of 2 notebooks, hacking | [Project List](Andrew Bradshaw's notebook on Fe55 and overview of Keith Bechtol's "LSST Verification" notebook;  links to be inserted) |
+
+### Phase 2 Sessions
+
+After the initial brainstorming, we met up roughly once a week, when we hacked on Jupyter notebooks, but also shared our results and concerns.  
+
+| Session  | Date  | Topic  | Links  |
+|---|---|---|---|
+| Phase 2, Session 18 | Friday December 21, 2018 [(video)](https://stanford.zoom.us/recording/share/7OnxWJl4LGTK6OV62fr2GGG3dDEjeJRgMPUdjkH0GFywIumekTziMw) | 2018 Holiday Party | [Festive slide deck](https://docs.google.com/presentation/d/1h6Db1evZUJ6OFrfPlHwS3vTTZAhfyxyESukWkqfKPTY/edit#slide=id.p1) |
+| Phase 2, Session 17 | Friday December 14, 2018 [(video)](https://stanford.zoom.us/recording/share/5bB15bZkNc8XdffWCks21z1BD7f_CLQVzf5VqzfH_buwIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 16 | Friday December 7, 2018 [(video)](https://stanford.zoom.us/recording/share/yyl_lo1bptVlAyq3H8eIqS9hqxZyx5BG8Nfifq7og3iwIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 15 | Friday November 30, 2018 [(video)](https://stanford.zoom.us/recording/share/o-02QJJoM7nADKed3Ehvqy0Tp4yS04phj7e2OKPwh-6wIumekTziMw) | New Commissioning Notebooks, Hacking | [Camera/Commissioning Bootcamp Notebooks](https://github.com/lsst/bootcamp-work) |
+| Phase 2, Session 14 | Friday November 16, 2018 [(video)](https://stanford.zoom.us/recording/share/6p9WWv9C4Z1zCKsSRaIMRW4fkrACWI2ufpR5AYGVO1WwIumekTziMw) | Hacking, News from the Commissioning-Camera Bootcamp | [Bootcamp Confluence page](https://confluence.lsstcorp.org/display/DM/DM-Commissioning-Camera+Bootcamp) |
+| Phase 2, Session 13 | Friday November 9, 2018 [(video)](https://stanford.zoom.us/recording/share/0Eg9OR1rwvzDQiqTOGzIYXppV88fx-JjdSBkRH6aUHKwIumekTziMw) | Hacking | [Project  List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 12 | Friday November 2, 2018 [(video)](https://stanford.zoom.us/recording/share/Ri8pH7z40zLXGty5sNPmDi-iQPbYjpFeeFpqaDBIG7ywIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 11 | Friday October 26, 2018 [(video)](https://stanford.zoom.us/recording/share/AIGp9ORdsRl8LIBa5RpM48aQ2duetH0OQlDkGxYlKjewIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 10 | Friday October 19, 2018 [(video)](https://stanford.zoom.us/recording/share/mSicBoBiDM8JCmu1jUWe8dNUAZG4u-TTwOUpplSQokGwIumekTziMw) | Hacking | [Project Opportunity List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 9 | Friday October 12, 2018 [(video)](https://stanford.zoom.us/recording/share/An-E7Q687JAkHq49LzMANfuGswcW7mxrZT-ylIWz21qwIumekTziMw) | Hacking | [Project List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject) |
+| Phase 2, Session 8 | Friday October 5, 2018 [(video)](https://stanford.zoom.us/recording/share/x2PmEus_ukK_V9zZxjzHActEjW1Ao-d5WdSrKwdd_qmwIumekTziMw) | Hacking, Onboarding | [Syllabus](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Syllabus.md), [Project Opportunity List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject+label%3Aopportunity) |
 | Phase 2, Session 7 | Friday September 28, 2018 [(video)](https://stanford.zoom.us/recording/share/j8LCQMScoqux_h0E6yBEdP8CytbS6RG8zYpqzEV86o-wIumekTziMw) | Hacking, Onboarding | [Syllabus](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Syllabus.md), [Project Opportunity List](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aproject+label%3Aopportunity) |
 | Phase 2, Session 6 | Friday September 21, 2018 [(video)](https://stanford.zoom.us/recording/share/8_fQYpnZFh2jDLE4LHKjEfdiQ28kjFxGu5jSdTuzdE2wIumekTziMw) | Hacking, Syllabus discussion | ["Course" topic list](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit?ts=5ba52b5e#heading=h.txq6h6bpxzkd) | 
 | Phase 2, Session 5 | Friday September 14, 2018 [(video)](https://stanford.zoom.us/recording/share/-IiuluXvCcOdD-L8FNQSmnB29-f8lU2pTfPyyahcJ1uwIumekTziMw) | Tutorial walkthrough, Hacking | [HSC Re-Run Script and Notebook](https://github.com/LSSTScienceCollaborations/StackClub/blob/project/hsc-re-run/ImageProcessing/Re-RunHSC.ipynb) | 
