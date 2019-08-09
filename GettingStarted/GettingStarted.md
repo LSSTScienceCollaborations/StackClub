@@ -18,6 +18,13 @@ The Stack Club has a limited number of active LSST Science Platform accounts it 
 #### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
 The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication (verified on Mac and Linux). Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
+The best documentation for getting setup with your account is on [nb.lsst.io](https://nb.lsst.io/index.html#getting-started).
+
+1. [Install and configure the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-setup)
+2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login)
+3. [Log into the Notebook Aspect](https://nb.lsst.io/getting-started/logging-in.html#step-2-log-in)
+
+Some legacy instructions can be found below:
 
 > You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.
 
