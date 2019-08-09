@@ -58,7 +58,7 @@ This set of tutorial notebooks will help you explore the basic properties of the
 
      - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
      
-     * - **Butler Tutorial**
+   * - **Butler Tutorial**
      - Demonstrates basic data access and manipulations using the data Butler
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/ButlerTutorial.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/ButlerTutorial.nbconvert.ipynb>`__
