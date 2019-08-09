@@ -65,7 +65,7 @@ This set of tutorial notebooks will help you explore the basic properties of the
 
        .. raw:: html
 
-          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log">
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/ButlerTutorial.log">
              <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/ButlerTutorial.png">
              </img>
           </a>
