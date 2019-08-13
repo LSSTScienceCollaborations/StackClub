@@ -14,12 +14,12 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
      - Owner
 
 
-   * - **Notebook Title**
-     - One line description of notebook.
-     - `ipynb <FILENAME.ipynb>`_,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/FILENAME.nbconvert.ipynb>`_
+   * - **Twinkles Light Curves**
+     - Find a simulated strongly lensed AGN system, get the magnitudes for one of the AGN images over a series of visits, and generate a light curve.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/twinkles_light_curves.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/twinkles_light_curves.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/FILENAME.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/FILENAME.log
+       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.svg
+          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.log
 
-     - `Notebook Owner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@owners-username>`_
+     - `Bryce Kalmbach <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jbkalmbach>`_

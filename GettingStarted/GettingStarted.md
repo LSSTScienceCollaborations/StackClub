@@ -18,6 +18,13 @@ The Stack Club has a limited number of active LSST Science Platform accounts it 
 #### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
 The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication (verified on Mac and Linux). Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
+The best documentation for getting setup with your account is on [nb.lsst.io](https://nb.lsst.io/index.html#getting-started).
+
+1. [Install and configure the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-setup)
+2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login)
+3. [Log into the Notebook Aspect](https://nb.lsst.io/getting-started/logging-in.html#step-2-log-in)
+
+Some legacy instructions can be found below:
 
 > You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.
 
@@ -27,10 +34,10 @@ If you forget your password it can be reset following the instructions [here](ht
 
 For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager.
 
-#### Starting up the LSST Science Platform JupyterLab Notebook Aspect
-Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
+#### Starting the LSST Science Platform JupyterLab Notebook Aspect
+Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lsp-stable.ncsa.illinois.edu**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
 
-> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent supported release so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
+> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent major release (e.g. v18.0.0) so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
 
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others.
 
@@ -49,10 +56,11 @@ You can then `git checkout` a development branch (so that you can keep your `mas
 The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the StackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
  
 #### Standards
-We aspire to producing high quality tutorials that can be followed by any member of the LSST science collaborations who wants to learn about the DM stack, and in particular its science pipelines. 
-* We [regularly test](../CIT.md) all the notebooks in the `master` branch of this repo using the most recent supported release of the Stack, and flag those that do not run all the way through. We only push working notebooks, so that (ideally) Stack Club notebooks only fail to run if the Stack changes.
-* Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date on which the notebook was last verified to run, and using which release: the owners keep these fields up to date as well.
-* The introduction cell of each notebook contains a list of "learning objectives," so that the user can judge whether or not this tutorial is right for them.
+We aspire to produce high-quality tutorials that can be followed by any member of the LSST Science Collaborations who wants to learn about the DM Stack, and in particular its science pipelines. 
+* We [regularly test](../CIT.md) all the notebooks in the `master` branch of this repo using the most recent major release 
+of the Stack, and flag those that do not run all the way through. The `master` branch should only contain working notebooks, so that (ideally) Stack Club notebooks only fail to run if the Stack changes.
+* Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date and Stack release on which the notebook was last verified to run.
+* The introduction cell of each notebook contains a list of "learning objectives", so that the user can judge whether or not this tutorial is right for them.
 * We include markdown cells to explain each step in the tutorial, and provide links to the source code and reference documents as needed.
 
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
