@@ -13,10 +13,10 @@ chmod a+x beavis-ci.sh
 ```
 
 ## Testing `beavis-ci`
-`beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push the deployed notebooks to the "rendered" orphan (history-less) branch. These are most conveniently exported as environment variables. We also need to specify the kernel
-to run the notebooks with: "lsst" gets us the most recent supported release, as required.
+`beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push (with the `--push` option) the deployed notebooks to the "rendered" orphan (history-less) branch, exported as environment variables. We also need to specify the kernel
+to run the notebooks with: "lsst" gets us the most recent supported release, as required. The `--png` option makes PNG format badges for display in the README tables. 
 ```
-./beavis-ci.sh LSSTScienceCollaborations/StackClub -u $GITHUB_USERNAME -k $GITHUB_API_KEY --kernel lsst
+./beavis-ci.sh LSSTScienceCollaborations/StackClub --kernel lsst --push --png
 ```
 
 ## Running `beavis-ci`
@@ -24,9 +24,9 @@ Continuous integration systems check for new commits or pushes; `beavis-ci` is n
 ```
 crontab -l
 
-45  11  *  *  * ( cd ~/notebooks && ./beavis-ci.sh LSSTScienceCollaborations/StackClub -u drphilmarshall -k <GITHUB_API_TOKEN> --kernel lsst )
+45  11  *  *  * ( cd ~/notebooks && ./beavis-ci.sh LSSTScienceCollaborations/StackClub --kernel lsst --push --png )
 ```
-Note that the GitHub arguments are passed in explicitly, in case cron does not set up your environment variables. 
+Note that cron will need to set up your environment variables for the push to work. 
 
 > Notes:
 >
