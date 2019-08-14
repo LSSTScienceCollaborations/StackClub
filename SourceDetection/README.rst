@@ -27,3 +27,17 @@ While source detection in the LSST science pipelines is carried out (first) duri
              </a>
 
      - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`__
+
+   * - **Footprints.ipynb**
+     - Investigate the concept of a footprint: the region of an image used for detecting and measuring source properties.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/SourceDetection/log/Footprints.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/Footprints.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/log/Footprints.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/SourceDetection/log/Footprints.png">
+               </img>
+             </a>
+
+     - `Imran Hasan <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@ih64>`__
