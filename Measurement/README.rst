@@ -27,3 +27,17 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
              </a>
 
      - `Bryce Kalmbach <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jbkalmbach>`_
+
+   * - **Undersampled Moments**
+     - Examine biases introduced by undersampled moments.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/UndersampledMoments.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/UndersampledMoments.nbconvert.ipynb>`_
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/UndersampledMoments.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Measurement/log/UndersampledMoments.png">
+               </img>
+             </a>
+
+     - `Bryce Kalmbach <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
