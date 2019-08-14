@@ -2,7 +2,7 @@
 
 _Phil Marshall, August 5, 2018_
 
-To help prevent our notebooks going stale, we run our notebooks automatically very few hours using the LSST DESC's [`beavis-ci`]() script. These notes explain how this was set up. 
+To help prevent our notebooks going stale, we run all our notebooks ~~automatically very few hours~~ from time to time using the LSST DESC's [`beavis-ci`]() script. These notes explain how this works. 
 
 ## Installing `beavis-ci`
 Following the instructions on the [`beavis-ci` repo](https://github.com/LSSTDESC/beavis-ci), we downloaded the `beavis-ci` script into the `notebooks` folder.
@@ -12,21 +12,21 @@ curl -o beavis-ci.sh https://raw.githubusercontent.com/LSSTDESC/beavis-ci/master
 chmod a+x beavis-ci.sh
 ```
 
-## Testing `beavis-ci`
+## Testing and Running `beavis-ci`
 `beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push (with the `--push` option) the deployed notebooks to the "rendered" orphan (history-less) branch, exported as the environment variables `GITHUB_USERNAME` and `GITHUB_API_KEY`. We also need to specify the kernel
 to run the notebooks with: "lsst" gets us the most recent supported release, as required. The `--png` option makes PNG format badges for display in the README tables. 
 ```
 ./beavis-ci.sh LSSTScienceCollaborations/StackClub --kernel lsst --push --png
 ```
 
-## Running `beavis-ci`
-Continuous integration systems check for new commits or pushes; `beavis-ci` is not that clever. To achieve semi-continuous integration, we just run the `beavis-ci` script from a cron job. Here's what that job looks like:
+## Aspiration: semi-CIT with `beavis-ci`
+Continuous integration systems check for new commits or pushes; `beavis-ci` is not that clever. To achieve semi-continuous integration, we have attempted to run the `beavis-ci` script from a cron job. Here's what that job looks like:
 ```
 crontab -l
 
 45  11  *  *  * ( cd ~/notebooks && ./beavis-ci.sh LSSTScienceCollaborations/StackClub --kernel lsst --push --png )
 ```
-Note that cron will need to set up your environment variables for the push to work. 
+Note that cron will need to set up your environment variables for the push to work. Right now this system doesn't work: the cron jobs don't survive the exit from the container (understandably). We're working with DM to try and get this (or something like it) working, but we're not there yet.
 
 > Notes:
 >
