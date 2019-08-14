@@ -17,7 +17,14 @@ The Stack Club has a limited number of active LSST Science Platform accounts it 
 
 #### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
-The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication. Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
+The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication (verified on Mac and Linux). Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
+The best documentation for getting setup with your account is on [nb.lsst.io](https://nb.lsst.io/index.html#getting-started).
+
+1. [Install and configure the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-setup)
+2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login)
+3. [Log into the Notebook Aspect](https://nb.lsst.io/getting-started/logging-in.html#step-2-log-in)
+
+Some legacy instructions can be found below:
 
 > You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.
 
@@ -25,10 +32,12 @@ The recommended method is to use Cisco's AnyConnect with DUO two-factor authenti
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
 
-#### Starting up the LSST Science Platform JupyterLab Notebook Aspect
-Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lspdev.ncsa.illinois.edu/nb**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
+For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager.
 
-> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent supported release so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
+#### Starting the LSST Science Platform JupyterLab Notebook Aspect
+Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lsp-stable.ncsa.illinois.edu**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
+
+> It might take a long time to start the JupyterLab instance (a few minutes or so).  We recommend using the most recent major release (e.g. v18.0.0) so that our [semi-continuous integration script](../CIT.md) is able to run your notebook, and using "medium" size (to support image processing tasks).
 
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others.
 
@@ -47,32 +56,35 @@ You can then `git checkout` a development branch (so that you can keep your `mas
 The Stack Club workflow is to edit the club notebooks (or start new ones) in a suitable development branch, push it to the base repo, and submit a pull request (to enable club code review). Club members have Write access and so can do this; everyone else can push to their fork of the StackClub repo, and submit a PR from there. To exercise this workflow, try modifying  [`Hello_World.ipynb`](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/notebooks/Hello_World.ipynb), pushing your commit(s) and submitting a PR. Don't forget to clear outputs and save before committing your changes!
  
 #### Standards
-We aspire to producing high quality tutorials that can be followed by any member of the LSST science collaborations who wants to learn about the DM stack, and in particular its science pipelines. 
-* We [regularly test](../CIT.md) all the notebooks in the `master` branch of this repo using the most recent supported release of the Stack, and flag those that do not run all the way through. We only push working notebooks, so that (ideally) Stack Club notebooks only fail to run if the Stack changes.
-* Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date on which the notebook was last verified to run, and using which release: the owners keep these fields up to date as well.
-* The introduction cell of each notebook contains a list of "learning objectives," so that the user can judge whether or not this tutorial is right for them.
+We aspire to produce high-quality tutorials that can be followed by any member of the LSST Science Collaborations who wants to learn about the DM Stack, and in particular its science pipelines. 
+* We [regularly test](../CIT.md) all the notebooks in the `master` branch of this repo using the most recent major release 
+of the Stack, and flag those that do not run all the way through. The `master` branch should only contain working notebooks, so that (ideally) Stack Club notebooks only fail to run if the Stack changes.
+* Maintenance of the Stack Club notebooks is the responsibility of the notebooks' "owner(s)", who are listed in the first cell of each notebook. This cell also lists the date and Stack release on which the notebook was last verified to run.
+* The introduction cell of each notebook contains a list of "learning objectives", so that the user can judge whether or not this tutorial is right for them.
 * We include markdown cells to explain each step in the tutorial, and provide links to the source code and reference documents as needed.
 
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
 
 #### Available Datasets
-Broadly useful, small datasets are available in `/project/shared/data`  - this is a group-writeable folder, so feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data`.
+Broadly useful, small datasets are available in `/project/shared/data`  - this director is world readable, but is only writeable by members of the `lsst-users` group (i.e., LSST Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
 
 Larger datasets are available in `/datasets`. This is a read-only folder.
 
 #### The Stack Club Library
-The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  If you are not developing this package, you can install it using pip, like this:
-```
-pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
-```
-However, if you are contributing notebooks it is likely that you'll need to develop the  `stackclub` package as well 
-(eg by adding modules to it), and so you'll need to make a local, editable installation. In the top level folder of your local clone of the StackClub repo, do:
+The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  
+If you are contributing notebooks, you may want or need to develop the  `stackclub` package as well 
+(eg by adding modules to it), and so its best to setup the package installation to be local and editable. In the top level folder of your local clone of the StackClub repo, do:
 ```
 python setup.py -q develop --user
 ```
-This will put the `stackclub` folder on your path. You may find the following lines useful to add to your notebook as you develop the library:
+This will put the repo's `stackclub` folder on your path. When developing the package, you may find it useful to add the following lines to your notebook:
 ```python
 %load_ext autoreload
 %autoreload 2
 ```
-This enables you to repeatedly `import stackclub` as you update the library code.
+This enables you to repeatedly `import stackclub` as you update the library code. The above lines are in the [template notebook](templates/template_Notebook.ipynb), for your convenience.
+
+If you are not developing this package, and you have permission to write to your base python site-packages, you can install it using pip, like this:
+```
+pip install git+git://github.com/LSSTScienceCollaborations/StackClub.git#egg=stackclub
+```
