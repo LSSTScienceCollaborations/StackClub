@@ -19,7 +19,11 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/twinkles_light_curves.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/twinkles_light_curves.nbconvert.ipynb>`_
 
-       .. image:: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.svg
-          :target: https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.log
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Measurement/log/twinkles_light_curves.png">
+               </img>
+             </a>
 
      - `Bryce Kalmbach <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jbkalmbach>`_
