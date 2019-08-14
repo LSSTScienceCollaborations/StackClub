@@ -7,4 +7,5 @@ Tutorial Notebooks
 .. include:: ../ImageProcessing/README.rst
 .. include:: ../SourceDetection/README.rst
 .. include:: ../Deblending/README.rst
+.. include:: ../Measurement/README.rst
 .. include:: ../Validation/README.rst
