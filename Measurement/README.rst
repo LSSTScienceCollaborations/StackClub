@@ -40,4 +40,4 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
                </img>
              </a>
 
-     - `Bryce Kalmbach <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
+     - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
