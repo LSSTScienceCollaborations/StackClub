@@ -13,7 +13,7 @@ chmod a+x beavis-ci.sh
 ```
 
 ## Testing `beavis-ci`
-`beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push (with the `--push` option) the deployed notebooks to the "rendered" orphan (history-less) branch, exported as environment variables. We also need to specify the kernel
+`beavis-ci` takes a repo name as its argument. It also needs a GitHub username and associated API token, in order to push (with the `--push` option) the deployed notebooks to the "rendered" orphan (history-less) branch, exported as the environment variables `GITHUB_USERNAME` and `GITHUB_API_KEY`. We also need to specify the kernel
 to run the notebooks with: "lsst" gets us the most recent supported release, as required. The `--png` option makes PNG format badges for display in the README tables. 
 ```
 ./beavis-ci.sh LSSTScienceCollaborations/StackClub --kernel lsst --push --png
