@@ -2,7 +2,7 @@
 
 _Phil Marshall, August 5, 2018_
 
-To help prevent our notebooks going stale, we run all our notebooks ~~automatically very few hours~~ from time to time using the LSST DESC's [`beavis-ci`]() script. These notes explain how this works. 
+To help prevent our notebooks going stale, we run all our notebooks ~~automatically every few hours~~ from time to time using the LSST DESC's [`beavis-ci`]() script. These notes explain how this works. 
 
 ## Installing `beavis-ci`
 Following the instructions on the [`beavis-ci` repo](https://github.com/LSSTDESC/beavis-ci), we downloaded the `beavis-ci` script into the `notebooks` folder.
