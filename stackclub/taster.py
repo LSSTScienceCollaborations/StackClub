@@ -3,7 +3,7 @@ from IPython.display import display, Markdown
 
 class Taster(object):
     """
-    Worker for tasting all the datasets in a Butler's repo.
+    Worker for tasting the datasets in a Butler's repo (based mostly off of querying metadata).
     Instantiate with a repo.
     """
     def __init__(self, repo, vb=False, path_to_tracts=''):
@@ -85,7 +85,7 @@ class Taster(object):
     
     def look_for_datasets_of_type(self, datasettypes):
         """
-        Check for the existence of the dataset of given type.
+        Check whether dataset of given type is in the metadata.
         
         Parameters
         ==========
