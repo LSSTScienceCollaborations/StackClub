@@ -73,7 +73,12 @@ Larger datasets are available in `/datasets`. This is a read-only folder.
 #### The Stack Club Library
 The [`stackclub` folder in this repo](../stackclub) is a python package containing a number of utility functions and classes for use in tutorial notebooks. You can browse its documentation at https://stackclub.readthedocs.io/.  
 If you are contributing notebooks, you may want or need to develop the  `stackclub` package as well 
-(eg by adding modules to it), and so its best to setup the package installation to be local and editable. In the top level folder of your local clone of the StackClub repo, do:
+(e.g., by adding modules to it), and so its best to setup the package installation to be local and editable. 
+Start by opening a terminal in the LSP and sourcing the LSST setup:
+```
+source /opt/lsst/software/stack/loadLSST.bash
+```
+In the top level folder of your local clone of the StackClub repo, do:
 ```
 python setup.py -q develop --user
 ```
