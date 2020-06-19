@@ -18,6 +18,7 @@ the LSST Science Collaborations. The notebooks in the repo were developed on the
 | Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
 | Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
 | Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
+| Difference Image Analysis | Walkthroughs of the DIA parts of the science pipeline | [StackClub/DIA](DIA) |
 | SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
 | Deblending       | Deblending the objects | [StackClub/Deblending](Deblending) |
 | Measurement      | Measuring the objects | [StackClub/Measurement](Measurement) |
