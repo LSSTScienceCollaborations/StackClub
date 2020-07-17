@@ -34,13 +34,13 @@ def where_is(object, in_the='source', assuming_its_a=None):
         if assuming_its_a == "cmdlinetask":
             modulename = 'lsst.pipe.tasks.'+objectname
             
-    elif isinstance(object, module):
+    elif hasattr(object, '__module__') and hasattr(object, '__name__'):
         # Locate the module that contains the desired object, and break its name into pieces:
         modulename = object.__module__
         objectname = object.__name__
     
     else:
-        raise TypeError('Expecting objects of type "string" or "module"')
+        raise TypeError('Expecting "string" or "object"')
 
     # Form the URL, and a useful markdown representation of it:    
     if in_the == 'source':
