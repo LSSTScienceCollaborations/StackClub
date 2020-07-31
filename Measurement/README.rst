@@ -14,15 +14,15 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
      - Owner
 
 
-   * - **Twinkles Light Curves**
-     - Find a simulated strongly lensed AGN system, get the magnitudes for one of the AGN images over a series of visits, and generate a light curve.
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/twinkles_light_curves.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/twinkles_light_curves.nbconvert.ipynb>`_
+   * - **Asteroid Light Curve**
+     - Find an asteroid from 2015 `HiTS <https://ui.adsabs.harvard.edu/abs/2016ApJ...832..155F/abstract>` data and generate a light curve. This notebook was used in the `Summer 2020 Stack Club Course Session 06 <https://github.com/LSSTScienceCollaborations/StackClubCourse/tree/master/Session06>`.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/AsteroidLightCurve.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/AsteroidLightCurve.nbconvert.ipynb>`_
 
        .. raw:: html
 
-             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/twinkles_light_curves.log">
-               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Measurement/log/twinkles_light_curves.png">
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/AsteroidLightCurves.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Measurement/log/AsteroidLightCurve.png">
                </img>
              </a>
 
