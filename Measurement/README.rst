@@ -15,7 +15,7 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
 
 
    * - **Asteroid Light Curve**
-     - Find an asteroid from 2015 `HiTS <https://ui.adsabs.harvard.edu/abs/2016ApJ...832..155F/abstract>` data and generate a light curve. This notebook was used in the `Summer 2020 Stack Club Course Session 06 <https://github.com/LSSTScienceCollaborations/StackClubCourse/tree/master/Session06>`.
+     - Find an asteroid from 2015 `HiTS <https://ui.adsabs.harvard.edu/abs/2016ApJ...832..155F/abstract>`__ data and generate a light curve. This notebook was used in the `Summer 2020 Stack Club Course Session 06 <https://github.com/LSSTScienceCollaborations/StackClubCourse/tree/master/Session06>`__.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/AsteroidLightCurve.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/AsteroidLightCurve.nbconvert.ipynb>`_
 
