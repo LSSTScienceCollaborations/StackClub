@@ -48,6 +48,19 @@ See the table below for a set of tutorial notebooks (some provided by the Projec
 
      - `Keith Bechtol <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@bechtol>`__
 
+   * - **Visualizing the LSST Camera Focal Plane**
+     - Create a labeled visualization of the LSST Camera including amps, detectors, rafts integrated into the full focal plane.
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Visualization/LsstCameraGeometry.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/LsstCameraGeometry.ipynb>`__
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/log/LsstCameraGeometry.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Visualization/log/LsstCameraGeometry.png">
+               </img>
+             </a>
+
+     - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`__
 
    * - **"With Globular" LSST 2018 Tutorial**
      - General purpose tutorial including interactive Firefly visualization.
