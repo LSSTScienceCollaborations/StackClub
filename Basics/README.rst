@@ -27,6 +27,20 @@ This set of tutorial notebooks will help you explore the basic properties of the
 
      - `Daniel Perrefort <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@djperrefort>`_
 
+   * - **Butler Tutorial**
+     - Demonstrates basic data access and manipulations using the Gen-3 Butler
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Gen3ButlerTutorial.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Gen3ButlerTutorial.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/Gen3ButlerTutorial.log">
+             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/Gen3ButlerTutorial.png">
+             </img>
+          </a>
+
+     - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`_
+
    * - **Data Inventory**
      - Explore the available datasets in the LSST Science Platform shared folders.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`__,
