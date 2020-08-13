@@ -13,7 +13,7 @@ This set of tutorial notebooks will help you explore the basic properties of the
      - Links
      - Owner
 
-   * - **Butler Tutorial**
+   * - **Gen-2 Butler Tutorial**
      - Demonstrates basic data access and manipulations using the data Butler
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/ButlerTutorial.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/ButlerTutorial.nbconvert.ipynb>`__
@@ -27,7 +27,7 @@ This set of tutorial notebooks will help you explore the basic properties of the
 
      - `Daniel Perrefort <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@djperrefort>`_
 
-   * - **Butler Tutorial**
+   * - **Gen-3 Butler Tutorial**
      - Demonstrates basic data access and manipulations using the Gen-3 Butler
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Gen3ButlerTutorial.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/Gen3ButlerTutorial.nbconvert.ipynb>`__
@@ -41,20 +41,6 @@ This set of tutorial notebooks will help you explore the basic properties of the
 
      - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`_
 
-   * - **Data Inventory**
-     - Explore the available datasets in the LSST Science Platform shared folders.
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/DataInventory.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/DataInventory.nbconvert.ipynb>`__
-
-       .. raw:: html
-
-          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/DataInventory.log">
-             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/DataInventory.png">
-             </img>
-          </a>
-
-     - `Phil Marshall <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall>`_
-     
    * - **Calexp Guided Tour**
      - Shows how to read an exposure object from a data repository, and how to access and display various parts.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Calexp_guided_tour.ipynb>`__,
