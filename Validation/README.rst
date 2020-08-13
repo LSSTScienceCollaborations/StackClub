@@ -14,7 +14,7 @@ stand-alone notebooks useful for examining various aspects of data quality.
      - Owner
 
 
-   * - **image_quality_demo.ipynb**
+   * - **Image Quality Demo**
      - Examples of image shape measurements in the Stack including PSF size and ellipticity, shape measurements with and without PSF corrections; visualizing image quality statistics aggregated with pandas; examining PSF model ellipticity residuals
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Validation/image_quality_demo.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Validation/image_quality_demo.nbconvert.ipynb>`__

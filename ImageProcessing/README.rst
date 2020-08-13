@@ -14,8 +14,8 @@ Here, we explore the image processing routines in the LSST science pipelines. Se
      - Owner
 
 
-   * - **BrighterFatterCorrection.ipynb**
-     - Analysis of Beam Simulator Images and Brighter-fatter Correction.
+   * - **Brighter-Fatter Correction**
+     - Analysis of beam simulator images and the brighter-fatter correction.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/ImageProcessing/BrighterFatterCorrection.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/ImageProcessing/BrighterFatterCorrection.nbconvert.ipynb>`__
 

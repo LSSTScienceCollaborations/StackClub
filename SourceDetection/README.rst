@@ -14,7 +14,7 @@ While source detection in the LSST science pipelines is carried out (first) duri
      - Owner
 
 
-   * - **LowSurfaceBrightness.ipynb**
+   * - **Low Surface Brightness**
      - Run source detection, deblending, and measurement tasks; subtract bright sources from an image; convolve image and detect low-surface brightness sources.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/SourceDetection/log/LowSurfaceBrightness.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/LowSurfaceBrightness.nbconvert.ipynb>`__
@@ -28,7 +28,7 @@ While source detection in the LSST science pipelines is carried out (first) duri
 
      - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`__
 
-   * - **Footprints.ipynb**
+   * - **Footprints**
      - Investigate the concept of a footprint: the region of an image used for detecting and measuring source properties.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/SourceDetection/log/Footprints.ipynb>`__,
        `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/Footprints.nbconvert.ipynb>`__
