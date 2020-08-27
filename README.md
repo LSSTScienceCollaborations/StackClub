@@ -45,7 +45,7 @@ We welcome your input! Please post questions and suggestions in the
 
 * Greg Madejski (SLAC, [Madejski](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kMadejski))
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica))
-* Phil Marshall (SLAC, [@drphilmarshall](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall))
+* Melissa Graham (UW, [@MelissaGraham](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@MelissaGraham))
 
 The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md). If you are just looking for the application form, it's [here](https://goo.gl/forms/588KlPTFfkEEFFUu2).
 
