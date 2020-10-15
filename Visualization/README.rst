@@ -51,7 +51,7 @@ See the table below for a set of tutorial notebooks (some provided by the Projec
    * - **Visualizing the LSST Camera Focal Plane**
      - Create a labeled visualization of the LSST Camera including amps, detectors, rafts integrated into the full focal plane.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Visualization/LsstCameraGeometry.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/LsstCameraGeometry.ipynb>`__
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Visualization/LsstCameraGeometry.nbconvert.ipynb>`__
 
        .. raw:: html
 
