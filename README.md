@@ -28,9 +28,11 @@ Our goal is to build on the existing demo notebooks and html tutorial pages to c
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
 ## Joining the Stack Club
-We welcome new members with any level of experience. We have found that some familiarity with Python is very helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
+We welcome new members with any level of experience. We have found that some familiarity with Python is helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
 
-If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the Rubin Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo, joining the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM/) on the LSSTC Slack workspace, or viewing material from the [Stack Club Course](https://github.com/LSSTScienceCollaborations/StackClubCourse).  
+If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. 
+You'll be asked to agree to abide by the [Stack Club Rules](Rules.md) and provide enough contact information to request an account on the Rubin Science Platform. 
+If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo, joining the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM/) on the LSSTC Slack workspace, or viewing material from the [Stack Club Course](https://github.com/LSSTScienceCollaborations/StackClubCourse).  
 
 ## Contributing
 **New members:** **[START HERE!](GettingStarted/GettingStarted.md)** These notes will walk you through getting access to the Rubin Science Platform and show you how to work on tutorial notebooks.
@@ -39,16 +41,16 @@ If you would like to join the Stack Club, please fill out this short **[applicat
 
 ## Contact
 We welcome your input! Please post questions and suggestions in the
-[issues](https://github.com/LSSTScienceCollaborations/StackClub/issues) of this repository. You can also contact the following points of contact directly via the links below:
+[issues](https://github.com/LSSTScienceCollaborations/StackClub/issues) of this repository. 
+You can also contact the organizers directly via the links below:
 
-* Greg Madejski (SLAC, [Madejski](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kMadejski))
+* Greg Madejski (SLAC, [@Madejski](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@Madejski))
 * Alex Drlica-Wagner (Fermilab, [@kadrlica](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica))
 * Melissa Graham (UW, [@MelissaGraham](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@MelissaGraham))
 
-The Club meets periodically via Zoom, but you can find us on LSSTC Slack at [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). You can also watch the tutorial walkthroughs in the Club sessions in the videos linked from our [Meetings page](Meetings.md). If you are just looking for the application form, it's [here](https://goo.gl/forms/588KlPTFfkEEFFUu2).
+The Stack Club meets fortnightly via Zoom, and you can find us on LSSTC Slack at [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM).
 
 ## License
-
 The text in this repository is Copyright The Authors, and licensed under Creative Commons [CC-BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/), which means
 you can copy and redistribute the material in any medium or format
 for any purpose, as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
@@ -58,5 +60,4 @@ All the code in this repository is available for re-use under the [MIT License](
 but you can't blame us if it doesn't do what you want.
 
 ## More About This Project
-
 The Stack Club was established as part of a successful LSSTC "Enabling Science" proposal. You can read about our original 3-phase plan [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. We met once a week through Fall 2018, defining about 20 projects, and producing 11 tutorial notebooks for community use. In fall 2018 the Stack Club had about 20 active participants.
