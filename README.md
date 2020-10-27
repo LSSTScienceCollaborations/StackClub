@@ -1,16 +1,16 @@
 # Stack Club
 
-The LSST science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the LSST data management (DM) software Stack. The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first. 
+The science community Stack Club is an LSSTC-supported project, to form a small community committed to learning how to use, and explain, the [Rubin Observatory LSST Science Pipelines](https://pipelines.lsst.io/) (colloquially called "the Stack"). The idea is that _the best way to learn something is to try and teach it:_ if you can write a useful tutorial on some aspect of the DM Stack, and especially its science pipelines, then you have to understand that part first. 
 
-We develop our tutorial notebooks on the LSST Science Platform at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. New members with zero Stack experience are most welcome: we are aiming to produce tutorials for beginners as well as more advanced Stack users, and the organizers are happy to spend time walking new members through the available resources, and explaining how to get started. 
+We develop tutorial notebooks on the Rubin Science Platform (RSP) at NCSA, which provides a standard computing environment, including the most recent version of the Stack and a number of useful precursor datasets. We meet up for biweekly video hack sessions, at which we also review each other's notebooks, and all of our tutorials are available in this repo. New members with zero experience are very welcome: we aim to produce tutorials for beginners as well as more advanced Stack users, and the organizers are happy to spend time walking new members through the available resources, and explaining how to get started. 
+
+We also offer short, self-contained courses on using the Stack. Material from first course from Spring 2020 can be found [here](https://github.com/LSSTScienceCollaborations/StackClubCourse).
 
 See below for how to get involved: we hope you find our notebooks useful!
 
 ## Community Tutorials
 
-Our goal is to build on the existing LSST DM Stack demo notebooks and html tutorial pages to create a set of
-_community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of
-the LSST Science Collaborations. The notebooks in the repo were developed on the LSST Science Platform at NCSA, and use the standard datasets provided there.
+Our goal is to build on the existing demo notebooks and html tutorial pages to create a set of _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of the Rubin Observatory/LSST Science Collaborations. The notebooks in the repo were developed on the Rubin Science Platform (RSP) at NCSA, and use the standard datasets provided there.
 
 | Topic   | Description  | Notebook Location  |
 |---|---|---|
@@ -28,12 +28,12 @@ the LSST Science Collaborations. The notebooks in the repo were developed on the
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
 ## Joining the Stack Club
-We welcome new members with any level of Stack experience; you'll need to be familiar with python, and if you have used Jupyter notebooks and git/Github before, that will help you get started faster, but you don't need to have even looked at the Stack code before. That's what Stack Club is for. All you need is the willingness to spend time learning the Stack.
+We welcome new members with any level of experience. We have found that some familiarity with Python is very helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
 
-If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the LSST Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club LSSTC Slack channel](https://lsstc.slack.com/messages/C9YRAS4HM/).  
+If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the Rubin Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM/) on the LSSTC Slack workspace.  
 
 ## Contributing
-New Stack Club members: please see the [notes on getting started](GettingStarted/GettingStarted.md) - they'll walk you onto you new LSST Science Platform account, and then show you how to work on your tutorial notebooks.
+New Stack Club members: **[START HERE!](GettingStarted/GettingStarted.md)** These notes will walk you through getting access to the Rubin Science Platform and show you how to work on tutorial notebooks.
 
 Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
 
@@ -61,4 +61,4 @@ but you can't blame us if it doesn't do what you want.
 
 ## More About This Project
 
-Following a successful LSSTC "Enabling Science" proposal, we put together a 3-phase plan, which you can read about in more detail [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. We met once a week through Fall 2018, defining about 20 projects, and producing 11 tutorial notebooks for community use. In fall 2018 the Stack Club had about 20 active participants.
+The Stack Club was established as part of a successful LSSTC "Enabling Science" proposal. You can read about our original 3-phase plan [here](https://docs.google.com/document/d/103kzjOklSUWo5MJP9B-EsnAdO7V6bstTC_mzBvd0NIk/edit#). Phase 0 involved collecting existing tutorials and identifying potential club members from around the LSST Science Collaborations. Then, in Phase 1 (late May 2018 to mid August 2018) we worked together in a small group to turn a subset of those existing "seed" tutorials into community-maintained Jupyter notebooks, for display at the August LSST 2018 Project and Community Workshop (PCW) in Tucson. At that meeting, we opened up to a larger group of LSST science collaboration members, extending and spinning off the initial set of notebooks. We met once a week through Fall 2018, defining about 20 projects, and producing 11 tutorial notebooks for community use. In fall 2018 the Stack Club had about 20 active participants.
