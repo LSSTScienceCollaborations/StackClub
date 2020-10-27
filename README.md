@@ -12,16 +12,16 @@ See below for how to get involved: we hope you find our notebooks useful!
 
 Our goal is to build on the existing demo notebooks and html tutorial pages to create a set of _community-generated, community-oriented_ notebooks that reflect the science interests and expected analyses of the Rubin Observatory/LSST Science Collaborations. The notebooks in the repo were developed on the Rubin Science Platform (RSP) at NCSA, and use the standard datasets provided there.
 
-| Topic   | Description  | Notebook Location  |
-|---|---|---|
-| Getting Started  | How to use JupyterLab, and contribute to the Stack Club repo.  | [StackClub/GettingStarted](GettingStarted)  |
-| Basics           | Guided tours of various key Stack classes and functions, data structures, etc. | [StackClub/Basics](Basics)  |
-| Visualization    | Displaying images and catalogs. | [StackClub/Visualization](Visualization)  |
-| Image Processing | From raw images to `calexp`s and `coadd`s.  | [StackClub/ImageProcessing](ImageProcessing) |
-| SourceDetection  | Detection of sources in images - including low surface brightness galaxies.  | [StackClub/SourceDetection](SourceDetection)  |
-| Deblending       | Deblending the objects | [StackClub/Deblending](Deblending) |
-| Measurement      | Measuring the objects | [StackClub/Measurement](Measurement) |
-| Validation       | Tools for validating Stack outputs, example validation analyses | [StackClub/Validation](Validation) |
+| Topic   | Description  |
+|---|---|
+| [GettingStarted](GettingStarted)   | How to use JupyterLab, and contribute to the Stack Club repo.  |
+| [Basics](Basics)                   | Guided tours of various key Stack classes and functions, data structures, etc. |
+| [Visualization](Visualization)     | Displaying images and catalogs. |
+| [ImageProcessing](ImageProcessing) | From raw images to `calexp`s and `coadd`s.  |
+| [SourceDetection](SourceDetection) | Detection of sources in images - including low surface brightness galaxies.  |
+| [Deblending](Deblending)           | Deblending astronomical sources |
+| [Measurement](Measurement)         | Measuring object properties |
+| [Validation](Validation)           | Tools for validating Stack outputs, example validation analyses |
 
 * [Stack Club projects](https://github.com/LSSTScienceCollaborations/StackClub/labels/project), as defined by Stack Club members - follow [this link](https://github.com/LSSTScienceCollaborations/StackClub/labels/project) to see what people are working on. [Unassigned projects](https://github.com/LSSTScienceCollaborations/StackClub/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Aproject+no%3Aassignee) are available for new members to take on!
 
