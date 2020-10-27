@@ -30,12 +30,12 @@ Our goal is to build on the existing demo notebooks and html tutorial pages to c
 ## Joining the Stack Club
 We welcome new members with any level of experience. We have found that some familiarity with Python is very helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
 
-If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the Rubin Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo and joining the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM/) on the LSSTC Slack workspace.  
+If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. (Basically you'll be asked to agree to abide by the [Stack Club Rules](Rules.md), and then give enough contact information to request an account on the Rubin Science Platform.) If you are not ready to commit time to working on a Stack Club project, you can still follow along by [watching](https://github.com/LSSTScienceCollaborations/StackClub/subscription) this repo, joining the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM/) on the LSSTC Slack workspace, or viewing material from the [Stack Club Course](https://github.com/LSSTScienceCollaborations/StackClubCourse).  
 
 ## Contributing
-New Stack Club members: **[START HERE!](GettingStarted/GettingStarted.md)** These notes will walk you through getting access to the Rubin Science Platform and show you how to work on tutorial notebooks.
+**New members:** **[START HERE!](GettingStarted/GettingStarted.md)** These notes will walk you through getting access to the Rubin Science Platform and show you how to work on tutorial notebooks.
 
-Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. If you are interested in joining the Stack Club, please drop us a line in [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). When preparing a pull request, please note the Stack Club [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards).
+**Everyone else:** we welcome pull requests! Feel free to fork this repo and send us a pull request. If you are interested in joining the Stack Club, please drop us a line in [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). When preparing a pull request, please note the Stack Club [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards).
 
 ## Contact
 We welcome your input! Please post questions and suggestions in the
