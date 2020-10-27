@@ -35,9 +35,7 @@ If you would like to join the Stack Club, please fill out this short **[applicat
 ## Contributing
 New Stack Club members: **[START HERE!](GettingStarted/GettingStarted.md)** These notes will walk you through getting access to the Rubin Science Platform and show you how to work on tutorial notebooks.
 
-Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. And if you are interested in joining the  Stack Club, please drop one of us a line, or come and find us in the [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM) LSSTC Slack channel.
-
-> When preparing a pull request, please note the [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards) that we are trying to uphold.
+Everyone else: we welcome pull requests! Feel free to fork this repo and send us a pull request. If you are interested in joining the Stack Club, please drop us a line in [#stack-club](https://lsstc.slack.com/messages/C9YRAS4HM). When preparing a pull request, please note the Stack Club [standards](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#standards).
 
 ## Contact
 We welcome your input! Please post questions and suggestions in the
