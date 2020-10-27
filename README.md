@@ -17,7 +17,7 @@ Our goal is to build on the existing demo notebooks and html tutorial pages to c
 | [GettingStarted](GettingStarted)   | How to use JupyterLab, and contribute to the Stack Club repo.  |
 | [Basics](Basics)                   | Guided tours of various key Stack classes and functions, data structures, etc. |
 | [Visualization](Visualization)     | Displaying images and catalogs. |
-| [ImageProcessing](ImageProcessing) | From raw images to `calexp`s and `coadd`s.  |
+| [ImageProcessing](ImageProcessing) | From raw images to calibrated exposures and coadded images.  |
 | [SourceDetection](SourceDetection) | Detection of sources in images - including low surface brightness galaxies.  |
 | [Deblending](Deblending)           | Deblending astronomical sources |
 | [Measurement](Measurement)         | Measuring object properties |
