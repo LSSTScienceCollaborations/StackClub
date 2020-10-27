@@ -21,7 +21,7 @@ The recommended method is to use Cisco's AnyConnect with DUO two-factor authenti
 The best documentation for getting setup with your account is on [nb.lsst.io](https://nb.lsst.io/index.html#getting-started).
 
 1. [Install and configure the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-setup)
-2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login) (**NB:** Use the `ncsa-vpn-default` group; this may not be the default group selected)
+2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login) (**NB:** Use the `ncsa-vpn-default` group; this may not be selected by default)
 3. [Log into the Notebook Aspect](https://nb.lsst.io/getting-started/logging-in.html#step-2-log-in) (**NB:** Use "NCSA as the identity provider", not your institution)
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
