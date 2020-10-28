@@ -9,7 +9,8 @@ notebook aspect of the Rubin Science Platform (RSP). In these notes we provide:
 
 ## Accessing the Rubin Science Platform
 The [Rubin Science Platform (RSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the system, including how to gain access and then how to use JupyterLab once you are in. 
-Accessing the RSP involves getting an NCSA account and figuring out VPN access.
+Access the RSP requires Rubin Observatory data rights, as described at [ls.st/rdo-013](https://ls.st/rdo-013).
+You will also need to get an NCSA account and connect through the NCSA VPN.
 
 #### Getting a Rubin Science Platform Account
 To join the Stack Club and request one of these accounts, please fill out the [Stack Club Membership Application Form](https://forms.gle/rehWtaoHgiBx6VfZ6). You'll need to agree to abide by the [Rules](../Rules.md), provide your full name (first and last), and your email address. 
