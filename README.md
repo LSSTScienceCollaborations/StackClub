@@ -28,7 +28,7 @@ Our goal is to build on the existing demo notebooks and html tutorial pages to c
 * [Working list of target topics, with links to tutorial seeds](https://docs.google.com/document/d/1PSA1uWwTfs9CweatpxF8CEPGBYRY5ZaXB39JzXYE7_U/edit#), for help in defining a new Stack Club project. This list is a fairly comprehensive collection of existing project and community tutorial web pages and demo notebooks, from which seeds can be drawn.
 
 ## Joining the Stack Club
-We welcome new members with any level of experience. We have found that some familiarity with Python is helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
+Active participation in the Stack Club requires Rubin Observatory data rights as described in [ls.st/rdo-013](https://ls.st/rdo-013). We welcome new members with any level of experience. We have found that some familiarity with Python is helpful, and that experience with Jupyter notebooks and git/GitHub can help you get started faster. No experience with the Stack is required.
 
 If you would like to join the Stack Club, please fill out this short **[application form](https://forms.gle/rehWtaoHgiBx6VfZ6)**. 
 You'll be asked to agree to abide by the [Stack Club Rules](Rules.md) and provide enough contact information to request an account on the Rubin Science Platform.
