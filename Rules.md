@@ -1,6 +1,6 @@
 # Stack Club Rules
 
-As members of the LSST Science Collaborations' Stack Club, we agree:
+Access to the Rubin Science Platform requires Rubin Observatory data rights as described in [ls.st/rdo-013](https://ls.st/rdo-013). As members of the Stack Club, we agree:
 
 1.  **To each maintain the tutorial notebooks that we own.** The owners of each notebook will be written into its top cell, right under the notebook title. Notebooks that fail to run will be flagged as such; issues pointing out broken notebooks can be posted by anyone. 
 
@@ -12,5 +12,5 @@ As members of the LSST Science Collaborations' Stack Club, we agree:
 
 5. **To give way to others when necessary.** The Stack Club has only a limited number of LSP accounts: if we are not actively developing our Stack Club project, we won't mind if a new member takes our place while our own LSP account is de-activated (possibly temporarily).  
 
-6. **To follow the LSST community guidelines** as laid out at https://community.lsst.org/faq when participating in club sessions and interacting with fellow members on Slack and GitHub, in order to foster an open, inclusive and respectful working environment.
+6. **To follow the Runin Observatory community guidelines** as laid out at https://community.lsst.org/faq when participating in club sessions and interacting with fellow members on Slack and GitHub, in order to foster an open, inclusive and respectful working environment.
 
