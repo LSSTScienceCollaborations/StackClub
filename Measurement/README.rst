@@ -45,7 +45,7 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
    * - **Resolved Dwarf Galaxy**
      - Explore resolved sources around a nearby dwarf galaxy
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/DwarfGalaxySrcOverdensity.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/DwarfGalaxySrcOverdensity.ipynb>`_
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/DwarfGalaxySrcOverdensity.nbconvert.ipynb>`_
 
        .. raw:: html
 
