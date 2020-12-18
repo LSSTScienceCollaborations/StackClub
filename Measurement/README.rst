@@ -41,3 +41,17 @@ This folder contains a set of tutorial notebooks exploring the Object measuremen
              </a>
 
      - `Andrew Bradshaw <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@andrewkbradshaw>`_
+
+   * - **Resolved Dwarf Galaxy**
+     - Explore resolved sources around a nearby dwarf galaxy
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Measurement/DwarfGalaxySrcOverdensity.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/DwarfGalaxySrcOverdensity.ipynb>`_
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Measurement/log/DwarfGalaxySrcOverdensity.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Measurement/log/DwarfGalaxySrcOverdensity.png">
+               </img>
+             </a>
+
+     - `Jeff Carlin <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@jeffcarlin>`_
