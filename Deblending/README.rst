@@ -31,13 +31,13 @@ This folder contains a set of tutorial notebooks exploring the deblending of LSS
 
    * - **Deblending in DRP**
      - Where and how the deblending happens, in the DRP pipeline.
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Deblending/lsst_stack_deblender.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/lsst_stack_deblender.nbconvert.ipynb>`__
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Deblending/LsstStackDeblender.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/LsstStackDeblender.nbconvert.ipynb>`__
 
        .. raw:: html
 
-             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/lsst_stack_deblender.log">
-               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Deblending/log/lsst_stack_deblender.png">
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Deblending/log/LsstStackDeblender.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Deblending/log/LsstStackDeblender.png">
                </img>
              </a>
 
