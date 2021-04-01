@@ -28,7 +28,7 @@ The best documentation for getting setup with your account is on [nb.lsst.io](ht
 
 If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
 
-For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager.
+For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager. For Mac OS X, you can also use `openconnect-gui`[https://openconnect.github.io/openconnect-gui/] which can be installed with homebrew.
 
 #### Starting the Rubin Science Platform JupyterLab Notebook Aspect
 Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lsp-stable.ncsa.illinois.edu**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
