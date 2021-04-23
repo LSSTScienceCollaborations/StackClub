@@ -1,0 +1,6 @@
+[NbConvertApp] Converting notebook bokeh_holoviews_datashader.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+[NbConvertApp] Writing 8852548 bytes to bokeh_holoviews_datashader.nbconvert.ipynb

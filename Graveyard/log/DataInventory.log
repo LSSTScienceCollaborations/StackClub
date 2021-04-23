@@ -1,0 +1,82 @@
+[NbConvertApp] Converting notebook DataInventory.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 350, in start
+    self.convert_notebooks()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 524, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 489, in convert_single_notebook
+    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 418, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 181, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 199, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 143, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 318, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 79, in preprocess
+    self.execute()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/lib64/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 541, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 123, in async_execute_cell
+    cell, resources = self.preprocess_cell(cell, self.resources, cell_index)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 146, in preprocess_cell
+    cell = run_sync(NotebookClient.async_execute_cell)(self, cell, index, store_history=self.store_history)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/lib/python3.6/site-packages/nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 832, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 740, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply['content'])
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+tarquin.what_exists()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+[0;32m<ipython-input-1-5d63acdb0e3a>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mtarquin[0m[0;34m.[0m[0mwhat_exists[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[0;32m~/notebooks/.beavis/StackClub/stackclub/taster.py[0m in [0;36mwhat_exists[0;34m(self, all)[0m
+[1;32m     48[0m         [0;31m# Get mappers for all tested repos[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     49[0m         [0;32mfrom[0m [0mlsst[0m[0;34m.[0m[0mobs[0m[0;34m.[0m[0mhsc[0m [0;32mimport[0m [0mHscMapper[0m[0;34m[0m[0;34m[0m[0m
+[0;32m---> 50[0;31m         [0;32mfrom[0m [0mlsst[0m[0;34m.[0m[0mobs[0m[0;34m.[0m[0mcomCam[0m [0;32mimport[0m [0mComCamMapper[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     51[0m         [0;31m#from lsst.obs.lsst import LsstCamMapper[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     52[0m         [0;32mfrom[0m [0mlsst[0m[0;34m.[0m[0mobs[0m[0;34m.[0m[0mctio0m9[0m [0;32mimport[0m [0mCtio0m9Mapper[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mModuleNotFoundError[0m: No module named 'lsst.obs.comCam'
+ModuleNotFoundError: No module named 'lsst.obs.comCam'
+

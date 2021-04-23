@@ -1,0 +1,17 @@
+[NbConvertApp] Converting notebook Exploring_A_DC2_Data_Repo.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading Posix exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/rerun/run2.2i-coadd-wfd-dr6-v1
+[NbConvertApp] Writing 1353377 bytes to Exploring_A_DC2_Data_Repo.nbconvert.ipynb

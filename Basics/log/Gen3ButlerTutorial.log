@@ -1,0 +1,125 @@
+[NbConvertApp] Converting notebook Gen3ButlerTutorial.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 350, in start
+    self.convert_notebooks()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 524, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 489, in convert_single_notebook
+    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 418, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 181, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 199, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 143, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 318, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 79, in preprocess
+    self.execute()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/lib64/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 541, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 123, in async_execute_cell
+    cell, resources = self.preprocess_cell(cell, self.resources, cell_index)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 146, in preprocess_cell
+    cell = run_sync(NotebookClient.async_execute_cell)(self, cell, index, store_history=self.store_history)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/lib/python3.6/site-packages/nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 832, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 740, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply['content'])
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+butler = dafButler.Butler(repo,collections="shared/ci_hsc_output")
+
+# Optionally, you can specify the repo config explicitly
+#config = os.path.join(repo,'butler.yaml')
+#butler = dafButler.Butler(config=config,collections="shared/ci_hsc_output")
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mMissingAttributesTableError[0m               Traceback (most recent call last)
+[0;32m<ipython-input-1-016e2e503e9b>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mbutler[0m [0;34m=[0m [0mdafButler[0m[0;34m.[0m[0mButler[0m[0;34m([0m[0mrepo[0m[0;34m,[0m[0mcollections[0m[0;34m=[0m[0;34m"shared/ci_hsc_output"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      2[0m [0;34m[0m[0m
+[1;32m      3[0m [0;31m# Optionally, you can specify the repo config explicitly[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0;31m#config = os.path.join(repo,'butler.yaml')[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      5[0m [0;31m#butler = dafButler.Butler(config=config,collections="shared/ci_hsc_output")[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/_butler.py[0m in [0;36m__init__[0;34m(self, config, butler, collections, run, tags, chains, searchPaths, writeable)[0m
+[1;32m    219[0m             [0;32mif[0m [0mwriteable[0m [0;32mis[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    220[0m                 [0mwriteable[0m [0;34m=[0m [0mrun[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m [0;32mor[0m [0mchains[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m [0;32mor[0m [0mself[0m[0;34m.[0m[0mtags[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 221[0;31m             [0mself[0m[0;34m.[0m[0mregistry[0m [0;34m=[0m [0mRegistry[0m[0;34m.[0m[0mfromConfig[0m[0;34m([0m[0mself[0m[0;34m.[0m[0m_config[0m[0;34m,[0m [0mbutlerRoot[0m[0;34m=[0m[0mbutlerRoot[0m[0;34m,[0m [0mwriteable[0m[0;34m=[0m[0mwriteable[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    222[0m             self.datastore = Datastore.fromConfig(self._config, self.registry.getDatastoreBridgeManager(),
+[1;32m    223[0m                                                   butlerRoot=butlerRoot)
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/_registry.py[0m in [0;36mfromConfig[0;34m(cls, config, butlerRoot, writeable)[0m
+[1;32m    219[0m         return cls(database, dimensions=dimensions, attributes=attributes, opaque=opaque,
+[1;32m    220[0m                    [0mcollections[0m[0;34m=[0m[0mcollections[0m[0;34m,[0m [0mdatasets[0m[0;34m=[0m[0mdatasets[0m[0;34m,[0m [0mdatastoreBridges[0m[0;34m=[0m[0mdatastoreBridges[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 221[0;31m                    dimensionConfig=None, writeable=writeable)
+[0m[1;32m    222[0m [0;34m[0m[0m
+[1;32m    223[0m     def __init__(self, database: Database, *,
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/_registry.py[0m in [0;36m__init__[0;34m(self, database, attributes, opaque, dimensions, collections, datasets, datastoreBridges, dimensionConfig, writeable, create)[0m
+[1;32m    246[0m                 )
+[1;32m    247[0m                 [0;31m# verify that configured versions are compatible with schema[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 248[0;31m                 [0mversions[0m[0;34m.[0m[0mcheckManagersConfig[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    249[0m                 [0mversions[0m[0;34m.[0m[0mcheckManagersVersions[0m[0;34m([0m[0mwriteable[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    250[0m [0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/versions.py[0m in [0;36mcheckManagersConfig[0;34m(self)[0m
+[1;32m    268[0m             [0mRaised[0m [0;32mif[0m [0mdatabase[0m [0mhas[0m [0mno[0m [0mstored[0m [0mmanager[0m [0mname[0m[0;34m.[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    269[0m         """
+[0;32m--> 270[0;31m         [0;32mif[0m [0mself[0m[0;34m.[0m[0m_attributesEmpty[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    271[0m             [0;32mreturn[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    272[0m [0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/versions.py[0m in [0;36m_attributesEmpty[0;34m(self)[0m
+[1;32m    253[0m         [0;31m# skip all checks but print a warning.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    254[0m         [0;32mif[0m [0mself[0m[0;34m.[0m[0m_emptyFlag[0m [0;32mis[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 255[0;31m             [0mself[0m[0;34m.[0m[0m_emptyFlag[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_attributes[0m[0;34m.[0m[0mempty[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    256[0m             [0;32mif[0m [0mself[0m[0;34m.[0m[0m_emptyFlag[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    257[0m                 [0m_LOG[0m[0;34m.[0m[0mwarning[0m[0;34m([0m[0;34m"Attributes table is empty, schema may need an upgrade."[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/attributes.py[0m in [0;36mempty[0;34m(self)[0m
+[1;32m    158[0m         [0;32mexcept[0m [0msqlalchemy[0m[0;34m.[0m[0mexc[0m[0;34m.[0m[0mOperationalError[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    159[0m             [0;31m# if this is due to missing table raise different exception[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 160[0;31m             [0mself[0m[0;34m.[0m[0m_checkTableExists[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    161[0m             [0;32mraise[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    162[0m [0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/registry/attributes.py[0m in [0;36m_checkTableExists[0;34m(self)[0m
+[1;32m    101[0m                 [0;34mf"`{self._table.name}` table is missing from schema, schema has to"[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    102[0m                 [0;34m" be initialized before use (database is probably outdated)."[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 103[0;31m             ) from None
+[0m[1;32m    104[0m [0;34m[0m[0m
+[1;32m    105[0m     [0;32mdef[0m [0mget[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mname[0m[0;34m:[0m [0mstr[0m[0;34m,[0m [0mdefault[0m[0;34m:[0m [0mOptional[0m[0;34m[[0m[0mstr[0m[0;34m][0m [0;34m=[0m [0;32mNone[0m[0;34m)[0m [0;34m->[0m [0mOptional[0m[0;34m[[0m[0mstr[0m[0;34m][0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mMissingAttributesTableError[0m: `butler_attributes` table is missing from schema, schema has to be initialized before use (database is probably outdated).
+MissingAttributesTableError: `butler_attributes` table is missing from schema, schema has to be initialized before use (database is probably outdated).
+

@@ -1,0 +1,5 @@
+[NbConvertApp] Converting notebook LsstCameraGeometry.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading Posix exposure registry from /home/kadrlica/notebooks/.beavis/StackClub/Visualization
+[NbConvertApp] Writing 240240 bytes to LsstCameraGeometry.nbconvert.ipynb

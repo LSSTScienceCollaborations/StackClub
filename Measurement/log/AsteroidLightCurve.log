@@ -1,0 +1,9 @@
+[NbConvertApp] Converting notebook AsteroidLightCurve.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /project/mrawls/hits2015/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /project/mrawls/hits2015/calib5/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /project/mrawls/hits2015/calib5/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /project/mrawls/hits2014/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /project/mrawls/hits2014/calib/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /project/mrawls/hits2014/calib/calibRegistry.sqlite3
+[NbConvertApp] Writing 74761 bytes to AsteroidLightCurve.nbconvert.ipynb

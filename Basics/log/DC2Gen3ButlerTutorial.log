@@ -1,0 +1,89 @@
+[NbConvertApp] Converting notebook DC2Gen3ButlerTutorial.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 350, in start
+    self.convert_notebooks()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 524, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 489, in convert_single_notebook
+    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 418, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 181, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 199, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 143, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 318, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 79, in preprocess
+    self.execute()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/lib64/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 541, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 123, in async_execute_cell
+    cell, resources = self.preprocess_cell(cell, self.resources, cell_index)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 146, in preprocess_cell
+    cell = run_sync(NotebookClient.async_execute_cell)(self, cell, index, store_history=self.store_history)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/lib/python3.6/site-packages/nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 832, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 740, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply['content'])
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+butler.getURI(ref)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+[0;32m<ipython-input-1-3e38da18bbef>[0m in [0;36m<module>[0;34m[0m
+[0;32m----> 1[0;31m [0mbutler[0m[0;34m.[0m[0mgetURI[0m[0;34m([0m[0mref[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/_butler.py[0m in [0;36mgetURI[0;34m(self, datasetRefOrType, dataId, predict, collections, run, **kwds)[0m
+[1;32m    998[0m         """
+[1;32m    999[0m         primary, components = self.getURIs(datasetRefOrType, dataId=dataId, predict=predict,
+[0;32m-> 1000[0;31m                                            collections=collections, run=run, **kwds)
+[0m[1;32m   1001[0m [0;34m[0m[0m
+[1;32m   1002[0m         [0;32mif[0m [0mprimary[0m [0;32mis[0m [0;32mNone[0m [0;32mor[0m [0mcomponents[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/_butler.py[0m in [0;36mgetURIs[0;34m(self, datasetRefOrType, dataId, predict, collections, run, **kwds)[0m
+[1;32m    939[0m             [0;31m# Datastore.getURIs() will ever see it (and it doesn't use it).[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    940[0m             [0mref[0m [0;34m=[0m [0mref[0m[0;34m.[0m[0mresolved[0m[0;34m([0m[0mid[0m[0;34m=[0m[0;36m0[0m[0;34m,[0m [0mrun[0m[0;34m=[0m[0mrun[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 941[0;31m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mdatastore[0m[0;34m.[0m[0mgetURIs[0m[0;34m([0m[0mref[0m[0;34m,[0m [0mpredict[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    942[0m [0;34m[0m[0m
+[1;32m    943[0m     def getURI(self, datasetRefOrType: Union[DatasetRef, DatasetType, str],
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/datastores/fileDatastore.py[0m in [0;36mgetURIs[0;34m(self, ref, predict)[0m
+[1;32m   1011[0m         [0;32mif[0m [0;32mnot[0m [0mself[0m[0;34m.[0m[0mexists[0m[0;34m([0m[0mref[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   1012[0m             [0;32mif[0m [0;32mnot[0m [0mpredict[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 1013[0;31m                 [0;32mraise[0m [0mFileNotFoundError[0m[0;34m([0m[0;34m"Dataset {} not in this datastore"[0m[0;34m.[0m[0mformat[0m[0;34m([0m[0mref[0m[0;34m)[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   1014[0m [0;34m[0m[0m
+[1;32m   1015[0m             [0;32mdef[0m [0mpredictLocation[0m[0;34m([0m[0mthisRef[0m[0;34m:[0m [0mDatasetRef[0m[0;34m)[0m [0;34m->[0m [0mLocation[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mFileNotFoundError[0m: Dataset calexp@{band: z, instrument: LSSTCam-imSim, detector: 22, physical_filter: z_sim_1.4, visit_system: 1, visit: 748908}, sc=ExposureF] (id=7758333) not in this datastore
+FileNotFoundError: Dataset calexp@{band: z, instrument: LSSTCam-imSim, detector: 22, physical_filter: z_sim_1.4, visit_system: 1, visit: 748908}, sc=ExposureF] (id=7758333) not in this datastore
+

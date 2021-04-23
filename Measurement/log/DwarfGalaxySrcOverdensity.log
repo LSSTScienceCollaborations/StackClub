@@ -1,0 +1,12 @@
+[NbConvertApp] Converting notebook DwarfGalaxySrcOverdensity.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/calib/20200115/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/calib/20200115/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/calib/20200115/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/calib/20200115/calibRegistry.sqlite3
+HscMapper WARN: Unable to find calib root directory
+[NbConvertApp] Writing 5867110 bytes to DwarfGalaxySrcOverdensity.nbconvert.ipynb
