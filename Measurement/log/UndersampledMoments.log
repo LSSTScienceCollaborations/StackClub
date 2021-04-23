@@ -1,0 +1,25 @@
+[NbConvertApp] Converting notebook UndersampledMoments.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+characterizeImage WARN: Source catalog detected and measured with placeholder or default PSF
+characterizeImage.detection INFO: Detected 1024 positive peaks in 1024 footprints and 0 negative peaks in 0 footprints to 50 sigma
+characterizeImage.detection INFO: Resubtracting the background after object detection
+characterizeImage.measurement INFO: Measuring 1024 sources (1024 parents, 0 children) 
+characterizeImage INFO: iter 1; PSF sigma=0.29, dimensions=(11, 11); median background=0.00
+characterizeImage.measurement INFO: Measuring 1024 sources (1024 parents, 0 children) 
+calibrate.detection INFO: Detected 1027 positive peaks in 1027 footprints and 1 negative peaks in 1 footprints to 5 sigma
+calibrate.detection INFO: Resubtracting the background after object detection
+calibrate.skySources INFO: Added 100 of 100 requested sky sources (100%)
+calibrate.measurement INFO: Measuring 1127 sources (1127 parents, 0 children) 
+calibrate INFO: Copying flags from icSourceCat to sourceCat for 1024 sources
+characterizeImage WARN: Source catalog detected and measured with placeholder or default PSF
+characterizeImage.detection INFO: Detected 214 positive peaks in 100 footprints and 0 negative peaks in 0 footprints to 50 sigma
+characterizeImage.detection INFO: Resubtracting the background after object detection
+characterizeImage.measurement INFO: Measuring 100 sources (100 parents, 0 children) 
+characterizeImage INFO: iter 1; PSF sigma=0.29, dimensions=(11, 11); median background=0.01
+characterizeImage.measurement INFO: Measuring 100 sources (100 parents, 0 children) 
+calibrate.detection INFO: Detected 319 positive peaks in 110 footprints and 0 negative peaks in 0 footprints to 5 sigma
+calibrate.detection INFO: Resubtracting the background after object detection
+calibrate.skySources INFO: Added 100 of 100 requested sky sources (100%)
+calibrate.measurement INFO: Measuring 210 sources (210 parents, 0 children) 
+calibrate INFO: Copying flags from icSourceCat to sourceCat for 100 sources
+[NbConvertApp] Writing 2250450 bytes to UndersampledMoments.nbconvert.ipynb

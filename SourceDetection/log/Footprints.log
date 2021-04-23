@@ -1,0 +1,17 @@
+[NbConvertApp] Converting notebook Footprints.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+LsstCamMapper WARN: Unable to find valid calib root directory
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/DC2/DR6/Run2.2i/patched/2021-02-10/CALIB/calibRegistry.sqlite3
+sourceDetection INFO: Detected 6978 positive peaks in 5758 footprints and 0 negative peaks in 0 footprints to 10 sigma
+sourceDetection INFO: Resubtracting the background after object detection
+[NbConvertApp] Writing 5437758 bytes to Footprints.nbconvert.ipynb

@@ -1,0 +1,113 @@
+[NbConvertApp] Converting notebook DC2Gen3ButlerTutorial.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+Traceback (most recent call last):
+  File "/usr/local/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.6/site-packages/jupyter_core/application.py", line 270, in launch_instance
+    return super(JupyterApp, cls).launch_instance(argv=argv, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/traitlets/config/application.py", line 664, in launch_instance
+    app.start()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 350, in start
+    self.convert_notebooks()
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 524, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 489, in convert_single_notebook
+    output, resources = self.export_single_notebook(notebook_filename, resources, input_buffer=input_buffer)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/nbconvertapp.py", line 418, in export_single_notebook
+    output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 181, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 199, in from_file
+    return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 32, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 143, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 318, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+    return self.preprocess(nb, resources)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 79, in preprocess
+    self.execute()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/lib64/python3.6/asyncio/base_events.py", line 484, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 541, in async_execute
+    cell, index, execution_count=self.code_cells_executed + 1
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 123, in async_execute_cell
+    cell, resources = self.preprocess_cell(cell, self.resources, cell_index)
+  File "/usr/local/lib/python3.6/site-packages/nbconvert/preprocessors/execute.py", line 146, in preprocess_cell
+    cell = run_sync(NotebookClient.async_execute_cell)(self, cell, index, store_history=self.store_history)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/usr/local/lib/python3.6/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/usr/local/lib/python3.6/site-packages/nest_asyncio.py", line 98, in run_until_complete
+    return f.result()
+  File "/usr/lib64/python3.6/asyncio/tasks.py", line 180, in _step
+    result = coro.send(None)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 832, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/usr/local/lib/python3.6/site-packages/nbclient/client.py", line 740, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply['content'])
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# We could get the src table using the dataId as we did above for the calexp, 
+# but this would require the butler to perform another query of the database. 
+# Instead, we can just pass the ref itself directly to butler.get
+src = butler.get('calexp')
+src = src.copy(True)
+src.asAstropy()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mKeyError[0m                                  Traceback (most recent call last)
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/core/dimensions/_coordinate.py[0m in [0;36mstandardize[0;34m(mapping, graph, universe, **kwargs)[0m
+[1;32m    202[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 203[0;31m                 [0mvalues[0m [0;34m=[0m [0mtuple[0m[0;34m([0m[0md[0m[0;34m[[0m[0mname[0m[0;34m][0m [0;32mfor[0m [0mname[0m [0;32min[0m [0mgraph[0m[0;34m.[0m[0mrequired[0m[0;34m.[0m[0mnames[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    204[0m             [0;32mexcept[0m [0mKeyError[0m [0;32mas[0m [0merr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/core/dimensions/_coordinate.py[0m in [0;36m<genexpr>[0;34m(.0)[0m
+[1;32m    202[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 203[0;31m                 [0mvalues[0m [0;34m=[0m [0mtuple[0m[0;34m([0m[0md[0m[0;34m[[0m[0mname[0m[0;34m][0m [0;32mfor[0m [0mname[0m [0;32min[0m [0mgraph[0m[0;34m.[0m[0mrequired[0m[0;34m.[0m[0mnames[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    204[0m             [0;32mexcept[0m [0mKeyError[0m [0;32mas[0m [0merr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mKeyError[0m: 'instrument'
+
+The above exception was the direct cause of the following exception:
+
+[0;31mKeyError[0m                                  Traceback (most recent call last)
+[0;32m<ipython-input-1-8c224f0a95a0>[0m in [0;36m<module>[0;34m[0m
+[1;32m      2[0m [0;31m# but this would require the butler to perform another query of the database.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      3[0m [0;31m# Instead, we can just pass the ref itself directly to butler.get[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 4[0;31m [0msrc[0m [0;34m=[0m [0mbutler[0m[0;34m.[0m[0mget[0m[0;34m([0m[0;34m'calexp'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m      5[0m [0msrc[0m [0;34m=[0m [0msrc[0m[0;34m.[0m[0mcopy[0m[0;34m([0m[0;32mTrue[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      6[0m [0msrc[0m[0;34m.[0m[0masAstropy[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/_butler.py[0m in [0;36mget[0;34m(self, datasetRefOrType, dataId, parameters, collections, **kwds)[0m
+[1;32m    885[0m         """
+[1;32m    886[0m         [0mlog[0m[0;34m.[0m[0mdebug[0m[0;34m([0m[0;34m"Butler get: %s, dataId=%s, parameters=%s"[0m[0;34m,[0m [0mdatasetRefOrType[0m[0;34m,[0m [0mdataId[0m[0;34m,[0m [0mparameters[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 887[0;31m         [0mref[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_findDatasetRef[0m[0;34m([0m[0mdatasetRefOrType[0m[0;34m,[0m [0mdataId[0m[0;34m,[0m [0mcollections[0m[0;34m=[0m[0mcollections[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    888[0m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mgetDirect[0m[0;34m([0m[0mref[0m[0;34m,[0m [0mparameters[0m[0;34m=[0m[0mparameters[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    889[0m [0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/_butler.py[0m in [0;36m_findDatasetRef[0;34m(self, datasetRefOrType, dataId, collections, allowUnresolved, **kwds)[0m
+[1;32m    631[0m             [0;31m# type instead of letting registry.findDataset do it, so we get the[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    632[0m             [0;31m# result even if no dataset is found.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 633[0;31m             [0mdataId[0m [0;34m=[0m [0mDataCoordinate[0m[0;34m.[0m[0mstandardize[0m[0;34m([0m[0mdataId[0m[0;34m,[0m [0mgraph[0m[0;34m=[0m[0mdatasetType[0m[0;34m.[0m[0mdimensions[0m[0;34m,[0m [0;34m**[0m[0mkwds[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    634[0m         [0;32mif[0m [0mcollections[0m [0;32mis[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    635[0m             [0mcollections[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mcollections[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/lsst/software/stack/stack/miniconda3-py37_4.8.2-cb4e2dc/Linux64/daf_butler/21.0.0+187b78b4b8/python/lsst/daf/butler/core/dimensions/_coordinate.py[0m in [0;36mstandardize[0;34m(mapping, graph, universe, **kwargs)[0m
+[1;32m    203[0m                 [0mvalues[0m [0;34m=[0m [0mtuple[0m[0;34m([0m[0md[0m[0;34m[[0m[0mname[0m[0;34m][0m [0;32mfor[0m [0mname[0m [0;32min[0m [0mgraph[0m[0;34m.[0m[0mrequired[0m[0;34m.[0m[0mnames[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    204[0m             [0;32mexcept[0m [0mKeyError[0m [0;32mas[0m [0merr[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 205[0;31m                 [0;32mraise[0m [0mKeyError[0m[0;34m([0m[0;34mf"No value in data ID ({mapping}) for required dimension {err}."[0m[0;34m)[0m [0;32mfrom[0m [0merr[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    206[0m         [0;31m# Some backends cannot handle numpy.int64 type which is a subclass of[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    207[0m         [0;31m# numbers.Integral; convert that to int.[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mKeyError[0m: "No value in data ID (None) for required dimension 'instrument'."
+KeyError: "No value in data ID (None) for required dimension 'instrument'."
+

@@ -1,0 +1,11 @@
+[NbConvertApp] Converting notebook Exploring_An_HSC_Data_Repo.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: lsst
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+CameraMapper INFO: Loading exposure registry from /datasets/hsc/repo/registry.sqlite3
+CameraMapper INFO: Loading calib registry from /datasets/hsc/repo/CALIB/calibRegistry.sqlite3
+HscMapper WARN: Unable to find calib root directory
+HscMapper WARN: Unable to find calib root directory
+[NbConvertApp] Writing 446723 bytes to Exploring_An_HSC_Data_Repo.nbconvert.ipynb
