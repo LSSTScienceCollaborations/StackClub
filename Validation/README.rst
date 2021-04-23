@@ -27,3 +27,17 @@ stand-alone notebooks useful for examining various aspects of data quality.
              </a>
 
      - `Keith Bechtol <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@bechtol>`__
+
+   * - **Verify  Quality Demo**
+     - Examples use of LSST verify package
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Validation/verify_demo.ipynb>`__,
+       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Validation/verify_demo.nbconvert.ipynb>`__
+
+       .. raw:: html
+
+             <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Validation/log/verify_demo.log">
+               <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Validation/log/verify_demo.png">
+               </img>
+             </a>
+
+     - `Keith Bechtol <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@bechtol>`__

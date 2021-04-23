@@ -62,7 +62,7 @@ See the table below for a set of tutorial notebooks (some provided by the Projec
 
      - `Alex Drlica-Wagner <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@kadrlica>`__
 
-   * - **"With Globular" LSST 2018 Tutorial**
-     - General purpose tutorial including interactive Firefly visualization.
+   * - **Globular Cluster Intro**
+     - General purpose tutorial including interactive Firefly visualization of a globular cluster from LSST 2018.
      - `ipynb <https://github.com/lsst-dm/dm-demo-notebooks/blob/master/workshops/lsst2018/intro-with-globular.ipynb>`__
      - `Jim Bosch <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@TallJimbo>`__
