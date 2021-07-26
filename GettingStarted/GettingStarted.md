@@ -3,14 +3,16 @@
 _[Greg Madejski](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@Madejski)
  and [Phil Marshall](https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@drphilmarshall)_
 
-We are developing tutorial notebooks on remote JupyterLab instances, to short-circuit the DM stack installation process and get used to working in the
-notebook aspect of the Rubin Science Platform (RSP). In these notes we provide:
-* [Notes on how to get set up on the Rubin Science Platform (RSP) JupyterLab Notebook Aspect at the LSST Data Facility at NCSA](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#accessing-the-lsst-science-platform)
-* [Help with getting set up to run and edit the Stack Club tutorial notebooks](https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/GettingStarted.md#running-and-contributing-to-the-stack-club-notebooks)
+First, a preamble:  The instructions below are for setting up the Rubin account, and connecting to the Rubin Data Facility at NCSA, 
+used for the Rubin Stack Club members.  This is 
+distinct from the Rubin Data Facility used for the work of Data Preview 0 (DP0) delegates, which is at the Interim Data Facility (IDF).  The 
+instructions for connecting to the Rubin Science Platform as a DP0 delegate, go to https://dp0-1.lsst.io/dp0-delegate-resources/index.html 
+
+The goal of the Stak Club (which predates the DP0) has been to develop tutorial notebooks on remote JupyterLab instances, 
+to short-circuit the DM stack installation process and get used to working in the notebook aspect of the Rubin Science Platform (RSP). 
 
 ## Accessing the Rubin Science Platform
-The [Rubin Science Platform (RSP) Notebook Aspect Documentation](https://nb.lsst.io/) provides an introduction to the system, including how to gain access and then how to use JupyterLab once you are in. 
-Access the RSP requires Rubin Observatory data rights, as described at [ls.st/rdo-013](https://ls.st/rdo-013).
+The notes here provide an introduction to the system, including how to gain access and then how to use JupyterLab once you are in. 
 You will also need to get an NCSA account and connect through the NCSA VPN.
 
 #### Getting a Rubin Science Platform Account
@@ -20,15 +22,11 @@ If your application is successful, you'll get an email with instructions on how 
 #### Accessing the LSP via its VPN
 At present, unless you are on an approved network, you must use the [NCSA virtual private network (VPN)](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service).
 The recommended method is to use Cisco's AnyConnect with DUO two-factor authentication (verified on Mac and Linux). Detailed instructions are available on the [NCSA VPN site](https://wiki.ncsa.illinois.edu/display/cybersec/Virtual+Private+Network+%28VPN%29+Service#VirtualPrivateNetwork(VPN)Service-UsingtheCiscoAnyConnectVPNClient(Required)).
-The best documentation for getting setup with your account is on [nb.lsst.io](https://nb.lsst.io/index.html#getting-started).
 
-1. [Install and configure the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-setup)
-2. [Log into the NCSA VPN](https://nb.lsst.io/getting-started/logging-in.html#vpn-login) (**NB:** Use the `ncsa-vpn-default` group; this may not be selected by default)
-3. [Log into the Notebook Aspect](https://nb.lsst.io/getting-started/logging-in.html#step-2-log-in) (**NB:** Use "NCSA as the identity provider", not your institution)
+> You can get AnyConnect by pointing your browser at https://sslvpn.ncsa.illinois.edu/ and selecting the `ncsa-vpn-default` option (this will only work if you have a java-compatible browser, like firefox esr version<=52). If you already have the AnyConnect client installed, open it up and enter `sslvpn.ncsa.illinois.edu/` in its connection window.  (**NB:** Make sure to use the `ncsa-vpn-default` group; this may not be the default group selected)
 
-If you forget your password it can be reset following the instructions [here](https://developer.lsst.io/services/lsst-dev.html?highlight=reset#lsst-dev-password). If you have problems connecting to the NCSA services you can check their status and submit a help ticket [here](https://confluence.lsstcorp.org/display/DM/LSST+Service+Status+page).
+> You will need to setup two-factor authentication with DUO. To setup DUO, follow the instructions here https://duo.security.ncsa.illinois.edu/portal. DUO can be configured for smartphone or table access (currently dumb phones are not supported). When AnyConnect asks for your "second password", it wants the 6-digit number in your Duo app. (This may need refreshing, each one can only be used once.)  (**NB:** Use "NCSA as the identity provider", not your institution).  
 
-For a Linux install, you may need to pre-install [`openconnect`](http://www.infradead.org/openconnect/) from your favorite package manager. For Mac OS X, you can also use `openconnect-gui`[https://openconnect.github.io/openconnect-gui/] which can be installed with homebrew.
 
 #### Starting the Rubin Science Platform JupyterLab Notebook Aspect
 Once the VPN connection is established, you should be able to navigate to the the JupyterLab instance at **https://lsst-lsp-stable.ncsa.illinois.edu**. Select the `Release` and `medium` options on the Spawner Options landing page, and then hit the "Spawn" button. You'll (eventually) end up on the JupyterLab launcher, where you can use the file manager in the left hand side bar to open your Jupyter notebooks, or start terminal or notebook editor tabs from the buttons provided.  You should see the pre-installed `notebook-demo`  notebooks in the file manager, for example.
