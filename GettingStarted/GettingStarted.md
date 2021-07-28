@@ -5,8 +5,11 @@ _[Greg Madejski](https://github.com/LSSTScienceCollaborations/StackClub/issues/n
 
 First, a preamble:  The instructions below are for setting up the Rubin account, and connecting to the Rubin Data Facility at NCSA, 
 used for the Rubin Stack Club members.  This is 
-distinct from the Rubin Data Facility used for the work of Data Preview 0 (DP0) delegates, which is at the Interim Data Facility (IDF).  The 
-instructions for connecting to the Rubin Science Platform as a DP0 delegate, go to https://dp0-1.lsst.io/dp0-delegate-resources/index.html 
+distinct from the Rubin Data Facility used for the work of Data Preview 0 (DP0) delegates 
+(using the Rubin DC2 dataset), which is at the Interim Data Facility (IDF).  The 
+instructions for connecting to the Rubin Science Platform as a DP0 delegate, go to 
+https://dp0-1.lsst.io/dp0-delegate-resources/index.html .  We note that it is possible to 
+access the DC2 data from the Jupyter notebook instance running at NCSA, but this requires one additional step (see below).  
 
 The goal of the Stak Club (which predates the DP0) has been to develop tutorial notebooks on remote JupyterLab instances, 
 to short-circuit the DM stack installation process and get used to working in the notebook aspect of the Rubin Science Platform (RSP). 
@@ -35,6 +38,27 @@ Once the VPN connection is established, you should be able to navigate to the th
 
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others.
 
+## Accessing the DC2 data set using the Jupyter notebook instance running at NCSA 
+For Stack Club members using the DC2 data sets at the NCSA, there is an additional step they must do to authorize their account to access the DC2 data. The step is explained in the file /repo/README.md in the NSCA RSP (you can see this README.md in your linux terminal by typing ```cat /repo/README.md``` .  Specifically, the user must create a small file named ```~/.lsst/db-auth.yaml``` .  That file must contain three lines: 
+
+```
+- url: postgresql://lsst-pg-prod1.ncsa.illinois.edu:5432/lsstdb1
+```
+```
+  username: myusername
+```
+```
+  password: mysecretpasswd
+```
+where the ```myusername``` is your NCSA username, and ```mysecretpassword``` is your NCSA password.  
+
+Note that the spacing is important. The ```p``` in password must be spaced such that it is directly under the ```u``` in url.
+
+The url must exactly match that in the ```butler.yaml``` file of the repository you are trying to use.  
+
+Now if you wish, you can import the notebooks developed for DP0 into your instance of Jupyter notebook at NCSA, by issuing a git clone 
+command ```git clone https://github.com/rubin-dp0/tutorial-notebooks.git``` and now you can use the DP0 - developed notebooks on the DC2 data.  
+You might wish to create a separate directory for the DP0-developed material, but this depends how you organize your Rubin notebooks.  
 
 ## Running and Contributing to the Stack Club Notebooks
 From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clone` the `StackClub` repo, using either HTTP or SSH access:
