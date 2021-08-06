@@ -39,26 +39,18 @@ Once the VPN connection is established, you should be able to navigate to the th
 > At the end of your JupyterLab session, please make sure you save all and log out (from the launcher menu), to free up the cluster for others.
 
 ## Accessing the DC2 data set using the Jupyter notebook instance running at NCSA 
-For Stack Club members using the DC2 data sets at the NCSA, there is an additional step they must do to authorize their account to access the DC2 data. The step is explained in the file /repo/README.md in the NSCA RSP (you can see this README.md in your linux terminal by typing ```cat /repo/README.md``` .  Specifically, the user must create a small file named ```~/.lsst/db-auth.yaml``` .  That file must contain three lines: 
+For Stack Club members using the DC2 data sets at the NCSA, there is an additional step they must do to authorize their account to access the DC2 data. The step is explained in the file /repo/README.md in the NSCA RSP (you can see this README.md in your linux terminal by typing ```cat /repo/README.md``` ).  Specifically, the user must create a small file named ```~/.pgpass``` .  That file must contain one line: 
 
 ```
-- url: postgresql://lsst-pg-prod1.ncsa.illinois.edu:5432/lsstdb1
-```
-```
-  username: myusername
-```
-```
-  password: mysecretpasswd
+lsst-pg-prod1.ncsa.illinois.edu:5432:lsstdb1:myusername:mysecretpasswd
 ```
 where the ```myusername``` is your NCSA username, and ```mysecretpassword``` is your NCSA password.  
 
-Note that the spacing is important. The ```p``` in password must be spaced such that it is directly under the ```u``` in url.
-
-The url must exactly match that in the ```butler.yaml``` file of the repository you are trying to use.  
 
 Now if you wish, you can import the notebooks developed for DP0 into your instance of Jupyter notebook at NCSA, by issuing a git clone 
 command ```git clone https://github.com/rubin-dp0/tutorial-notebooks.git``` and now you can use the DP0 - developed notebooks on the DC2 data.  
 You might wish to create a separate directory for the DP0-developed material, but this depends how you organize your Rubin notebooks.  
+It is important to note that the location of the data repository accessible from IDF (``` s3://butler-us-central1-dp01 ```) is not the same as that accessible from NCSA (``` /repo/dc2 ```). 
 
 ## Running and Contributing to the Stack Club Notebooks
 From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clone` the `StackClub` repo, using either HTTP or SSH access:
