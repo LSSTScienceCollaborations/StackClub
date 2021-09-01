@@ -28,3 +28,20 @@ These are notebooks that are no longer gaurenteed to function, but may still pro
      - Process old simulated image files in the e-image format.
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Graveyard/ProcessEimage.ipynb>`__
      - `Alex Drlica-Wagner <https://github.com/kadrlica>`_
+
+   * - **Gen-2 Butler Tutorial**
+     - Demonstrates basic data access and manipulations using the data Butler
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Graveyard/ButlerTutorial.ipynb>`__
+     - `Daniel Perrefort <https://github.com/djperrefort>`_
+
+   * - **Exploring a DC2 Data Repo**
+     - Exploring the directory structure of the DC2 Gen2 repo
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Graveyard/Exploring_A_DC2_Data_Repo.ipynb>`__
+     - `Douglas Tucker <https://github.com/douglasleetucker`_
+
+   * - **Exploring an HSC Data Repo**
+     - Exploring the directory structure of the HSC Gen2 repo
+     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Graveyard/Exploring_An_HSC_Data_Repo.ipynb>`__
+     - `Rob Morgan <https://github.com/rmorgan10>`_, `Phil Marshall <https://github.com/drphilmarshall>`_
+
+
