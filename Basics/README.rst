@@ -13,20 +13,6 @@ This set of tutorial notebooks will help you explore the basic properties of the
      - Links
      - Owner
 
-   * - **Gen-2 Butler Tutorial**
-     - Demonstrates basic data access and manipulations using the data Butler
-     - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/ButlerTutorial.ipynb>`__,
-       `rendered <https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/ButlerTutorial.nbconvert.ipynb>`__
-
-       .. raw:: html
-
-          <a href="https://github.com/LSSTScienceCollaborations/StackClub/blob/rendered/Basics/log/ButlerTutorial.log">
-             <img width="72" height="16" src="https://raw.githubusercontent.com/LSSTScienceCollaborations/StackClub/rendered/Basics/log/ButlerTutorial.png">
-             </img>
-          </a>
-
-     - `Daniel Perrefort <https://github.com/LSSTScienceCollaborations/StackClub/issues/new?body=@djperrefort>`_
-
    * - **Gen-3 Butler Tutorial**
      - Demonstrates basic data access and manipulations using the Gen-3 Butler
      - `ipynb <https://github.com/LSSTScienceCollaborations/StackClub/blob/master/Basics/Gen3ButlerTutorial.ipynb>`__,
