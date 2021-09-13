@@ -46,11 +46,7 @@ lsst-pg-prod1.ncsa.illinois.edu:5432:lsstdb1:myusername:mysecretpasswd
 ```
 where the ```myusername``` is your NCSA username, and ```mysecretpassword``` is your NCSA password.  
 
-
-Now if you wish, you can import the notebooks developed for DP0 into your instance of Jupyter notebook at NCSA, by issuing a git clone 
-command ```git clone https://github.com/rubin-dp0/tutorial-notebooks.git``` and now you can use the DP0 - developed notebooks on the DC2 data.  
-You might wish to create a separate directory for the DP0-developed material, but this depends how you organize your Rubin notebooks.  
-It is important to note that the location of the data repository accessible from IDF (``` s3://butler-us-central1-dp01 ```) is not the same as that accessible from NCSA (``` /repo/dc2 ```). 
+It is important to note that the location of the data repository accessible from IDF (``` s3://butler-us-central1-dp01 ```) is not the same as that accessible from NCSA (``` /repo/dc2 ```).  Your notebook needs to account for this.  
 
 ## Running and Contributing to the Stack Club Notebooks
 From the Launcher, start a terminal, `cd` to the `notebooks` folder and `git clone` the `StackClub` repo, using either HTTP or SSH access:
@@ -76,7 +72,7 @@ of the Stack, and flag those that do not run all the way through. The `master` b
 > A [template notebook](templates/template_Notebook.ipynb) that will help you maintain the above standards is available in the [templates folder](templates).
 
 #### Available Datasets
-Broadly useful, small datasets are available in `/project/shared/data`  - this director is world readable, but is only writeable by members of the `lsst-users` group (i.e., Rubin Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
+Broadly useful, small datasets are available in `/project/shared/data`  - this directory is world readable, but is only writeable by members of the `lsst-users` group (i.e., Rubin Project members). The stack club has its own read/writeable directory under `/project/stack-club` - feel free to contribute public data there. You can also use your personal `/project/<username>` folder for datasets that you want to share, but may not be as generally applicable. As a rule, Stack Club notebooks should use data in `/project/shared/data` or `/project/stack-club`. If you add a shared dataset, please document it in the `README` of the associated directory.
 
 Larger datasets are available in `/datasets`. This is a read-only folder.
 
